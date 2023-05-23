@@ -1,21 +1,86 @@
 <div class="sensa-hero-section">
-  <div>MySensa</div>
+  <div class="relative overflow-hidden isolate bg-gradient-to-r from-white via-white to-primary/20">
+    <div class="max-w-6xl px-6 pt-10 pb-24 mx-auto sm:pb-32 lg:flex lg:px-8 lg:py-16">
+      <div class="flex flex-col items-center justify-center max-w-2xl mx-auto lg:block lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8 animate-fade-right animate-once animate-ease-linear">
+        <h1 class="text-primary text-4xl tracking-tight sm:text-6xl max-w-[44rem] mx-auto text-center lg:text-left mt-28 lg:mt-8">
+          {{ section.settings.sensa_hero_title }}
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600 max-w-[38rem] text-center lg:text-left">
+          {{ section.settings.sensa_hero_description }}
+        </p>
+        <div class="flex flex-col items-center mt-10 gap-y-6 lg:flex-row gap-x-6">
+          <a
+            href="#"
+            class="rounded-3xl bg-gradient-to-r from-primary via-accent to-accent hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-semibold text-white shadow-lg focus:outline-none"
+          >
+            {{ section.settings.sensa_hero_cta_primary }}
+          </a>
+          <a
+            href="#"
+            class="text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
+          >
+            {{ section.settings.sensa_hero_cta_secondary }}
+            <span aria-hidden="true" class="ml-1">→</span></a
+          >
+        </div>
+      </div>
+      <div class="flex max-w-2xl mx-auto mt-16 sm:mt-24 lg:ml-24 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+        <div class="flex justify-center max-w-3xl lg:flex-none sm:max-w-5xl lg:max-w-none">
+          <div class="animate-fade-left animate-once animate-ease-linear">
+            <div class="w-full lg:w-[44rem] object-cover">
+              {%- if section.settings.sensa_hero_image != blank -%}
+                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{
+                  section.settings.sensa_hero_image
+                  | image_url: width: 1500
+                  | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+                }}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {% schema %}
 {
-  "name": "Hero Section",
+  "name": "Sensa Hero",
   "settings": [
     {
       "id": "sensa_hero_title",
       "type": "text",
-      "label": "Text box heading",
-      "default": "Deploy to the cloud with confidence"
+      "label": "Title",
+      "default": "This is my hero title here."
     },
     {
-      "id": "sensa_hero_body",
-      "type": "richtext",
-      "label": "Add custom text below",
-      "default": "<p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>"
+      "id": "sensa_hero_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "sensa_hero_cta_primary",
+      "type": "text",
+      "label": "Primary CTA",
+      "default": "Subscribe now"
+    },
+    {
+      "id": "sensa_hero_cta_secondary",
+      "type": "text",
+      "label": "Secondary CTA",
+      "default": "Learn more"
+    },
+    {
+      "id": "sensa_hero_image",
+      "type": "image_picker",
+      "label": "Image"
     }
   ],
   "presets": [

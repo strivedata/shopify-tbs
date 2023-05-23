@@ -170,9 +170,11 @@
         render 'header-drawer'
       endif
 
+      comment
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
         render 'header-search', input_id: 'Search-In-Modal-1'
-      endif
+      endif +
+      endcomment
     -%}
 
     {%- if section.settings.logo_position != 'middle-center' -%}
@@ -197,7 +199,10 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+            <p class="font-extrabold text-md text-secondary">{{ shop.name | escape }}</p>
+            {% comment %}
+              <img src="{{ 'logo_default.svg' | asset_url }}" alt="{{ shop.name | escape }}" class="w-[25rem]"></a>
+            {% endcomment %}
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -237,7 +242,7 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+            <p class="font-extrabold text-md text-secondary">{{ shop.name | escape }}</p>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -303,6 +308,7 @@
           </localization-form>
         {%- endif -%}
       </div>
+
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       {%- if shop.customer_accounts_enabled -%}

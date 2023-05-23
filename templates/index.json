@@ -1,5 +1,8 @@
 {
   "sections": {
+    "hero": {
+      "type": "sensa-hero"
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -199,12 +202,5 @@
       }
     }
   },
-  "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
-  ]
+  "order": ["hero", "image_banner", "rich_text", "featured_collection", "collage", "video", "multicolumn"]
 }

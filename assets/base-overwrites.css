@@ -1,0 +1,7 @@
+.header__menu-item:hover span {
+  text-decoration: none !important;
+}
+
+.header__search {
+    display: none !important;
+}

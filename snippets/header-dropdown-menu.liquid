@@ -90,10 +90,12 @@
           >
             <span
               {%- if link.current %}
-                class="header__active-menu-item"
+                class="header__active-menu-item !no-underline hover:no-underline "
               {% endif %}
             >
-              {{- link.title | escape -}}
+              <span class="!no-underline !hover:no-underline !text-base font-semibold text-links hover:text-highlight">
+                {{- link.title | escape -}}
+              </span>
             </span>
           </a>
         {%- endif -%}

@@ -1,7 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  important: true,
   content: [
     './layout/*.liquid',
     './templates/*.liquid',
@@ -22,17 +21,41 @@ module.exports = {
       lg: '990px'
     },
     extend: {
+      colors: {
+        black: '#000000',
+        primary: '#FC6E3C',
+        accent: '#F95E1A',
+        secondary: '#CACACA',
+        headlines: '#19191b',
+        copy: '#19191b',
+        neutral: '#777777',
+        highlight: '#00b9e3',
+        links: '#54595f',
+      },
       fontFamily: {
         heading: 'var(--font-heading-family)',
       },
-    },
-    color: {
-      black: '#000000',
-    },
+      animation: {
+        text: 'text 5s ease infinite',
+      },
+      keyframes: {
+        text: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
+        },
+      }
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require('tailwindcss-animated')
   ],
 };
 
