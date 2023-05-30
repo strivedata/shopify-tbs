@@ -30,7 +30,97 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<div class=" tailwind">
+  <footer class="bg-gray-900">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="py-16">
+        <div class="flex justify-center w-full">
+          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+            {%- if settings.logo != blank -%}
+              <div class="header__heading-logo-wrapper">
+                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+                {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
+                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
+                {{
+                  settings.logo
+                  | image_url: width: 600
+                  | image_tag:
+                    class: 'header__heading-logo motion-reduce',
+                    widths: widths,
+                    height: logo_height,
+                    width: settings.logo_width,
+                    alt: logo_alt,
+                    sizes: sizes,
+                    preload: true
+                }}
+              </div>
+            {%- else -%}
+              <p class="font-extrabold text-md text-secondary">{{ shop.name | escape }}</p>
+            {%- endif -%}
+          </a>
+        </div>
+        <nav class="mt-10 text-sm" aria-label="quick links">
+          <div class="flex justify-center -my-1 gap-x-6">
+            {%- if block.settings.menu != blank -%}
+              <ul class="footer-block__details-content list-unstyled">
+                {%- for link in block.settings.menu.links -%}
+                  <li>
+                    <a
+                      href="{{ link.url }}"
+                      class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                    >
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+            <a
+              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+              href="#features"
+              >Overview</a
+            ><a
+              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+              href="#testimonials"
+              >Features</a
+            ><a
+              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+              href="#pricing"
+              >Pricing</a
+            >
+            <a
+              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+              href="#pricing"
+              >FAQ</a
+            >
+          </div>
+        </nav>
+      </div>
+      <div class="flex flex-col items-center py-10 border-t border-slate-400/10 sm:flex-row-reverse sm:justify-between">
+        <div class="flex gap-x-6">
+          <a
+            class="inline-block px-2 py-1 text-sm font-normal rounded-lg text-slate-500 hover:text-slate-300"
+            href="#features"
+            >Terms</a
+          ><a
+            class="inline-block px-2 py-1 text-sm font-normal rounded-lg text-slate-500 hover:text-slate-300"
+            href="#testimonials"
+            >Privacy</a
+          ><a
+            class="inline-block px-2 py-1 text-sm font-normal rounded-lg text-slate-500 hover:text-slate-300"
+            href="#pricing"
+            >Cookies</a
+          >
+        </div>
+        <p class="mt-6 text-sm text-slate-500 sm:mt-0">
+          Copyright &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding hidden">
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank

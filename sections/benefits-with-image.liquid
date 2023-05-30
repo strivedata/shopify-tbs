@@ -1,0 +1,282 @@
+<div class="benefits-with-image-section tailwind">
+  <!-- Benefits -->
+  <div id="{{ section.settings.scrollID }}" class="w-full py-10 lg:py-16">
+    <div class="max-w-6xl px-8 mx-auto">
+      <!-- Grid -->
+      <div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-12">
+        <!-- Benefits List -->
+        <div class="mb-12 lg:col-span-6 lg:mb-0">
+          <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <!-- Category -->
+            <div class="text-base font-medium leading-7 text-center lg:text-left text-accent font-heading">
+              {{ section.settings.benefits_category }}
+            </div>
+            <!-- Title -->
+            <h2 class="max-w-md text-3xl font-bold text-center text-gray-800 lg:max-w-sm lg:text-left lg:text-4xl sm:text-3xl dark:text-gray-200 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              {{ section.settings.benefits_title }}
+            </h2>
+          </div>
+
+          <!-- Benefits -->
+          <div class="grid max-w-md gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
+            <button
+              type="button"
+              class="p-4 text-left cursor-default hs-tab-active:bg-white hs-tab-active:shadow-md md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              id="tabs-with-card-item-1"
+              data-hs-tab="#tabs-with-card-1"
+              aria-controls="tabs-with-card-1"
+              role="tab"
+            >
+              <span class="flex">
+                <svg
+                  class="flex-shrink-0 w-6 h-6 mt-2 text-highlight md:w-7 md:h-7 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke-width="1.2"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+                  <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                </svg>
+                <span class="ml-6 grow">
+                  <span class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    {{ section.settings.benefit_1_title }}
+                  </span>
+                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    {{ section.settings.benefit_1_description }}.</span
+                  >
+                </span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="p-4 text-left cursor-default hs-tab-active:bg-white hs-tab-active:shadow-md md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-70 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}""
+              id="tabs-with-card-item-2"
+              data-hs-tab="#tabs-with-card-2"
+              aria-controls="tabs-with-card-2"
+              role="tab"
+            >
+              <span class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="currentColor"
+                  class="flex-shrink-0 h-6 mt-2 text-highlight w-7 md:w-8 md:h-8 md:mt-0 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+                </svg>
+
+                <span class="ml-6 grow">
+                  <span class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    {{ section.settings.benefit_2_title }}
+                  </span>
+                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    {{ section.settings.benefit_2_description }}
+                  </span>
+                </span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="p-4 text-left cursor-default hs-tab-active:bg-white hs-tab-active:shadow-md md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              id="tabs-with-card-item-3"
+              data-hs-tab="#tabs-with-card-3"
+              aria-controls="tabs-with-card-3"
+              role="tab"
+            >
+              <span class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="currentColor"
+                  class="flex-shrink-0 h-6 mt-2 text-highlight w-7 md:w-8 md:h-8 md:mt-0 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                </svg>
+
+                <span class="ml-6 grow">
+                  <span class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    {{ section.settings.benefit_3_title }}
+                  </span>
+                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    {{ section.settings.benefit_3_description }}
+                  </span>
+                </span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="p-4 text-left cursor-default hs-tab-active:bg-white hs-tab-active:shadow-md md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              id="tabs-with-card-item-3"
+              data-hs-tab="#tabs-with-card-3"
+              aria-controls="tabs-with-card-3"
+              role="tab"
+            >
+              <span class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.2"
+                  stroke="currentColor"
+                  class="flex-shrink-0 h-6 mt-2 text-highlight w-7 md:w-8 md:h-8 md:mt-0 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5" />
+                </svg>
+
+                <span class="ml-6 grow">
+                  <span class="block text-lg font-semibold text-gray-800 hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    {{ section.settings.benefit_4_title }}
+                  </span>
+                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    {{ section.settings.benefit_4_description }}
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+          <!-- End Tab Navs -->
+        </div>
+        <!-- End Benefits List -->
+
+        <!-- Image -->
+        <div class="mb-12 lg:placeholder:col-span-6 lg:mb-0 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {%- if section.settings.benefits_image != blank -%}
+            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+            {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+              {%- endcapture -%}
+            {{
+              section.settings.benefits_image
+              | image_url: width: 956, height: 1298
+              | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: widths,
+                alt: section.settings.benefits_image_alt,
+                class: 'max-w-xs shadow-xl lg:max-w-lg shadow-gray-200 rounded-xl'
+              | escape
+            }}
+          {%- else -%}
+            <img
+              class="max-w-xs shadow-xl lg:max-w-lg shadow-gray-200 rounded-xl"
+              src="{{ 'benefits_placeholder.png' | asset_url }}"
+              alt="Placeholder Image."
+              loading="lazy"
+              width="956"
+              height="1298"
+            >
+          {%- endif -%}
+        </div>
+        <!-- End Image -->
+      </div>
+      <!-- End Grid -->
+    </div>
+  </div>
+  <!-- End Benefits -->
+</div>
+{% schema %}
+{
+  "name": "Benefits with Image",
+  "settings": [
+    {
+      "id": "scrollID",
+      "type": "text",
+      "label": "Smooth Scroll Link ID",
+      "default": "benefits"
+    },
+    {
+      "id": "vimeoID",
+      "type": "text",
+      "label": "Vimeo Video ID",
+      "default": "830096329"
+    },
+    {
+      "id": "benefits_category",
+      "type": "text",
+      "label": "Category",
+      "default": "Section"
+    },
+    {
+      "id": "benefits_title",
+      "type": "text",
+      "label": "Title",
+      "default": "My benefits title."
+    },
+    {
+      "id": "benefit_1_title",
+      "type": "text",
+      "label": "Benefit 1 Title",
+      "default": "This is my title here."
+    },
+    {
+      "id": "benefit_1_description",
+      "type": "text",
+      "label": "Benefit 1 Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "benefit_2_title",
+      "type": "text",
+      "label": "Benefit 2 Title",
+      "default": "This is my title here."
+    },
+    {
+      "id": "benefit_2_description",
+      "type": "text",
+      "label": "Benefit 2 Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "benefit_3_title",
+      "type": "text",
+      "label": "Benefit 3 Title",
+      "default": "This is my title here."
+    },
+    {
+      "id": "benefit_3_description",
+      "type": "text",
+      "label": "Benefit 3 Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "benefit_4_title",
+      "type": "text",
+      "label": "Benefit 4 Title",
+      "default": "This is my title here."
+    },
+    {
+      "id": "benefit_4_description",
+      "type": "text",
+      "label": "Benefit 4 Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "benefits_image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "benefits_image_alt",
+      "type": "text",
+      "label": "Image Alt Text",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature With Video",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

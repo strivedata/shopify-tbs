@@ -1,0 +1,99 @@
+<div class="feature-image-right-section tailwind">
+  <!-- Feature:Image Right -->
+  <div class="max-w-6xl px-4 py-10 mx-auto my-6 overflow-hidden sm:px-6 lg:px-8 lg:py-14 lg:my-0 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <!-- Grid -->
+    <div class="flex flex-col items-center md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+      <div class="">
+        <div class="space-y-6 sm:space-y-8">
+          <!-- Title -->
+          <div class="space-y-2 md:space-y-4">
+            <h2 class="text-3xl font-bold text-gray-800 lg:text-4xl dark:text-gray-200">
+              {{ section.settings.feature_image_right_title }}
+            </h2>
+            <p class="max-w-[40rem] text-gray-500">
+              {{ section.settings.feature_image_right_description }}
+            </p>
+          </div>
+          <!-- End Title -->
+        </div>
+      </div>
+      <!-- End Col -->
+
+      <div>
+        {%- if section.settings.feature_image_right_image != blank -%}
+          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+          {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+              {%- endcapture -%}
+          {{
+            section.settings.feature_image_right_image
+            | image_url: width: 907, height: 1738
+            | image_tag:
+              loading: 'lazy',
+              sizes: sizes,
+              widths: widths,
+              alt: section.settings.feature_image_right_image_alt,
+              class: 'max-w-[40rem] lg:max-w-md mt-8 lg:mt-0 rounded-xl -mr-8'
+            | escape
+          }}
+        {%- else -%}
+          <img
+            class="max-w-[40rem] lg:max-w-md mt-8 lg:mt-0 rounded-xl -mr-8k"
+            src="{{ 'feature_image_right_placeholder.png' | asset_url }}"
+            alt="Placeholder Image"
+            loading="lazy"
+            width="656"
+            height="496"
+          >
+        {%- endif -%}
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Feature:Image Right -->
+</div>
+{% schema %}
+{
+  "name": "Feature - Image Right",
+  "settings": [
+    {
+      "id": "scrollID",
+      "type": "text",
+      "label": "Smooth Scroll Link ID",
+      "default": "feature-1"
+    },
+    {
+      "id": "feature_image_right_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Feature X."
+    },
+    {
+      "id": "feature_image_right_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+
+    {
+      "id": "feature_image_right_image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "feature_image_right_image_alt",
+      "type": "text",
+      "label": "Image Alt Text",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature - Image Right",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

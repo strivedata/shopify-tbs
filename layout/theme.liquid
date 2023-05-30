@@ -16,9 +16,7 @@
       >
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system?
-      and settings.type_body_font.system?
-    -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -281,8 +279,7 @@
     {%- endif -%}
 
     <script>
-      document.documentElement.className =
-        document.documentElement.className.replace('no-js', 'js');
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
       }

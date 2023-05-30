@@ -1,12 +1,14 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  important: '.tailwind',
   content: [
     './layout/*.liquid',
     './templates/*.liquid',
     './templates/customers/*.liquid',
     './sections/*.liquid',
     './snippets/*.liquid',
+    'node_modules/preline/dist/*.js',
   ],
   theme: {
     columns: replaceRem(defaultTheme.columns),
@@ -55,7 +57,9 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    require('tailwindcss-animated')
+    require('tailwindcss-animated'),
+    require('@tailwindcss/aspect-ratio'),
+    require('preline/plugin')
   ],
 };
 

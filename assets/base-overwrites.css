@@ -1,7 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header__menu-item:hover span {
   text-decoration: none !important;
 }
 
 .header__search {
     display: none !important;
+}
+
+.vimeo_video_wrapper iframe {
+  border-radius: 20px;
 }

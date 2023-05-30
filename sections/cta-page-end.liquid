@@ -1,0 +1,134 @@
+<div class="cta-page-end-section tailwind">
+  <!-- CTA:Page End -->
+  <div class="relative mt-24 overflow-hidden isolate">
+    <div class="max-w-6xl px-6 mx-auto sm:pt-0 lg:flex lg:px-8 lg:pt-16">
+      <div class="flex flex-col items-center justify-center max-w-2xl mx-auto -mt-24 lg:block lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8 animate-fade-right animate-once animate-ease-linear">
+        <h1 class="mx-auto text-4xl tracking-tight text-center text-headlines sm:text-5xl lg:text-left mt-28 lg:mt-8">
+          {{ section.settings.cta_page_end_title }}
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600 max-w-[38rem] text-center lg:text-left">
+          {{ section.settings.cta_page_end_description }}
+        </p>
+        <div class="flex flex-col items-center mt-10 lg:items-start gap-y-6 gap-x-6">
+          <a
+            href="#"
+            class="rounded-3xl bg-gradient-to-r from-primary via-accent to-accent hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-semibold text-white shadow-lg focus:outline-none"
+          >
+            {{ section.settings.cta_page_end_cta_primary }}
+          </a>
+          <a
+            href="#"
+            class="text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
+          >
+            {{ section.settings.cta_page_end_cta_secondary }}
+            <span aria-hidden="true" class="ml-1">→</span></a
+          >
+        </div>
+      </div>
+      <div class="flex max-w-2xl mx-auto mt-16 sm:mt-24 lg:ml-24 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+        <div class="flex justify-center w-full">
+          <div class="animate-fade-left animate-once animate-ease-linear">
+            <div class="flex justify-center w-full mx-auto">
+              <div class=" w-[32rem] md:w-[44rem]">
+                {%- if section.settings.cta_page_end_image != blank -%}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                      (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                  {%- endcapture -%}
+                  {{
+                    section.settings.cta_page_end_image
+                    | image_url: width: 956
+                    | image_tag:
+                      loading: 'lazy',
+                      sizes: sizes,
+                      widths: widths,
+                      alt: section.settings.cta_page_end_image_alt
+                    | escape
+                  }}
+                {%- else -%}
+                  <img
+                    class="rounded-xl"
+                    src="{{ 'placholder-cta-pagend.png' | asset_url}}"
+                    alt="Placeholder Image"
+                    loading="lazy"
+                    width="640"
+                    height="598"
+                  >
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End CTA:Page End -->
+</div>
+
+{% schema %}
+{
+  "name": "CTA Page End",
+  "settings": [
+    {
+      "id": "scrollID",
+      "type": "text",
+      "label": "Smooth Scroll Link ID",
+      "default": "cta-page-end"
+    },
+    {
+      "id": "cta_page_end_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Check out this CTA for you"
+    },
+    {
+      "id": "cta_page_end_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "cta_page_end_cta_primary",
+      "type": "text",
+      "label": "Primary CTA",
+      "default": "Get it now"
+    },
+    {
+      "id": "cta_page_end_cta_primary_target",
+      "type": "text",
+      "label": "Primary CTA Target ID",
+      "default": "#pricing"
+    },
+    {
+      "id": "cta_page_end_cta_secondary",
+      "type": "text",
+      "label": "Secondary CTA",
+      "default": "Gwt mor information here"
+    },
+    {
+      "id": "cta_page_end_cta_secondary_target",
+      "type": "text",
+      "label": "Secondary CTA Target ID",
+      "default": "#medical"
+    },
+    {
+      "id": "cta_page_end_image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "cta_page_end_image_alt",
+      "type": "text",
+      "label": "Image Alt Text",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA Page End",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

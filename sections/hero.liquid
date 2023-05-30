@@ -1,0 +1,145 @@
+<div class="hero-section tailwind">
+  <!-- Hero -->
+  <div class="pt-20 bg-gradient-to-r from-white via-white to-gray-100">
+    <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+      <!-- Grid -->
+      <div class="flex flex-col items-center gap-4 lg:grid md:grid-cols-2 md:gap-8 xl:gap-20 md:items-center">
+        <div class="flex flex-col items-center justify-center text-center lg:-mt-24 lg:block lg:text-left">
+          <div class="animate-flip-up animate-once animate-ease-out animate-duration-[1500ms]">
+            <h1 class="block text-3xl text-copy sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
+              {{ section.settings.hero_title }}
+              <span class="text-primary">{{ section.settings.hero_title_extra }}</span>
+            </h1>
+            <p class="max-w-sm mt-3 text-lg text-gray-800 dark:text-gray-400">
+              {{ section.settings.hero_description }}
+            </p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex flex-col items-center justify-center w-full gap-3 mb-12 lg:flex-row lg:justify-start mt-7 sm:inline-flex lg:mb-0 animate-fade-up">
+            <a
+              href="{{ section.settings.hero_cta_primary_target | escape }}"
+              class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+            >
+              {{ section.settings.hero_cta_primary }}
+              <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+
+            <a
+              href="{{ section.settings.hero_cta_secondary_target | escape }}"
+              class="text-sm font-semibold leading-6 text-gray-900 transition-all cursor-pointer hover:text-highlight hover:scale-105 duration-400 lg:hidden"
+            >
+              {{ section.settings.hero_cta_secondary }}
+              <span aria-hidden="true" class="ml-1 lg:hidden">→</span>
+            </a>
+            <a
+              href="{{ section.settings.hero_cta_secondary_target | escape }}"
+              class="hidden lg:!inline-flex cursor-pointer justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 hover:scale-105 shadow-sm font-medium rounded-3xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+            >
+              {{ section.settings.hero_cta_secondary }}
+            </a>
+          </div>
+          <!-- End Buttons -->
+        </div>
+        <!-- End Col -->
+        <div class="relative ml-4 animate-fade-left animate-duration-[1500ms]">
+          <div class="w-full rounded-md max-w-[42rem]">
+            {%- if section.settings.hero_image != blank -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+              {%- endcapture -%}
+              {{
+                section.settings.hero_image
+                | image_url: width: 956
+                | image_tag: loading: 'lazy', sizes: sizes, widths: widths, alt: section.settings.hero_image_alt
+                | escape
+              }}
+            {%- else -%}
+              <img
+                class="w-full rounded-md max-w-[42rem]"
+                src="{{ 'hero_placeholder.png' | asset_url}}"
+                alt="Placeholder Image"
+                loading="lazy"
+                width="956"
+                height="1298"
+              >
+            {%- endif -%}
+          </div>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Grid -->
+    </div>
+  </div>
+  <!-- End Hero -->
+</div>
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "id": "hero_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Enter your hero message"
+    },
+    {
+      "id": "hero_title_extra",
+      "type": "text",
+      "label": "Title highlight",
+      "default": "here."
+    },
+    {
+      "id": "hero_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "hero_cta_primary",
+      "type": "text",
+      "label": "Primary CTA",
+      "default": "Subscribe now"
+    },
+    {
+      "id": "hero_cta_primary_target",
+      "type": "text",
+      "label": "Primary CTA Target ID",
+      "default": "#features"
+    },
+    {
+      "id": "hero_cta_secondary",
+      "type": "text",
+      "label": "Secondary CTA",
+      "default": "Learn more"
+    },
+    {
+      "id": "hero_cta_secondary_target",
+      "type": "text",
+      "label": "Secondary CTA Target ID",
+      "default": "#pricing"
+    },
+    {
+      "id": "hero_image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "hero_image_alt",
+      "type": "text",
+      "label": "Image Alt Text",
+      "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

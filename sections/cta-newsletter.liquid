@@ -1,0 +1,109 @@
+<div id="{{ section.settings.scrollID }}" class="cta-newsletter-section tailwind" {{ block.shopify_attributes }}>
+    <!-- CTA:Newsletter -->
+    <div class="py-16 bg-gray-900 sm:py-24 lg:py-32">
+        <div class="grid max-w-6xl grid-cols-1 gap-10 px-6 mx-auto lg:grid-cols-12 lg:gap-8 lg:px-8">
+        <div class="max-w-xl text-3xl font-bold tracking-tight text-white sm:text-4xl lg:col-span-7">
+            <p class="inline sm:block lg:inline xl:block"> {{ section.settings.cta_newsletter_title }}</p></br>
+            <div class="max-w-md ">
+            <span class="inline text-2xl font-light text-white sm:block lg:inline xl:block font-headline"> {{ section.settings.cta_newsletter_description }} </span>
+            </div>
+        </div>
+         {% form 'customer', class: 'w-full max-w-md lg:col-span-5 lg:pt-2' %}
+            <div class="flex gap-x-4">
+              <label for="email-address" class="sr-only">Email address</label>
+              <input
+                    id="CTA_NewsletterForm--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-highlight sm:text-sm sm:leading-6"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="Newsletter-error--{{ section.id }}"
+                    {% elsif form.posted_successfully? %}
+                      aria-describedby="Newsletter-success--{{ section.id }}"
+                    {% endif %}
+                    placeholder="{{ section.settings.cta_newsletter_placeholder }}"
+                    required
+                  >
+                <button button type="submit" id="Subscribe_to_NL" class="flex-none rounded-md bg-highlight px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm">Subscribe</button>
+                {%- if form.posted_successfully? -%}
+                <h3
+                  class="newsletter-form__message newsletter-form__message--success form__message"
+                  id="Newsletter-success--{{ section.id }}"
+                  tabindex="-1"
+                  autofocus
+                >
+                  {% render 'icon-success' -%}
+                  {{- 'newsletter.success' | t }}
+                </h3>
+              {%- endif -%}
+              {% endform %}
+                          <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}<a href="{{ section.settings.cta_newsletter_privacy_link_target | escape }}" class="font-semibold text-white">{{ section.settings.cta_newsletter_privacy_link }}</a>.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- End CTA:Newsletter -->
+</div>
+
+{% schema %}
+{
+  "name": "CTA Newsletter",
+  "settings": [
+     {
+      "id": "scrollID",
+      "type": "text",
+      "label": "Smooth Scroll Link ID",
+      "default": "cta-newsletter"
+     },
+     {
+      "id": "cta_newsletter_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Do you have any questions?"
+    },
+    {
+      "id": "cta_newsletter_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Leave your email address and we will contact you as soon as possible."
+    },
+    {
+      "id": "cta_newsletter_placeholder",
+      "type": "text",
+      "label": "Placeholder text",
+      "default": "Enter your email"
+    },
+    {
+      "id": "cta_newsletter_privacy_hint",
+      "type": "text",
+      "label": "Privacy hint text",
+      "default": "We care about your data. Read our"
+    },
+    {
+      "id": "cta_newsletter_privacy_link",
+      "type": "text",
+      "label": "Link text",
+      "default": "privacy policy"
+    },
+    {
+      "id": "cta_newsletter_privacy_link_target",
+      "type": "text",
+      "label": "Link URL",
+      "default": "#privay-policy"
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA Newsletter",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
