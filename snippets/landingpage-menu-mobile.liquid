@@ -1,0 +1,46 @@
+{% comment %}
+  Renders the default landingpage menu links within an EXISTING!!! mobile drawer menu.
+
+  Usage:
+  {% render 'landingpage-menu-mobile' %}
+{% endcomment %}
+
+<!-- Features -->
+<li>
+  <a
+    id="HeaderDrawer-features"
+    href="{{ shop.secure_url }}/#app-details"
+    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    Features
+  </a>
+</li>
+<!-- Pricing -->
+<li>
+  <a
+    id="HeaderDrawer-pricing"
+    href="{{ shop.secure_url }}/#pricing"
+    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    Pricing
+  </a>
+</li>
+<!-- FAQ -->
+<li>
+  <a
+    id="HeaderDrawer-faq"
+    href="{{ shop.secure_url }}/#faq"
+    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    Faq
+  </a>
+</li>
