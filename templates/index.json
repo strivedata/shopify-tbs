@@ -115,6 +115,55 @@
     },
     "pricing": {
       "type": "pricing",
+      "blocks": {
+        "03edfd10-9c15-47d5-a953-09bc44098bec": {
+          "type": "monthly_plan",
+          "settings": {
+            "monthly_plan_title": "Sensa Monthly",
+            "monthly_plan_description": "Rent your Sensa: Monthly Plan",
+            "monthly_plan_price": "£39",
+            "monthly_plan_interval": "per month",
+            "monthly_plan_deposit": "one time deposit",
+            "monthly_plan_deposit_amount": "+£149",
+            "monthly_plan_feature_1": "Sensa Sensor",
+            "monthly_plan_feature_2": "Adhesive materials",
+            "monthly_plan_feature_3": "All App features",
+            "monthly_plan_cta": "Buy now"
+          }
+        },
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
+          "type": "quarterly_plan",
+          "settings": {
+            "quarterly_plan_savings": "Safe £10 per month",
+            "quarterly_plan_title": "Quarterly Plan",
+            "quarterly_plan_description": "Rent your Product: Quarterly Plan",
+            "quarterly_plan_price": "£39",
+            "quarterly_plan_interval": "per quarter",
+            "quarterly_plan_deposit": "one time deposit",
+            "quarterly_plan_deposit_amount": "+£149",
+            "quarterly_plan_feature_1": "Custom Sensor",
+            "quarterly_plan_feature_2": "Adhesive materials",
+            "quarterly_plan_feature_3": "All App features",
+            "quarterly_plan_cta": "Buy now"
+          }
+        },
+        "b638b320-1e0e-4eed-8079-12184533b7d3": {
+          "type": "one_time_purchase",
+          "settings": {
+            "one_time_purchase_title": "One Time Purchase",
+            "one_time_purchase_description": "Buy the product",
+            "one_time_purchase_price": "£499",
+            "one_time_purchase_interval": "one time",
+            "one_time_purchase_explainer": "Lorem ipsum dolor sit amet, consetetur iam dolor sit a sadipscing elitr, sed diam non.",
+            "one_time_purchase_cta": "Contact Sales"
+          }
+        }
+      },
+      "block_order": [
+        "03edfd10-9c15-47d5-a953-09bc44098bec",
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe",
+        "b638b320-1e0e-4eed-8079-12184533b7d3"
+      ],
       "settings": {
         "scrollID": "pricing",
         "pricing_title": "Simple, transparent pricing",
