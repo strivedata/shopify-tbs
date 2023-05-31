@@ -9,7 +9,3 @@ html {
 .header__search {
     display: none !important;
 }
-
-.vimeo_video_wrapper iframe {
-  border-radius: 20px;
-}

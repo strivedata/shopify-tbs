@@ -43,11 +43,11 @@
                   {{- 'newsletter.success' | t }}
                 </h3>
               {%- endif -%}
-              {% endform %}
-                          <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}<a href="{{ section.settings.cta_newsletter_privacy_link_target | escape }}" class="font-semibold text-white">{{ section.settings.cta_newsletter_privacy_link }}</a>.</p>
-
             </div>
-        </div>
+           <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}<a href="{{ section.settings.cta_newsletter_privacy_link_target | escape }}" class="font-semibold text-white">&nbsp;{{ section.settings.cta_newsletter_privacy_link }}</a>.</p>
+          {% endform %}
+
+          </div>
     </div>
     <!-- End CTA:Newsletter -->
 </div>

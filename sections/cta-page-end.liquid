@@ -11,13 +11,13 @@
         </p>
         <div class="flex flex-col items-center mt-10 lg:items-start gap-y-6 gap-x-6">
           <a
-            href="#"
-            class="rounded-3xl bg-gradient-to-r from-primary via-accent to-accent hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-semibold text-white shadow-lg focus:outline-none"
+            href="{{ section.settings.cta_page_end_cta_primary_target | escape }}"
+            class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
           >
             {{ section.settings.cta_page_end_cta_primary }}
           </a>
           <a
-            href="#"
+            href="{{ section.settings.cta_page_end_cta_secondary_target | escape }}"
             class="text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
           >
             {{ section.settings.cta_page_end_cta_secondary }}
@@ -104,7 +104,7 @@
       "id": "cta_page_end_cta_secondary",
       "type": "text",
       "label": "Secondary CTA",
-      "default": "Gwt mor information here"
+      "default": "Get mor information here"
     },
     {
       "id": "cta_page_end_cta_secondary_target",

@@ -1,0 +1,6 @@
+
+
+/* Vimeo Embed Border Radius */
+.vimeo_video_wrapper iframe {
+  border-radius: 20px;
+}

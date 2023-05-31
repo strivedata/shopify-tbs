@@ -1,0 +1,70 @@
+{% comment %}
+  Renders the default landingpage menu within an EXISTING!!! <ul>.
+
+  Usage:
+  {% render 'landingpage-menu' %}
+{% endcomment %}
+
+<li>
+  <!-- Features -->
+  <a
+    id="HeaderMenu-Featues"
+    href="#app-details"
+    class="header__menu-item list-menu__item link link--text focus-inset"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    <span
+      {%- if link.current %}
+        class="header__active-menu-item !no-underline hover:no-underline "
+      {% endif %}
+    >
+      <span class="!no-underline !hover:no-underline !text-base font-semibold text-links hover:text-highlight">
+        Features
+      </span>
+    </span>
+  </a>
+</li>
+<!-- Pricing -->
+<li>
+  <a
+    id="HeaderMenu-Pricing"
+    href="#pricing"
+    class="header__menu-item list-menu__item link link--text focus-inset"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    <span
+      {%- if link.current %}
+        class="header__active-menu-item !no-underline hover:no-underline "
+      {% endif %}
+    >
+      <span class="!no-underline !hover:no-underline !text-base font-semibold text-links hover:text-highlight">
+        Pricing
+      </span>
+    </span>
+  </a>
+</li>
+<!-- FAQ -->
+<li>
+  <a
+    id="HeaderMenu-FAQ"
+    href="#faq"
+    class="header__menu-item list-menu__item link link--text focus-inset"
+    {% if link.current %}
+      aria-current="page"
+    {% endif %}
+  >
+    <span
+      {%- if link.current %}
+        class="header__active-menu-item !no-underline hover:no-underline "
+      {% endif %}
+    >
+      <span class="!no-underline !hover:no-underline !text-base font-semibold text-links hover:text-highlight">
+        FAQ
+      </span>
+    </span>
+  </a>
+</li>
