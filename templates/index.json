@@ -1,43 +1,231 @@
 {
   "sections": {
     "hero": {
-      "type": "hero"
+      "type": "hero",
+      "settings": {
+        "hero_title": "Get to know your bladder",
+        "hero_title_extra": "better.",
+        "hero_description": "Understand your bladder filling status with our SENSA sensor and app.",
+        "hero_cta_primary": "Discover more",
+        "hero_cta_primary_target": "#features",
+        "hero_cta_secondary": "Get your sensor",
+        "hero_cta_secondary_target": "#pricing",
+        "hero_image": "shopify:\/\/shop_images\/hero.png",
+        "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "features_with_video": {
-      "type": "features-with-video"
-    },
-    "cta_basic": {
-      "type": "cta-basic"
+      "type": "features-with-video",
+      "settings": {
+        "scrollID": "features",
+        "vimeoID": "830096329",
+        "feature_category": "The Device",
+        "feature_title": "Comfortable ultrasound sensor",
+        "feature_description": "With its comfortable and discreet design, you can wear SENSA without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
+        "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
+        "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
+        "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
+      }
     },
     "benefits_with_image": {
-      "type": "benefits-with-image"
+      "type": "benefits-with-image",
+      "settings": {
+        "scrollID": "benefits",
+        "vimeoID": "830096329",
+        "benefits_category": "Benefits",
+        "benefits_title": "Understand and take control of your bladder",
+        "benefit_1_title": "Actively control and improve",
+        "benefit_1_description": "With Sensa, you can get to know your bladder better, and actively control to improve it",
+        "benefit_2_title": "Better understanding through data",
+        "benefit_2_description": "Create automatic statistics of your voidings to understand your personal patterns.",
+        "benefit_3_title": "Peace of mind",
+        "benefit_3_description": "Sensa provides peace of mind and security, so you can go about your day with confidence.",
+        "benefit_4_title": "Discrete notifications",
+        "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
+        "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
+        "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
+    },
+    "cta_basic": {
+      "type": "cta-basic",
+      "settings": {
+        "scrollID": "cta",
+        "cta_title": "Wonder if the SENSA is for you?",
+        "cta_description": "Start doing our 2 minute test to see if and how SENSA can help you.",
+        "cta_button": "Start the test",
+        "cta_target": "#typeform"
+      }
     },
     "app_details": {
-      "type": "app-details"
+      "type": "app-details",
+      "settings": {
+        "scrollID": "app-details",
+        "vimeoID": "830096329",
+        "app_details_category": "Section",
+        "app_details_title": "Smart sensor,",
+        "app_details_title_after_break": "smart app",
+        "app_details_description": "Set up your digital voiding diary and get smart push notifications on your phone and your wrist.",
+        "app_details_icon_description_1": "Iphone Ready",
+        "app_details_icon_description_2": "Smart Notifications",
+        "app_details_icon_description_3": "Expert Support",
+        "app_details_image_1": "shopify:\/\/shop_images\/app_showcase_1.png",
+        "app_details_image_2": "shopify:\/\/shop_images\/app_showcase_2.png",
+        "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
+      }
     },
     "feature_image_right_1": {
-      "type": "feature-image-right"
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Bladder Training Course",
+        "feature_image_right_description": "The app includes a comprehensive bladder training course that is tailored to your individual needs.                     The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms. With regular practice, you can expect to see significant                     improvements in your bladder control over time.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
+        "feature_image_right_image_alt": "Training Course App Screen"
+      }
     },
     "feature_image_left_1": {
-      "type": "feature-image-left"
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Talk to an expert",
+        "feature_image_left_description": "If you need additional support, the app allows you to connect with a specialist who can provide you                     with personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
+        "feature_image_left_image_alt": "Online Meeting with Experts"
+      }
     },
     "feature_image_right_2": {
-      "type": "feature-image-right"
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Data logging",
+        "feature_image_right_description": "The app allows you to keep track of your bathroom habits, including when you go to the toilet, how                     much you drink, and how much you void. This voiding data will be share via the sensor automatically.                     No manual logs needed. This information can be used to monitor your progress and identify patterns                     that may be contributing to your incontinence to develop effective treatment strategies.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
+        "feature_image_right_image_alt": "Data History App Screen"
+      }
     },
     "feature_image_left_2": {
-      "type": "feature-image-left"
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Smart notifications",
+        "feature_image_left_description": "The app includes smart notifications that reminds you when it's time to go to the bathroom and gives                     proactive estimations.With these reminders, you can avoid accidents and maintain greater control                     over your bladder. Additionally, the app provides notifications when it's time to perform bladder                     training exercises, ensuring that you stay on track with your bladder training program.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
+        "feature_image_left_image_alt": "Notification Apple Watch Screen"
+      }
     },
     "pricing": {
-      "type": "pricing"
+      "type": "pricing",
+      "blocks": {
+        "03edfd10-9c15-47d5-a953-09bc44098bec": {
+          "type": "monthly_plan",
+          "settings": {
+            "monthly_plan_title": "Sensa Monthly",
+            "monthly_plan_description": "Rent your Sensa: Monthly Plan",
+            "monthly_plan_price": "£39",
+            "monthly_plan_interval": "per month",
+            "monthly_plan_deposit": "one time deposit",
+            "monthly_plan_deposit_amount": "+£149",
+            "monthly_plan_feature_1": "Sensa Sensor",
+            "monthly_plan_feature_2": "Adhesive materials",
+            "monthly_plan_feature_3": "All App features",
+            "monthly_plan_cta": "Buy now"
+          }
+        },
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
+          "type": "quarterly_plan",
+          "settings": {
+            "quarterly_plan_savings": "Safe £10 per month",
+            "quarterly_plan_title": "Sensa Quarterly",
+            "quarterly_plan_description": "Rent your Product: Quarterly Plan",
+            "quarterly_plan_price": "£29",
+            "quarterly_plan_interval": "per month",
+            "quarterly_plan_deposit": "one time deposit",
+            "quarterly_plan_deposit_amount": "+£149",
+            "quarterly_plan_feature_1": "Sensa Sensor",
+            "quarterly_plan_feature_2": "Adhesive materials",
+            "quarterly_plan_feature_3": "All App features",
+            "quarterly_plan_cta": "Buy now"
+          }
+        },
+        "b638b320-1e0e-4eed-8079-12184533b7d3": {
+          "type": "one_time_purchase",
+          "settings": {
+            "one_time_purchase_title": "One Time Purchase",
+            "one_time_purchase_description": "Buy your Sensa sensor",
+            "one_time_purchase_price": "£499",
+            "one_time_purchase_interval": "one time",
+            "one_time_purchase_explainer": "Please contact our sales team for more information.                         Necessary adhesive materials can be bought seperately at our Sensa Online Shop.",
+            "one_time_purchase_cta": "Contact Sales"
+          }
+        }
+      },
+      "block_order": [
+        "03edfd10-9c15-47d5-a953-09bc44098bec",
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe",
+        "b638b320-1e0e-4eed-8079-12184533b7d3"
+      ],
+      "settings": {
+        "scrollID": "pricing",
+        "pricing_title": "Simple, transparent pricing",
+        "pricing_description": "Usually people spent",
+        "pricing_comparison_amount": "£15",
+        "pricing_description_append": "per month on incontinence pads and pants. We believe SENSA should be accessible to everybody with a simple pricing.",
+        "pricing_hint_terms_taxes": "Prices in GBP. Taxes may apply."
+      }
     },
     "faq": {
-      "type": "faq"
+      "type": "faq",
+      "blocks": {
+        "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Can I cancel at anytime?",
+            "faq_accordion_answer": "<p> Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.<\/p>"
+          }
+        },
+        "0ffd86a9-8629-4345-a556-803d006280f8": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Which person in your life is most likely to secretly be a time traveler?",
+            "faq_accordion_answer": "<p>That would be John.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3",
+        "0ffd86a9-8629-4345-a556-803d006280f8"
+      ],
+      "settings": {
+        "scrollID": "faq",
+        "faq_title": "Frequently asked questions",
+        "faq_description": "Answers to the most questions."
+      }
     },
     "cta_page_end": {
-      "type": "cta-page-end"
+      "type": "cta-page-end",
+      "settings": {
+        "scrollID": "cta-page-end",
+        "cta_page_end_title": "See if SENSA is for you",
+        "cta_page_end_description": "We offer to help you to check if the bladder sensor is for you.",
+        "cta_page_end_cta_primary": "Get your sensor now",
+        "cta_page_end_cta_primary_target": "#pricing",
+        "cta_page_end_cta_secondary": "Get a free medical consultation",
+        "cta_page_end_cta_secondary_target": "#medical",
+        "cta_page_end_image": "shopify:\/\/shop_images\/cta-pagend.png",
+        "cta_page_end_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "cta_newsletter": {
-      "type": "cta-newsletter"
+      "type": "cta-newsletter",
+      "settings": {
+        "scrollID": "cta-newsletter",
+        "cta_newsletter_title": "Do you have any questions?",
+        "cta_newsletter_description": "Leave your email address and we will contact you as soon as possible.",
+        "cta_newsletter_placeholder": "Enter your email",
+        "cta_newsletter_privacy_hint": "We care about your data. Read our",
+        "cta_newsletter_privacy_link": "privacy policy",
+        "cta_newsletter_privacy_link_target": "#privay-policy"
+      }
     }
   },
   "order": [
