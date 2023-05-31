@@ -77,9 +77,10 @@
       "type": "feature-image-right",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_right_title": "Feature X.",
-        "feature_image_right_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "feature_image_right_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+        "feature_image_right_title": "Bladder Training Course",
+        "feature_image_right_description": "The app includes a comprehensive bladder training course that is tailored to your individual needs.                     The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms. With regular practice, you can expect to see significant                     improvements in your bladder control over time.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
+        "feature_image_right_image_alt": "Training Course App Screen"
       }
     },
     "feature_image_left_1": {
