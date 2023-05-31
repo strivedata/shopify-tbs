@@ -89,7 +89,8 @@
         "scrollID": "feature-1",
         "feature_image_left_title": "Talk to an expert",
         "feature_image_left_description": "If you need additional support, the app allows you to connect with a specialist who can provide you                     with personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
-        "feature_image_left_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
+        "feature_image_left_image_alt": "Online Meeting with Experts"
       }
     },
     "feature_image_right_2": {
