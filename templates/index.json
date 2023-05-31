@@ -62,12 +62,15 @@
         "scrollID": "app-details",
         "vimeoID": "830096329",
         "app_details_category": "Section",
-        "app_details_title": "The second part,",
-        "app_details_title_after_break": "will breakline line on mobile screens.",
-        "app_details_description": "Lorem ipsums dolor sit amet, consetetur sadipscing elitr, sed.",
+        "app_details_title": "Smart sensor,",
+        "app_details_title_after_break": "smart app",
+        "app_details_description": "Set up your digital voiding diary and get smart push notifications on your phone and your wrist.",
         "app_details_icon_description_1": "Iphone Ready",
         "app_details_icon_description_2": "Smart Notifications",
-        "app_details_icon_description_3": "Expert Support"
+        "app_details_icon_description_3": "Expert Support",
+        "app_details_image_1": "shopify:\/\/shop_images\/app_showcase_1.png",
+        "app_details_image_2": "shopify:\/\/shop_images\/app_showcase_2.png",
+        "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
       }
     },
     "feature_image_right_1": {
