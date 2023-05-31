@@ -175,10 +175,30 @@
     },
     "faq": {
       "type": "faq",
+      "blocks": {
+        "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Can I cancel at anytime?",
+            "faq_accordion_answer": "<p> Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.<\/p>"
+          }
+        },
+        "0ffd86a9-8629-4345-a556-803d006280f8": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Which person in your life is most likely to secretly be a time traveler?",
+            "faq_accordion_answer": "<p>That would be John.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3",
+        "0ffd86a9-8629-4345-a556-803d006280f8"
+      ],
       "settings": {
         "scrollID": "faq",
         "faq_title": "Frequently asked questions",
-        "faq_description": "Answers to the most frequently asked questions."
+        "faq_description": "Answers to the most questions."
       }
     },
     "cta_page_end": {
