@@ -135,13 +135,13 @@
           "type": "quarterly_plan",
           "settings": {
             "quarterly_plan_savings": "Safe £10 per month",
-            "quarterly_plan_title": "Quarterly Plan",
+            "quarterly_plan_title": "Sensa Quarterly",
             "quarterly_plan_description": "Rent your Product: Quarterly Plan",
-            "quarterly_plan_price": "£39",
-            "quarterly_plan_interval": "per quarter",
+            "quarterly_plan_price": "£29",
+            "quarterly_plan_interval": "per month",
             "quarterly_plan_deposit": "one time deposit",
             "quarterly_plan_deposit_amount": "+£149",
-            "quarterly_plan_feature_1": "Custom Sensor",
+            "quarterly_plan_feature_1": "Sensa Sensor",
             "quarterly_plan_feature_2": "Adhesive materials",
             "quarterly_plan_feature_3": "All App features",
             "quarterly_plan_cta": "Buy now"
