@@ -151,10 +151,10 @@
           "type": "one_time_purchase",
           "settings": {
             "one_time_purchase_title": "One Time Purchase",
-            "one_time_purchase_description": "Buy the product",
+            "one_time_purchase_description": "Buy your Sensa sensor",
             "one_time_purchase_price": "£499",
             "one_time_purchase_interval": "one time",
-            "one_time_purchase_explainer": "Lorem ipsum dolor sit amet, consetetur iam dolor sit a sadipscing elitr, sed diam non.",
+            "one_time_purchase_explainer": "Please contact our sales team for more information.                         Necessary adhesive materials can be bought seperately at our Sensa Online Shop.",
             "one_time_purchase_cta": "Contact Sales"
           }
         }
