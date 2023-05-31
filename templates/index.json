@@ -128,7 +128,7 @@
             "monthly_plan_feature_1": "Sensa Sensor",
             "monthly_plan_feature_2": "Adhesive materials",
             "monthly_plan_feature_3": "All App features",
-            "monthly_plan_cta": "Buy now"
+            "monthly_plan_cta": "Get my sensor now"
           }
         },
         "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
@@ -144,7 +144,7 @@
             "quarterly_plan_feature_1": "Sensa Sensor",
             "quarterly_plan_feature_2": "Adhesive materials",
             "quarterly_plan_feature_3": "All App features",
-            "quarterly_plan_cta": "Buy now"
+            "quarterly_plan_cta": "Get my sensor now"
           }
         },
         "b638b320-1e0e-4eed-8079-12184533b7d3": {
@@ -155,7 +155,7 @@
             "one_time_purchase_price": "£499",
             "one_time_purchase_interval": "one time",
             "one_time_purchase_explainer": "Please contact our sales team for more information.                         Necessary adhesive materials can be bought seperately at our Sensa Online Shop.",
-            "one_time_purchase_cta": "Contact Sales"
+            "one_time_purchase_cta": "Buy now"
           }
         }
       },
