@@ -1,43 +1,154 @@
 {
   "sections": {
     "hero": {
-      "type": "hero"
+      "type": "hero",
+      "settings": {
+        "hero_title": "Get to know your bladder",
+        "hero_title_extra": "better.",
+        "hero_description": "Understand your bladder filling status with our SENSA sensor and app.",
+        "hero_cta_primary": "Discover more",
+        "hero_cta_primary_target": "#features",
+        "hero_cta_secondary": "Get your sensor",
+        "hero_cta_secondary_target": "#pricing",
+        "hero_image": "shopify:\/\/shop_images\/hero.png",
+        "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "features_with_video": {
-      "type": "features-with-video"
-    },
-    "cta_basic": {
-      "type": "cta-basic"
+      "type": "features-with-video",
+      "settings": {
+        "scrollID": "features",
+        "vimeoID": "830096329",
+        "feature_category": "The Device",
+        "feature_title": "Comfortable ultrasound sensor",
+        "feature_description": "With its comfortable and discreet design, you can wear SENSA without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
+        "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
+        "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
+        "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
+      }
     },
     "benefits_with_image": {
-      "type": "benefits-with-image"
+      "type": "benefits-with-image",
+      "settings": {
+        "scrollID": "benefits",
+        "vimeoID": "830096329",
+        "benefits_category": "Benefits",
+        "benefits_title": "Understand and take control of your bladder",
+        "benefit_1_title": "This is my title here.",
+        "benefit_1_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "benefit_2_title": "This is my title here.",
+        "benefit_2_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "benefit_3_title": "This is my title here.",
+        "benefit_3_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "benefit_4_title": "This is my title here.",
+        "benefit_4_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
+        "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
+    },
+    "cta_basic": {
+      "type": "cta-basic",
+      "settings": {
+        "scrollID": "cta",
+        "cta_title": "Enter your CTA message",
+        "cta_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "cta_button": "Learn More",
+        "cta_target": "#typeform"
+      }
     },
     "app_details": {
-      "type": "app-details"
+      "type": "app-details",
+      "settings": {
+        "scrollID": "app-details",
+        "vimeoID": "830096329",
+        "app_details_category": "Section",
+        "app_details_title": "The second part,",
+        "app_details_title_after_break": "will breakline line on mobile screens.",
+        "app_details_description": "Lorem ipsums dolor sit amet, consetetur sadipscing elitr, sed.",
+        "app_details_icon_description_1": "Iphone Ready",
+        "app_details_icon_description_2": "Smart Notifications",
+        "app_details_icon_description_3": "Expert Support"
+      }
     },
     "feature_image_right_1": {
-      "type": "feature-image-right"
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Feature X.",
+        "feature_image_right_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "feature_image_right_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "feature_image_left_1": {
-      "type": "feature-image-left"
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Feature X.",
+        "feature_image_left_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "feature_image_left_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "feature_image_right_2": {
-      "type": "feature-image-right"
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Feature X.",
+        "feature_image_right_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "feature_image_right_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "feature_image_left_2": {
-      "type": "feature-image-left"
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Feature X.",
+        "feature_image_left_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "feature_image_left_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "pricing": {
-      "type": "pricing"
+      "type": "pricing",
+      "settings": {
+        "scrollID": "pricing",
+        "pricing_title": "Pricing",
+        "pricing_description": "Lorem ipsum dolor sit amet  sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
+        "pricing_comparison_amount": "£15",
+        "pricing_description_append": "ipsum dolor sit amet, consetetur sadipscing elitr non.",
+        "pricing_hint_terms_taxes": "Prices in GBP. Taxes may apply."
+      }
     },
     "faq": {
-      "type": "faq"
+      "type": "faq",
+      "settings": {
+        "scrollID": "faq",
+        "faq_title": "Frequently asked questions",
+        "faq_description": "Answers to the most frequently asked questions."
+      }
     },
     "cta_page_end": {
-      "type": "cta-page-end"
+      "type": "cta-page-end",
+      "settings": {
+        "scrollID": "cta-page-end",
+        "cta_page_end_title": "Check out this CTA for you",
+        "cta_page_end_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "cta_page_end_cta_primary": "Get it now",
+        "cta_page_end_cta_primary_target": "#pricing",
+        "cta_page_end_cta_secondary": "Get mor information here",
+        "cta_page_end_cta_secondary_target": "#medical",
+        "cta_page_end_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+      }
     },
     "cta_newsletter": {
-      "type": "cta-newsletter"
+      "type": "cta-newsletter",
+      "settings": {
+        "scrollID": "cta-newsletter",
+        "cta_newsletter_title": "Do you have any questions?",
+        "cta_newsletter_description": "Leave your email address and we will contact you as soon as possible.",
+        "cta_newsletter_placeholder": "Enter your email",
+        "cta_newsletter_privacy_hint": "We care about your data. Read our",
+        "cta_newsletter_privacy_link": "privacy policy",
+        "cta_newsletter_privacy_link_target": "#privay-policy"
+      }
     }
   },
   "order": [
