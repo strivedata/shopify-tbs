@@ -979,6 +979,18 @@ select {
   margin-top: -6.4rem;
 }
 
+.tailwind :is(.ml-40) {
+  margin-left: 16rem;
+}
+
+.tailwind :is(.-mr-40) {
+  margin-right: -16rem;
+}
+
+.tailwind :is(.mt-20) {
+  margin-top: 8rem;
+}
+
 .tailwind :is(.block) {
   display: block;
 }
@@ -2659,6 +2671,14 @@ select {
     margin-top: 4rem;
   }
 
+  .tailwind :is(.md\:-ml-20) {
+    margin-left: -8rem;
+  }
+
+  .tailwind :is(.md\:-mr-8) {
+    margin-right: -3.2rem;
+  }
+
   .tailwind :is(.md\:block) {
     display: block;
   }
@@ -2693,6 +2713,10 @@ select {
 
   .tailwind :is(.md\:w-\[44rem\]) {
     width: 44rem;
+  }
+
+  .tailwind :is(.md\:max-w-\[40rem\]) {
+    max-width: 40rem;
   }
 
   .tailwind :is(.md\:grid-cols-2) {
