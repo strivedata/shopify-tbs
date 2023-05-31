@@ -97,28 +97,30 @@
       "type": "feature-image-right",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_right_title": "Feature X.",
-        "feature_image_right_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "feature_image_right_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+        "feature_image_right_title": "Data logging",
+        "feature_image_right_description": "The app allows you to keep track of your bathroom habits, including when you go to the toilet, how                     much you drink, and how much you void. This voiding data will be share via the sensor automatically.                     No manual logs needed. This information can be used to monitor your progress and identify patterns                     that may be contributing to your incontinence to develop effective treatment strategies.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
+        "feature_image_right_image_alt": "Data History App Screen"
       }
     },
     "feature_image_left_2": {
       "type": "feature-image-left",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_left_title": "Feature X.",
-        "feature_image_left_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "feature_image_left_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+        "feature_image_left_title": "Smart notifications",
+        "feature_image_left_description": "The app includes smart notifications that reminds you when it's time to go to the bathroom and gives                     proactive estimations.With these reminders, you can avoid accidents and maintain greater control                     over your bladder. Additionally, the app provides notifications when it's time to perform bladder                     training exercises, ensuring that you stay on track with your bladder training program.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
+        "feature_image_left_image_alt": "Notification Apple Watch Screen"
       }
     },
     "pricing": {
       "type": "pricing",
       "settings": {
         "scrollID": "pricing",
-        "pricing_title": "Pricing",
-        "pricing_description": "Lorem ipsum dolor sit amet  sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut",
+        "pricing_title": "Simple, transparent pricing",
+        "pricing_description": "Usually people spent",
         "pricing_comparison_amount": "£15",
-        "pricing_description_append": "ipsum dolor sit amet, consetetur sadipscing elitr non.",
+        "pricing_description_append": "per month on incontinence pads and pants. We believe SENSA should be accessible to everybody with a simple pricing.",
         "pricing_hint_terms_taxes": "Prices in GBP. Taxes may apply."
       }
     },
