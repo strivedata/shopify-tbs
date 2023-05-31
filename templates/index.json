@@ -205,9 +205,9 @@
       "type": "cta-page-end",
       "settings": {
         "scrollID": "cta-page-end",
-        "cta_page_end_title": "Check out this CTA for you",
-        "cta_page_end_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "cta_page_end_cta_primary": "Get it now",
+        "cta_page_end_title": "See if SENSA is for you",
+        "cta_page_end_description": "We offer to help you to check if the bladder sensor is for you.",
+        "cta_page_end_cta_primary": "Get your sensor now",
         "cta_page_end_cta_primary_target": "#pricing",
         "cta_page_end_cta_secondary": "Get mor information here",
         "cta_page_end_cta_secondary_target": "#medical",
