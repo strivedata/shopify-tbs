@@ -34,14 +34,14 @@
         "vimeoID": "830096329",
         "benefits_category": "Benefits",
         "benefits_title": "Understand and take control of your bladder",
-        "benefit_1_title": "This is my title here.",
-        "benefit_1_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "benefit_2_title": "This is my title here.",
-        "benefit_2_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "benefit_3_title": "This is my title here.",
-        "benefit_3_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "benefit_4_title": "This is my title here.",
-        "benefit_4_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+        "benefit_1_title": "Actively control and improve",
+        "benefit_1_description": "With Sensa, you can get to know your bladder better, and actively control to improve it",
+        "benefit_2_title": "Better understanding through data",
+        "benefit_2_description": "Create automatic statistics of your voidings to understand your personal patterns.",
+        "benefit_3_title": "Peace of mind",
+        "benefit_3_description": "Sensa provides peace of mind and security, so you can go about your day with confidence.",
+        "benefit_4_title": "Discrete notifications",
+        "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
         "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
         "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
@@ -50,9 +50,9 @@
       "type": "cta-basic",
       "settings": {
         "scrollID": "cta",
-        "cta_title": "Enter your CTA message",
-        "cta_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "cta_button": "Learn More",
+        "cta_title": "Wonder if the SENSA is for you?",
+        "cta_description": "Start doing our 2 minute test to see if and how SENSA can help you.",
+        "cta_button": "Start the test",
         "cta_target": "#typeform"
       }
     },
