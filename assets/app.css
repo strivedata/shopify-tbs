@@ -1414,6 +1414,12 @@ select {
   margin-bottom: calc(2.4rem * var(--tw-space-y-reverse));
 }
 
+.tailwind :is(.space-x-2 > :not([hidden]) ~ :not([hidden])) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.8rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.8rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .tailwind :is(.overflow-hidden) {
   overflow: hidden;
 }
@@ -1438,6 +1444,10 @@ select {
 
 .tailwind :is(.rounded-xl) {
   border-radius: 1.2rem;
+}
+
+.tailwind :is(.rounded-2xl) {
+  border-radius: 1.6rem;
 }
 
 .tailwind :is(.rounded-bl-xl) {

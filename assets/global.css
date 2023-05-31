@@ -4,3 +4,11 @@
 .vimeo_video_wrapper iframe {
   border-radius: 20px;
 }
+
+.show-mobile { display: none; }
+.show-desktop { display: block; }
+
+@media screen and (max-width: 798px) {
+  .show-mobile { display: block; }
+  .show-desktop { display: none; }
+}
