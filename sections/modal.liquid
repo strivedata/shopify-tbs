@@ -82,8 +82,14 @@
 
           {% if form.posted_successfully? %}
             <script>
-              console.log('EVENT: form.posted_successfully');
-              window.HSOverlay.open(document.getElementById('thank-you-modal'));
+              document.addEventListener(
+                'DOMContentLoaded',
+                function () {
+                  console.log('EVENT: form.posted_successfully');
+                  window.HSOverlay.open(document.getElementById('thank-you-modal'));
+                },
+                false
+              );
             </script>
           {% endif %}
         {% endform %}
