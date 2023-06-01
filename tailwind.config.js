@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  darkMode: 'no-dark-mode',
   important: '.tailwind',
   content: [
     './layout/*.liquid',
