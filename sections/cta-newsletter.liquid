@@ -33,7 +33,7 @@
                   >
                 <button button type="submit" id="Subscribe_to_NL" class="flex-none rounded-xl bg-highlight px-3.5 py-2.5 text-sm font-medium text-white shadow-sm">Subscribe</button>
                 {%- if form.posted_successfully? -%}
-                <h3
+                {% comment %} <h3
                   class="newsletter-form__message newsletter-form__message--success form__message"
                   id="Newsletter-success--{{ section.id }}"
                   tabindex="-1"
@@ -41,7 +41,7 @@
                 >
                   {% render 'icon-success' -%}
                   {{- 'newsletter.success' | t }}
-                </h3>
+                </h3> {% endcomment %}
               {%- endif -%}
             </div>
            <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}<a href="{{ section.settings.cta_newsletter_privacy_link_target | escape }}" class="font-semibold text-white">&nbsp;{{ section.settings.cta_newsletter_privacy_link }}</a>.</p>
