@@ -83,7 +83,7 @@
           {% if form.posted_successfully? %}
             <script>
               console.log('EVENT: form.posted_successfully');
-              window.HSOverlay.open('#thank-you-modal');
+              window.HSOverlay.open(document.getElementById('thank-you-modal'));
             </script>
           {% endif %}
         {% endform %}
@@ -93,7 +93,7 @@
 
   <!-- #thank-you-modal -->
   <div
-    id="#thank-you-modal"
+    id="thank-you-modal"
     class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto [--overlay-backdrop:static] bg-black/50"
     data-hs-overlay-keyboard="false"
   >
@@ -144,6 +144,7 @@
 <script defer="defer">
   window.addEventListener('open.hs.overlay', ($overlayEl) => {
     console.log('open.hs.overlay', $overlayEl);
+    console.log(window);
   });
 </script>
 
