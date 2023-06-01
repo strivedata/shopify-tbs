@@ -5,8 +5,8 @@
       "settings": {
         "hero_title": "Get to know your bladder",
         "hero_title_extra": "better.",
-        "hero_description": "Understand your bladder filling status with our SENSA sensor and app.",
-        "hero_cta_primary": "Discover more",
+        "hero_description": "Understand your bladder filling status with our bladder sensor and app.",
+        "hero_cta_primary": "Learn more",
         "hero_cta_primary_target": "#features",
         "hero_cta_secondary": "Get your sensor",
         "hero_cta_secondary_target": "#pricing",
@@ -21,7 +21,7 @@
         "vimeoID": "830096329",
         "feature_category": "The Device",
         "feature_title": "Comfortable ultrasound sensor",
-        "feature_description": "With its comfortable and discreet design, you can wear SENSA without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
+        "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
         "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
         "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
         "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
@@ -35,7 +35,7 @@
         "benefits_category": "Benefits",
         "benefits_title": "Understand and take control of your bladder",
         "benefit_1_title": "Actively control and improve",
-        "benefit_1_description": "With Sensa, you can get to know your bladder better, and actively control to improve it",
+        "benefit_1_description": "With our sensor, you can get to know your bladder better, and actively control to improve it",
         "benefit_2_title": "Better understanding through data",
         "benefit_2_description": "Create automatic statistics of your voidings to understand your personal patterns.",
         "benefit_3_title": "Peace of mind",
@@ -50,8 +50,8 @@
       "type": "cta-basic",
       "settings": {
         "scrollID": "cta",
-        "cta_title": "Wonder if the SENSA is for you?",
-        "cta_description": "Start doing our 2 minute test to see if and how SENSA can help you.",
+        "cta_title": "Wonder if our bladder sensor is for you?",
+        "cta_description": "Start doing our 2 minute test to see how our bladder sensor can help you.",
         "cta_button": "Start the test",
         "cta_target": "#typeform"
       }
@@ -119,8 +119,8 @@
         "03edfd10-9c15-47d5-a953-09bc44098bec": {
           "type": "monthly_plan",
           "settings": {
-            "monthly_plan_title": "Sensa Monthly",
-            "monthly_plan_description": "Rent your Sensa: Monthly Plan",
+            "monthly_plan_title": "Monthly Plan",
+            "monthly_plan_description": "Rent your bladder sensor: Monthly Plan",
             "monthly_plan_price": "£39",
             "monthly_plan_interval": "per month",
             "monthly_plan_deposit": "one time deposit",
@@ -128,15 +128,15 @@
             "monthly_plan_feature_1": "Sensa Sensor",
             "monthly_plan_feature_2": "Adhesive materials",
             "monthly_plan_feature_3": "All App features",
-            "monthly_plan_cta": "Buy now"
+            "monthly_plan_cta": "Get my sensor now"
           }
         },
         "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
           "type": "quarterly_plan",
           "settings": {
             "quarterly_plan_savings": "Safe £10 per month",
-            "quarterly_plan_title": "Sensa Quarterly",
-            "quarterly_plan_description": "Rent your Product: Quarterly Plan",
+            "quarterly_plan_title": "Quarterly Plan",
+            "quarterly_plan_description": "Rent your bladder sensor: Quarterly Plan",
             "quarterly_plan_price": "£29",
             "quarterly_plan_interval": "per month",
             "quarterly_plan_deposit": "one time deposit",
@@ -144,7 +144,7 @@
             "quarterly_plan_feature_1": "Sensa Sensor",
             "quarterly_plan_feature_2": "Adhesive materials",
             "quarterly_plan_feature_3": "All App features",
-            "quarterly_plan_cta": "Buy now"
+            "quarterly_plan_cta": "Get my sensor now"
           }
         },
         "b638b320-1e0e-4eed-8079-12184533b7d3": {
@@ -155,7 +155,7 @@
             "one_time_purchase_price": "£499",
             "one_time_purchase_interval": "one time",
             "one_time_purchase_explainer": "Please contact our sales team for more information.                         Necessary adhesive materials can be bought seperately at our Sensa Online Shop.",
-            "one_time_purchase_cta": "Contact Sales"
+            "one_time_purchase_cta": "Buy now"
           }
         }
       },
@@ -179,21 +179,85 @@
         "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3": {
           "type": "faq_accordion_question",
           "settings": {
-            "faq_accordion_question": "Can I cancel at anytime?",
-            "faq_accordion_answer": "<p>Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.<\/p>"
+            "faq_accordion_question": "Is the sensor visible under my (tight) clothes, e.g. sport apparel?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "0ffd86a9-8629-4345-a556-803d006280f8": {
           "type": "faq_accordion_question",
           "settings": {
-            "faq_accordion_question": "Which person in your life is most likely to secretly be a time traveler?",
-            "faq_accordion_answer": "<p>That would be John.<\/p>"
+            "faq_accordion_question": "Will it interfere with my belt?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "80e96fc7-b0b7-4d1f-aeab-4b6637e05b2d": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Does it work with body hair?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "f175bedd-0d64-4b05-9571-df6f36925184": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Will the vibration stimulate my bladder?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "954c0f79-062e-42f9-ae17-162032cbee23": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Do notifications work as pre-warning? How much time do I get?",
+            "faq_accordion_answer": "<p>Lorem psum<\/p>"
+          }
+        },
+        "7c80add7-3f29-4b73-95d4-4aa2c865d530": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Can it fall of while running, doing sports activities?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "93411a04-977d-406e-93db-46b9bf88c500": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Can I wear it at night?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "7c3f0737-995c-434b-82c1-f4483806267c": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Will the sensor prevent me from using absorptive products?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "d3aeb67f-1b84-4612-9009-0238c0a2e911": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "How long can I use the sensor?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+          }
+        },
+        "4712f9ab-ad4f-47af-ab35-73f95d0c1ede": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "Why a deposit? When do I get it back?",
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         }
       },
       "block_order": [
         "fca2d8c4-4b59-4cb3-84c7-91b2c9598ee3",
-        "0ffd86a9-8629-4345-a556-803d006280f8"
+        "0ffd86a9-8629-4345-a556-803d006280f8",
+        "80e96fc7-b0b7-4d1f-aeab-4b6637e05b2d",
+        "f175bedd-0d64-4b05-9571-df6f36925184",
+        "954c0f79-062e-42f9-ae17-162032cbee23",
+        "7c80add7-3f29-4b73-95d4-4aa2c865d530",
+        "93411a04-977d-406e-93db-46b9bf88c500",
+        "7c3f0737-995c-434b-82c1-f4483806267c",
+        "d3aeb67f-1b84-4612-9009-0238c0a2e911",
+        "4712f9ab-ad4f-47af-ab35-73f95d0c1ede"
       ],
       "settings": {
         "scrollID": "faq",
@@ -205,7 +269,7 @@
       "type": "cta-page-end",
       "settings": {
         "scrollID": "cta-page-end",
-        "cta_page_end_title": "See if SENSA is for you",
+        "cta_page_end_title": "See if our bladder sensor is for you",
         "cta_page_end_description": "We offer to help you to check if the bladder sensor is for you.",
         "cta_page_end_cta_primary": "Get your sensor now",
         "cta_page_end_cta_primary_target": "#pricing",
