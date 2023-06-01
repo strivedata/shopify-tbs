@@ -1,0 +1,38 @@
+<div class="typeform-section">
+  <div
+    data-tf-widget="{{ section.settings.typeformID }}"
+    data-tf-opacity="100"
+    data-tf-iframe-props="{{ section.settings.typeform_iframe_props }}"
+    data-tf-transitive-search-params
+    data-tf-medium="snippet"
+    data-tf-hidden="utm_source=,utm_medium=,utm_campaign=,utm_term=,utm_content="
+    style="width:100%;height:500px;"
+  ></div>
+  <script src="//embed.typeform.com/next/embed.js" defer></script>
+</div>
+
+{% schema %}
+{
+  "name": "Typeform",
+  "settings": [
+    {
+      "id": "typeformID",
+      "type": "text",
+      "label": "Typeform ID",
+      "default": "kaVRtq6K"
+    },
+    {
+      "id": "typeform_iframe_props",
+      "type": "text",
+      "label": "Typeform ID",
+      "default": "title=SENSA Is it for you? (DEV)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "typeform",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
