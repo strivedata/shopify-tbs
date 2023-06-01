@@ -290,6 +290,12 @@
         "cta_newsletter_privacy_link": "privacy policy",
         "cta_newsletter_privacy_link_target": "#privay-policy"
       }
+    },
+    "0864ccea-91f7-4a82-864f-ac39d3bd817e": {
+      "type": "modal",
+      "settings": {
+        "modalID": "learn-more-about-experts-modal"
+      }
     }
   },
   "order": [
@@ -305,6 +311,7 @@
     "pricing",
     "faq",
     "cta_page_end",
-    "cta_newsletter"
+    "cta_newsletter",
+    "0864ccea-91f7-4a82-864f-ac39d3bd817e"
   ]
 }
