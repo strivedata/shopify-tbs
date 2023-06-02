@@ -77,7 +77,7 @@
 
   <!-- Preline UI -->
   <script src="{{ 'preline.js' | asset_url }}" defer></script>
-  <script>
+  {% javascript %}
     // Initialize accordion
     document.addEventListener('DOMContentLoaded', () => {
       const accordionItems = document.querySelectorAll('.hs-accordion-group .faq-accordion ');
@@ -86,7 +86,7 @@
         window.HSAccordion.hide(accordionItem);
       });
     });
-  </script>
+  {% endjavascript %}
 </div>
 
 {% schema %}
