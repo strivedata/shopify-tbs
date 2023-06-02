@@ -1,8 +1,12 @@
 {
   "sections": {
     "typeform": {
-      "type": "typeform"
+      "type": "typeform",
+      "settings": {
+      }
     }
   },
-  "order": ["typeform"]
+  "order": [
+    "typeform"
+  ]
 }
