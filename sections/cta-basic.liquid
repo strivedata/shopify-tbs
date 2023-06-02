@@ -11,7 +11,7 @@
         </p>
         <div class="flex items-center justify-center mt-10 gap-x-6">
           <a
-            href="pages/{{ section.settings.cta_target | escape }}"
+            id="cta-link-url-with-utm-parameters"
             class="rounded-3xl bg-white hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {{ section.settings.cta_button -}}
@@ -35,6 +35,46 @@
   </div>
   <!-- End CTA -->
 </div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    const queryString = window.location.search;
+    console.log(queryString);
+
+    const urlParams = new URLSearchParams(queryString);
+
+    const utm_source = urlParams.get('utm_source');
+    console.log(utm_source);
+
+    const utm_medium = urlParams.get('utm_medium');
+    console.log(utm_medium);
+
+    const utm_campaign = urlParams.get('utm_campaign');
+    console.log(utm_campaign);
+
+    const utm_term = urlParams.get('utm_term');
+    console.log(utm_term);
+
+    const utm_content = urlParams.get('utm_content');
+    console.log(utm_content);
+
+    const ctaLink = document.getElementById('cta-link-url-with-utm-parameters');
+
+    ctaLink.href =
+      'pages/sensa-check?' +
+      '&utm_source=' +
+      utm_source +
+      '&utm_medium=' +
+      utm_medium +
+      '&utm_campaign=' +
+      utm_campaign +
+      '&utm_term=' +
+      utm_term +
+      '&utm_content=' +
+      utm_content;
+  });
+{% endjavascript %}
+
 {% schema %}
 {
   "name": "Call To Action",
@@ -77,3 +117,5 @@
   ]
 }
 {% endschema %}
+
+{%- assign cta_target_page = section.settings.cta_target -%}
