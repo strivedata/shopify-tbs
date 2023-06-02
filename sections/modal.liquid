@@ -147,12 +147,14 @@
   <!-- End Modal Dialogs -->
 </div>
 
-<script defer="defer">
-  window.addEventListener('open.hs.overlay', ($overlayEl) => {
-    console.log('open.hs.overlay', $overlayEl);
-    console.log(window);
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('open.hs.overlay', ($overlayEl) => {
+      console.log('open.hs.overlay', $overlayEl);
+      console.log(window);
+    });
   });
-</script>
+{% endjavascript %}
 
 {% schema %}
 {
