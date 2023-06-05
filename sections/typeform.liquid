@@ -14,28 +14,20 @@
 
 {% javascript %}
   document.addEventListener('DOMContentLoaded', () => {
+    // Get the UTM params from the URL
     const queryString = window.location.search;
-    console.log(queryString);
-
     const urlParams = new URLSearchParams(queryString);
 
     const utm_source = urlParams.get('utm_source');
-    console.log(utm_source);
-
     const utm_medium = urlParams.get('utm_medium');
-    console.log(utm_medium);
-
     const utm_campaign = urlParams.get('utm_campaign');
-    console.log(utm_campaign);
-
     const utm_term = urlParams.get('utm_term');
-    console.log(utm_term);
-
     const utm_content = urlParams.get('utm_content');
-    console.log(utm_content);
 
+    // Get the typeform element
     const typeform = document.getElementById('typeform');
 
+    // Construct typform hidden fields string
     const hiddenFileds =
       'utm_source=' +
       utm_source +
@@ -48,6 +40,7 @@
       ',utm_content=' +
       utm_content;
 
+    // Set the hidden fields attribute for embedded typeform
     typeform.setAttribute('data-tf-hidden', hiddenFileds);
   });
 {% endjavascript %}
