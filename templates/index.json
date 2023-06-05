@@ -10,7 +10,7 @@
         "hero_cta_primary_target": "#features",
         "hero_cta_secondary": "Get your sensor",
         "hero_cta_secondary_target": "#pricing",
-        "hero_image": "shopify://shop_images/hero.png",
+        "hero_image": "shopify:\/\/shop_images\/hero.png",
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
@@ -22,9 +22,9 @@
         "feature_category": "The Device",
         "feature_title": "Comfortable ultrasound sensor",
         "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
-        "feature_item_1": "<p><strong>Small and thin design</strong> - like a pack of playing cards (±75x61x14mm)</p>",
-        "feature_item_2": "<p>Attached with <strong>double-sided silicone </strong>plasters</p>",
-        "feature_item_3": "<p><strong>Skin friendly </strong>materials</p>"
+        "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
+        "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
+        "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
       }
     },
     "benefits_with_image": {
@@ -42,7 +42,7 @@
         "benefit_3_description": "Sensa provides peace of mind and security, so you can go about your day with confidence.",
         "benefit_4_title": "Discrete notifications",
         "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
-        "benefits_image": "shopify://shop_images/hero_woman.png",
+        "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
         "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
@@ -68,9 +68,9 @@
         "app_details_icon_description_1": "Iphone Ready",
         "app_details_icon_description_2": "Smart Notifications",
         "app_details_icon_description_3": "Expert Support",
-        "app_details_image_1": "shopify://shop_images/app_showcase_1.png",
-        "app_details_image_2": "shopify://shop_images/app_showcase_2.png",
-        "app_details_image_3": "shopify://shop_images/app_showcase_3.png"
+        "app_details_image_1": "shopify:\/\/shop_images\/app_showcase_1.png",
+        "app_details_image_2": "shopify:\/\/shop_images\/app_showcase_2.png",
+        "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
       }
     },
     "feature_image_right_1": {
@@ -79,7 +79,7 @@
         "scrollID": "feature-1",
         "feature_image_right_title": "Bladder Training Course",
         "feature_image_right_description": "The app includes a comprehensive bladder training course that is tailored to your individual needs.                     The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms. With regular practice, you can expect to see significant                     improvements in your bladder control over time.",
-        "feature_image_right_image": "shopify://shop_images/app_feature_1.png",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
         "feature_image_right_image_alt": "Training Course App Screen"
       }
     },
@@ -89,7 +89,7 @@
         "scrollID": "feature-1",
         "feature_image_left_title": "Talk to an expert",
         "feature_image_left_description": "If you need additional support, the app allows you to connect with a specialist who can provide you                     with personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
-        "feature_image_left_image": "shopify://shop_images/app_feature_2.png",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
         "feature_image_left_image_alt": "Online Meeting with Experts"
       }
     },
@@ -99,7 +99,7 @@
         "scrollID": "feature-1",
         "feature_image_right_title": "Data logging",
         "feature_image_right_description": "The app allows you to keep track of your bathroom habits, including when you go to the toilet, how                     much you drink, and how much you void. This voiding data will be share via the sensor automatically.                     No manual logs needed. This information can be used to monitor your progress and identify patterns                     that may be contributing to your incontinence to develop effective treatment strategies.",
-        "feature_image_right_image": "shopify://shop_images/app_feature_3.png",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
         "feature_image_right_image_alt": "Data History App Screen"
       }
     },
@@ -109,7 +109,7 @@
         "scrollID": "feature-1",
         "feature_image_left_title": "Smart notifications",
         "feature_image_left_description": "The app includes smart notifications that reminds you when it's time to go to the bathroom and gives                     proactive estimations.With these reminders, you can avoid accidents and maintain greater control                     over your bladder. Additionally, the app provides notifications when it's time to perform bladder                     training exercises, ensuring that you stay on track with your bladder training program.",
-        "feature_image_left_image": "shopify://shop_images/app_feature_4.png",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
         "feature_image_left_image_alt": "Notification Apple Watch Screen"
       }
     },
@@ -180,70 +180,70 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Is the sensor visible under my (tight) clothes, e.g. sport apparel?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "0ffd86a9-8629-4345-a556-803d006280f8": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will it interfere with my belt?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "80e96fc7-b0b7-4d1f-aeab-4b6637e05b2d": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Does it work with body hair?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "f175bedd-0d64-4b05-9571-df6f36925184": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will the vibration stimulate my bladder?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "954c0f79-062e-42f9-ae17-162032cbee23": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Do notifications work as pre-warning? How much time do I get?",
-            "faq_accordion_answer": "<p>Lorem psum</p>"
+            "faq_accordion_answer": "<p>Lorem psum<\/p>"
           }
         },
         "7c80add7-3f29-4b73-95d4-4aa2c865d530": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Can it fall of while running, doing sports activities?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "93411a04-977d-406e-93db-46b9bf88c500": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Can I wear it at night?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "7c3f0737-995c-434b-82c1-f4483806267c": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will the sensor prevent me from using absorptive products?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "d3aeb67f-1b84-4612-9009-0238c0a2e911": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "How long can I use the sensor?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         },
         "4712f9ab-ad4f-47af-ab35-73f95d0c1ede": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Why a deposit? When do I get it back?",
-            "faq_accordion_answer": "<p>Lorem ipsum</p>"
+            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
           }
         }
       },
@@ -275,7 +275,7 @@
         "cta_page_end_cta_primary_target": "#pricing",
         "cta_page_end_cta_secondary": "Get a free medical consultation",
         "cta_page_end_cta_secondary_target": "#medical",
-        "cta_page_end_image": "shopify://shop_images/cta-pagend.png",
+        "cta_page_end_image": "shopify:\/\/shop_images\/cta-pagend.png",
         "cta_page_end_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
@@ -297,7 +297,7 @@
         "modalID": "learn-more-about-experts-modal"
       }
     },
-    "modal_learn_more": {
+    "61f75be0-81b7-4fe1-a62f-1ef5a353f1fa": {
       "type": "modal-learn-more",
       "settings": {
         "modalID": "learn-more-modal"
@@ -318,6 +318,7 @@
     "faq",
     "cta_page_end",
     "cta_newsletter",
-    "0864ccea-91f7-4a82-864f-ac39d3bd817e"
+    "0864ccea-91f7-4a82-864f-ac39d3bd817e",
+    "61f75be0-81b7-4fe1-a62f-1ef5a353f1fa"
   ]
 }
