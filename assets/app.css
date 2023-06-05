@@ -710,6 +710,10 @@ select {
   }
 }
 
+.aspect-h-8 {
+  --tw-aspect-h: 8;
+}
+
 .aspect-h-9 {
   --tw-aspect-h: 9;
 }
@@ -788,12 +792,20 @@ select {
   right: 0px;
 }
 
+.tailwind :is(.right-2) {
+  right: 0.8rem;
+}
+
 .tailwind :is(.top-0) {
   top: 0px;
 }
 
 .tailwind :is(.top-1\/2) {
   top: 50%;
+}
+
+.tailwind :is(.top-2) {
+  top: 0.8rem;
 }
 
 .tailwind :is(.isolate) {
@@ -810,6 +822,10 @@ select {
 
 .tailwind :is(.z-50) {
   z-index: 50;
+}
+
+.tailwind :is(.z-\[10\]) {
+  z-index: 10;
 }
 
 .tailwind :is(.z-\[60\]) {
@@ -830,10 +846,6 @@ select {
 
 .tailwind :is(.m-3) {
   margin: 1.2rem;
-}
-
-.tailwind :is(.m-1) {
-  margin: 0.4rem;
 }
 
 .tailwind :is(.-my-1) {
@@ -871,6 +883,10 @@ select {
   margin-bottom: 4.8rem;
 }
 
+.tailwind :is(.mb-2) {
+  margin-bottom: 0.8rem;
+}
+
 .tailwind :is(.mb-8) {
   margin-bottom: 3.2rem;
 }
@@ -895,6 +911,10 @@ select {
   margin-left: 2.4rem;
 }
 
+.tailwind :is(.mt-0) {
+  margin-top: 0px;
+}
+
 .tailwind :is(.mt-1) {
   margin-top: 0.4rem;
 }
@@ -913,6 +933,10 @@ select {
 
 .tailwind :is(.mt-2) {
   margin-top: 0.8rem;
+}
+
+.tailwind :is(.mt-20) {
+  margin-top: 8rem;
 }
 
 .tailwind :is(.mt-24) {
@@ -945,14 +969,6 @@ select {
 
 .tailwind :is(.mt-8) {
   margin-top: 3.2rem;
-}
-
-.tailwind :is(.mt-0) {
-  margin-top: 0px;
-}
-
-.tailwind :is(.ml-0) {
-  margin-left: 0px;
 }
 
 .tailwind :is(.block) {
@@ -999,12 +1015,20 @@ select {
   height: 1.2rem;
 }
 
+.tailwind :is(.h-3\.5) {
+  height: 1.4rem;
+}
+
 .tailwind :is(.h-5) {
   height: 2rem;
 }
 
 .tailwind :is(.h-6) {
   height: 2.4rem;
+}
+
+.tailwind :is(.h-8) {
+  height: 3.2rem;
 }
 
 .tailwind :is(.h-\[64rem\]) {
@@ -1017,42 +1041,6 @@ select {
 
 .tailwind :is(.h-full) {
   height: 100%;
-}
-
-.tailwind :is(.h-3\.5) {
-  height: 1.4rem;
-}
-
-.tailwind :is(.h-8) {
-  height: 3.2rem;
-}
-
-.tailwind :is(.h-\[calc\(100\%-3\.5rem\)\]) {
-  height: calc(100% - 3.5rem);
-}
-
-.tailwind :is(.max-h-full) {
-  max-height: 100%;
-}
-
-.tailwind :is(.min-h-\[calc\(100\%-3\.5rem\)\]) {
-  min-height: calc(100% - 3.5rem);
-}
-
-.tailwind :is(.min-h-full) {
-  min-height: 100%;
-}
-
-.tailwind :is(.min-h-\[39vh\]) {
-  min-height: 39vh;
-}
-
-.tailwind :is(.min-h-\[90vh\]) {
-  min-height: 90vh;
-}
-
-.tailwind :is(.min-h-\[80vh\]) {
-  min-height: 80vh;
 }
 
 .tailwind :is(.min-h-\[60vh\]) {
@@ -1075,6 +1063,10 @@ select {
   width: 1.2rem;
 }
 
+.tailwind :is(.w-3\.5) {
+  width: 1.4rem;
+}
+
 .tailwind :is(.w-5) {
   width: 2rem;
 }
@@ -1091,6 +1083,10 @@ select {
   width: 2.8rem;
 }
 
+.tailwind :is(.w-8) {
+  width: 3.2rem;
+}
+
 .tailwind :is(.w-\[25rem\]) {
   width: 25rem;
 }
@@ -1105,14 +1101,6 @@ select {
 
 .tailwind :is(.w-full) {
   width: 100%;
-}
-
-.tailwind :is(.w-3\.5) {
-  width: 1.4rem;
-}
-
-.tailwind :is(.w-8) {
-  width: 3.2rem;
 }
 
 .tailwind :is(.min-w-0) {
@@ -1169,10 +1157,6 @@ select {
 
 .tailwind :is(.max-w-xs) {
   max-width: 32rem;
-}
-
-.tailwind :is(.max-w-full) {
-  max-width: 100%;
 }
 
 .tailwind :is(.flex-auto) {
@@ -1398,16 +1382,16 @@ select {
   margin-bottom: calc(0.8rem * var(--tw-space-y-reverse));
 }
 
-.tailwind :is(.space-y-6 > :not([hidden]) ~ :not([hidden])) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.4rem * var(--tw-space-y-reverse));
-}
-
 .tailwind :is(.space-y-4 > :not([hidden]) ~ :not([hidden])) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.6rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.6rem * var(--tw-space-y-reverse));
+}
+
+.tailwind :is(.space-y-6 > :not([hidden]) ~ :not([hidden])) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.4rem * var(--tw-space-y-reverse));
 }
 
 .tailwind :is(.overflow-hidden) {
@@ -1444,6 +1428,11 @@ select {
   border-radius: 1.2rem;
 }
 
+.tailwind :is(.rounded-t-xl) {
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+
 .tailwind :is(.rounded-bl-xl) {
   border-bottom-left-radius: 1.2rem;
 }
@@ -1460,12 +1449,12 @@ select {
   border-width: 0px;
 }
 
-.tailwind :is(.border-t) {
-  border-top-width: 1px;
-}
-
 .tailwind :is(.border-b) {
   border-bottom-width: 1px;
+}
+
+.tailwind :is(.border-t) {
+  border-top-width: 1px;
 }
 
 .tailwind :is(.border-slate-400\/10) {
@@ -1474,6 +1463,15 @@ select {
 
 .tailwind :is(.border-transparent) {
   border-color: transparent;
+}
+
+.tailwind :is(.bg-black\/50) {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.tailwind :is(.bg-blue-500) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .tailwind :is(.bg-blue-900) {
@@ -1500,13 +1498,8 @@ select {
   background-color: rgb(255 255 255 / 0.05);
 }
 
-.tailwind :is(.bg-blue-500) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.tailwind :is(.bg-black\/50) {
-  background-color: rgb(0 0 0 / 0.5);
+.tailwind :is(.bg-white\/\[\.1\]) {
+  background-color: rgb(255 255 255 / .1);
 }
 
 .tailwind :is(.bg-opacity-50) {
@@ -1551,6 +1544,11 @@ select {
 
 .tailwind :is(.to-orange-600) {
   --tw-gradient-to: #ea580c var(--tw-gradient-to-position);
+}
+
+.tailwind :is(.object-cover) {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tailwind :is(.p-4) {
@@ -1667,6 +1665,10 @@ select {
 
 .tailwind :is(.pt-24) {
   padding-top: 9.6rem;
+}
+
+.tailwind :is(.pt-8) {
+  padding-top: 3.2rem;
 }
 
 .tailwind :is(.text-left) {
@@ -1882,11 +1884,6 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.tailwind :is(.text-slate-800) {
-  --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
-}
-
 .tailwind :is(.\!no-underline) {
   text-decoration-line: none !important;
 }
@@ -2005,13 +2002,13 @@ select {
   animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+.\[--overlay-backdrop\:static\] {
+  --overlay-backdrop: static;
+}
+
 .\[mask-image\:radial-gradient\(closest-side\2c white\2c transparent\)\] {
   -webkit-mask-image: radial-gradient(closest-side,white,transparent);
           mask-image: radial-gradient(closest-side,white,transparent);
-}
-
-.\[--overlay-backdrop\:static\] {
-  --overlay-backdrop: static;
 }
 
 .tailwind :is(.first\:pt-0:first-child) {
@@ -2033,6 +2030,11 @@ select {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.tailwind :is(.hover\:bg-blue-600:hover) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .tailwind :is(.hover\:bg-gray-100:hover) {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -2048,18 +2050,13 @@ select {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.tailwind :is(.hover\:bg-blue-600:hover) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
-.tailwind :is(.hover\:bg-slate-50:hover) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
 .tailwind :is(.hover\:bg-gradient-to-l:hover) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.tailwind :is(.hover\:text-gray-400:hover) {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .tailwind :is(.hover\:text-highlight:hover) {
@@ -2075,11 +2072,6 @@ select {
 .tailwind :is(.hover\:text-slate-900:hover) {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
-.tailwind :is(.hover\:text-gray-400:hover) {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .tailwind :is(.hover\:no-underline:hover) {
@@ -2101,6 +2093,11 @@ select {
   --tw-ring-inset: inset;
 }
 
+.tailwind :is(.focus\:ring-blue-500:focus) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+}
+
 .tailwind :is(.focus\:ring-blue-600:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity));
@@ -2114,11 +2111,6 @@ select {
 .tailwind :is(.focus\:ring-highlight:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(0 185 227 / var(--tw-ring-opacity));
-}
-
-.tailwind :is(.focus\:ring-blue-500:focus) {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
 }
 
 .tailwind :is(.focus\:ring-offset-2:focus) {
@@ -2228,10 +2220,6 @@ select {
   margin-top: 2.8rem;
 }
 
-.tailwind :is(.open.hs-overlay-open\:mt-0) {
-  margin-top: 0px;
-}
-
 .tailwind :is(.open.hs-overlay-open\:opacity-100) {
   opacity: 1;
 }
@@ -2242,10 +2230,6 @@ select {
 
 .tailwind :is(.open .hs-overlay-open\:mt-7) {
   margin-top: 2.8rem;
-}
-
-.tailwind :is(.open .hs-overlay-open\:mt-0) {
-  margin-top: 0px;
 }
 
 .tailwind :is(.open .hs-overlay-open\:opacity-100) {
@@ -2307,10 +2291,6 @@ select {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .tailwind :is(.sm\:flex-row-reverse) {
-    flex-direction: row-reverse;
-  }
-
   .tailwind :is(.sm\:justify-between) {
     justify-content: space-between;
   }
@@ -2340,12 +2320,8 @@ select {
     border-radius: 2.4rem;
   }
 
-  .tailwind :is(.sm\:rounded-xl) {
-    border-radius: 1.2rem;
-  }
-
-  .tailwind :is(.sm\:border) {
-    border-width: 1px;
+  .tailwind :is(.sm\:p-10) {
+    padding: 4rem;
   }
 
   .tailwind :is(.sm\:px-16) {
@@ -2395,20 +2371,6 @@ select {
   .tailwind :is(.sm\:leading-6) {
     line-height: 2.4rem;
   }
-
-  .tailwind :is(.sm\:shadow-sm) {
-    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .tailwind :is(.open.sm\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
-  }
-
-  .tailwind :is(.open .sm\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
-  }
 }
 
 @media (min-width: 750px) {
@@ -2422,11 +2384,6 @@ select {
 
   .tailwind :is(.md\:col-start-3) {
     grid-column-start: 3;
-  }
-
-  .tailwind :is(.md\:mx-auto) {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .tailwind :is(.md\:-ml-20) {
@@ -2481,10 +2438,6 @@ select {
     max-width: 40rem;
   }
 
-  .tailwind :is(.md\:max-w-lg) {
-    max-width: 51.2rem;
-  }
-
   .tailwind :is(.md\:grid-cols-2) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2517,14 +2470,6 @@ select {
     margin-bottom: calc(1.6rem * var(--tw-space-y-reverse));
   }
 
-  .tailwind :is(.md\:rounded-xl) {
-    border-radius: 1.2rem;
-  }
-
-  .tailwind :is(.md\:border) {
-    border-width: 1px;
-  }
-
   .tailwind :is(.md\:p-10) {
     padding: 4rem;
   }
@@ -2554,20 +2499,6 @@ select {
   .tailwind :is(.md\:leading-tight) {
     line-height: 1.25;
   }
-
-  .tailwind :is(.md\:shadow-sm) {
-    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .tailwind :is(.open.md\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
-  }
-
-  .tailwind :is(.open .md\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
-  }
 }
 
 @media (min-width: 990px) {
@@ -2591,11 +2522,6 @@ select {
   .tailwind :is(.lg\:my-0) {
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-
-  .tailwind :is(.lg\:mx-auto) {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .tailwind :is(.lg\:-mt-24) {
@@ -2706,6 +2632,10 @@ select {
     flex-direction: row;
   }
 
+  .tailwind :is(.lg\:flex-row-reverse) {
+    flex-direction: row-reverse;
+  }
+
   .tailwind :is(.lg\:items-start) {
     align-items: flex-start;
   }
@@ -2729,14 +2659,6 @@ select {
   .tailwind :is(.lg\:gap-x-8) {
     -moz-column-gap: 3.2rem;
          column-gap: 3.2rem;
-  }
-
-  .tailwind :is(.lg\:rounded-xl) {
-    border-radius: 1.2rem;
-  }
-
-  .tailwind :is(.lg\:border) {
-    border-width: 1px;
   }
 
   .tailwind :is(.lg\:p-8) {
@@ -2766,6 +2688,10 @@ select {
   .tailwind :is(.lg\:py-32) {
     padding-top: 12.8rem;
     padding-bottom: 12.8rem;
+  }
+
+  .tailwind :is(.lg\:pt-0) {
+    padding-top: 0px;
   }
 
   .tailwind :is(.lg\:pt-16) {
@@ -2803,25 +2729,11 @@ select {
     line-height: 1.25;
   }
 
-  .tailwind :is(.lg\:shadow-sm) {
-    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
   .tailwind :is(.lg\:placeholder\:col-span-6)::-moz-placeholder {
     grid-column: span 6 / span 6;
   }
 
   .tailwind :is(.lg\:placeholder\:col-span-6)::placeholder {
     grid-column: span 6 / span 6;
-  }
-
-  .tailwind :is(.open.lg\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
-  }
-
-  .tailwind :is(.open .lg\:hs-overlay-open\:mt-10) {
-    margin-top: 4rem;
   }
 }
