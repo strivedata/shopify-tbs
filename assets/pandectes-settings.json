@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1685967074,
+  "tsPublished": 1685967730,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -316,7 +316,7 @@
       "href": "https:\/\/exploration-alpha.myshopify.com\/policies\/privacy-policy",
       "imprintHref": "\/",
       "close": "&#10005;",
-      "target": "",
+      "target": "_blank",
       "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0761\/8081\/6163\/t\/5\/assets\/pandectes-logo.png?v=1685962156\" alt=\"exploration-alpha\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
