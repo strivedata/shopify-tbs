@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1685962163,
+  "tsPublished": 1685963079,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -357,7 +357,7 @@
     "accessSectionDownloadReportAuto": false
   },
   "banner": {
-    "resetTs": 1685962155,
+    "resetTs": 1685963071,
     "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    .pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
@@ -472,32 +472,6 @@
         }
       },
       {
-        "name": "_orig_referrer",
-        "domain": ".exploration-alpha.myshopify.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "14 day(s)",
-        "expires": 14,
-        "unit": "declSession",
-        "purpose": {
-          "en": "Tracks landing pages."
-        }
-      },
-      {
-        "name": "_landing_page",
-        "domain": ".exploration-alpha.myshopify.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "14 day(s)",
-        "expires": 14,
-        "unit": "declSession",
-        "purpose": {
-          "en": "Tracks landing pages."
-        }
-      },
-      {
         "name": "_shopify_y",
         "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
@@ -521,6 +495,32 @@
         "unit": "declMinutes",
         "purpose": {
           "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".exploration-alpha.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".exploration-alpha.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
         }
       }
     ],
