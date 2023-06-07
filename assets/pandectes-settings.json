@@ -1,11 +1,11 @@
 {
   "store": {
-    "plan": null,
+    "plan": "plus",
     "theme": "Sensa Theme",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1686154093,
+  "tsPublished": 1686154113,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -365,7 +365,7 @@
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
-    "showCookiesDetails": true,
+    "showCookiesDetails": false,
     "cookiesBlockedByDefault": "7",
     "hasTransition": true,
     "blockingPage": false,
