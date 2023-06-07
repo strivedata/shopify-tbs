@@ -1,4 +1,4 @@
-<div class="hero-section tailwind">
+<div class="hero-section tailwind" {{ block.shopify_attributes }}>
   <!-- Hero -->
   <div class="pt-20 bg-gradient-to-r from-white via-white to-gray-100">
     <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
@@ -16,8 +16,11 @@
           </div>
 
           <!-- Buttons -->
-          <div class="flex flex-col items-center justify-center w-full gap-3 mb-12 lg:flex-row lg:justify-start mt-7 sm:inline-flex lg:mb-0 animate-fade-up">
+          <div
+            class="flex flex-col items-center justify-center w-full gap-3 mb-12 lg:flex-row lg:justify-start mt-7 sm:inline-flex lg:mb-0 animate-fade-up"
+          >
             <a
+              id="cta_button__hero__primary__{{ section.id }}"
               href="{{ section.settings.hero_cta_primary_target | escape }}"
               class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
             >
@@ -28,6 +31,7 @@
             </a>
 
             <a
+              id="cta_button__hero__secondary__mobile__{{ section.id }}"
               href="{{ section.settings.hero_cta_secondary_target | escape }}"
               class="text-sm font-semibold leading-6 text-gray-900 transition-all cursor-pointer hover:text-highlight hover:scale-105 duration-400 lg:hidden"
             >
@@ -35,6 +39,7 @@
               <span aria-hidden="true" class="ml-1 lg:hidden">→</span>
             </a>
             <a
+              id="cta_button__hero__secondary__desktop__{{ section.id }}"
               href="{{ section.settings.hero_cta_secondary_target | escape }}"
               class="hidden lg:!inline-flex cursor-pointer justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 hover:scale-105 shadow-sm font-medium rounded-3xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
             >

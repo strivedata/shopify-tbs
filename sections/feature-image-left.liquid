@@ -1,4 +1,4 @@
-<div class="feature-image-left-section tailwind">
+<div class="feature-image-left-section tailwind" {{ block.shopify_attributes }} id="{{ section.settings.scrollID }}">
   <!-- App Feature:Image Left -->
   <div class="mt-16 max-w-6xl px-4 py-10 mx-auto my-6 sm:px-6 lg:px-8 lg:py-14 lg:my-0 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <!-- Grid -->
@@ -44,21 +44,14 @@
             <p class="text-gray-500 max-w-[44rem]">
               {{ section.settings.feature_image_left_description }}
             </p>
-            <!-- CTA: MODAL -->
+            <!-- CTA: OPEN MODAL -->
             <button
+              id="cta_button__feature__open_modal__{{ section.id }}"
               type="button"
-              class="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-all bg-blue-500 border border-transparent rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
-              data-hs-overlay="#learn-more-modal"
+              class="{{ section.settings.feature_image_left_cta_modal_status }} inline-flex cursor-pointer justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 hover:scale-105 shadow-sm font-medium rounded-3xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+              data-hs-overlay="#{{ section.settings.feature_image_left_cta_modal_target }}"
             >
-              Open modal
-            </button>
-
-            <button
-              type="button"
-              class="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-all bg-blue-500 border border-transparent rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
-              onclick="window.HSOverlay.open(document.getElementById('thank-you-modal'));"
-            >
-              Open Thankyou
+              {{ section.settings.feature_image_left_cta_modal_label }}
             </button>
           </div>
           <!-- End Title -->
@@ -94,7 +87,6 @@
       "label": "Description",
       "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
     },
-
     {
       "id": "feature_image_left_image",
       "type": "image_picker",
@@ -105,6 +97,33 @@
       "type": "text",
       "label": "Image Alt Text",
       "default": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
+    },
+    {
+      "id": "feature_image_left_cta_modal_status",
+      "type": "radio",
+      "label": "Show Link To Modal Dialog?",
+      "options": [
+        {
+          "value": "show_cta_to_modal",
+          "label": "Yes"
+        },
+        {
+          "value": "hidden",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "feature_image_left_cta_modal_label",
+      "type": "text",
+      "label": "Modal CTA Button",
+      "default": "Learn more"
+    },
+    {
+      "id": "feature_image_left_cta_modal_target",
+      "type": "text",
+      "label": "Modal CTA Target ID",
+      "default": "my-modal-id"
     }
   ],
   "presets": [

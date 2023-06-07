@@ -44,7 +44,11 @@
                 </h3> {% endcomment %}
               {%- endif -%}
             </div>
-           <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}<a href="{{ section.settings.cta_newsletter_privacy_link_target | escape }}" class="font-semibold text-white">&nbsp;{{ section.settings.cta_newsletter_privacy_link }}</a>.</p>
+
+             <p class="mt-4 text-sm leading-6 text-gray-300">{{ section.settings.cta_newsletter_privacy_hint }}
+              <a href="{{ shop.privacy_policy.url }}" class="font-semibold text-white">{{- shop.privacy_policy.title -}}</a>.
+             </p>
+
           {% endform %}
 
           </div>
