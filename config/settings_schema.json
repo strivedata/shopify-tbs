@@ -1449,5 +1449,26 @@
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
+  },
+  {
+    "name": "Developer (DO NOT TOUCH!)",
+    "settings": [
+      {
+        "label": "Environment",
+        "id": "environment",
+        "type": "select",
+        "options": [
+          {
+            "label": "Development",
+            "value": "development"
+          },
+          {
+            "label": "Production",
+            "value": "production"
+          }
+        ],
+        "default": "production"
+      }
+    ]
   }
 ]
