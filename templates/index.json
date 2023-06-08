@@ -208,63 +208,63 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Is the sensor visible under my (tight) clothes, e.g. sport apparel?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>We know discreteness is key so we designed the sensor to be as thin as possible. If you wear normal fitting apparel, the sensor will not be visible. If you are wearing very tight sport apparel, the sensor might be visible.<\/p>"
           }
         },
         "0ffd86a9-8629-4345-a556-803d006280f8": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will it interfere with my belt?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>The sensor is placed above the “belt” region so it should not interfere when you are wearing a belt.<\/p>"
           }
         },
         "80e96fc7-b0b7-4d1f-aeab-4b6637e05b2d": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Does it work with body hair?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>In general, our silicone adhesives are designed to work with body hair. However, too much body hair might impact the strength of the adhesive so we would recommend to shave off body hair when you experience problems attaching the sensor to your belly.<\/p>"
           }
         },
         "f175bedd-0d64-4b05-9571-df6f36925184": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will the vibration stimulate my bladder?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>The vibration strength can be adapted to the level you feel comfortable with.<\/p>"
           }
         },
         "954c0f79-062e-42f9-ae17-162032cbee23": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Do notifications work as pre-warning? How much time do I get?",
-            "faq_accordion_answer": "<p>Lorem psum<\/p>"
+            "faq_accordion_answer": "<p>That depends on your condition and symptoms. You can specify in the app, at what filling status you would like to get a notification, thereby you are able to personalize the notifications to your voiding patterns.<\/p>"
           }
         },
         "7c80add7-3f29-4b73-95d4-4aa2c865d530": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Can it fall of while running, doing sports activities?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>The adhesives are designed to work for sports activities.<\/p>"
           }
         },
         "93411a04-977d-406e-93db-46b9bf88c500": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Can I wear it at night?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>Yes you can. If you sleep a lot on your belly, this might feel uncomfortable over time though.<\/p>"
           }
         },
         "7c3f0737-995c-434b-82c1-f4483806267c": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will the sensor prevent me from using absorptive products?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>From our users we know that at first you will still use absorptive products as a safety net. Over time the usage of absorptive products might decrease over time as the sensor gets adapted to your situation and you understand your bladder and symptoms better.<\/p>"
           }
         },
         "d3aeb67f-1b84-4612-9009-0238c0a2e911": {
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "How long can I use the sensor?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": ""
           }
         },
         "4712f9ab-ad4f-47af-ab35-73f95d0c1ede": {
