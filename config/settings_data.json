@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify://shop_images/Logo_novioscan_sensa_bladder.png",
+    "logo": "shopify:\/\/shop_images\/Logo_novioscan_sensa_bladder.png",
     "logo_width": 240,
     "type_header_font": "roboto_n1",
     "heading_scale": 100,
@@ -126,7 +126,9 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "color_schemes": {
       "background-1": {
         "settings": {
