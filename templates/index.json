@@ -53,7 +53,7 @@
         "cta_title": "Wonder if our bladder sensor is for you?",
         "cta_description": "Start doing our 2 minute test to see how our bladder sensor can help you.",
         "cta_button": "Start the test",
-        "cta_target": "sensa-check"
+        "cta_target": "#typeform"
       }
     },
     "app_details": {
@@ -76,10 +76,10 @@
     "feature_image_right_1": {
       "type": "feature-image-right",
       "blocks": {
-        "8a7936bc-573a-4fc4-a199-d4a4f27f202a": {
-          "type": "feature_image_right_modal",
+        "bbc23524-ad55-4973-a969-a60d54e0a5d8": {
+          "type": "html",
           "settings": {
-            "feature_image_right_modal_image": "shopify:\/\/shop_images\/modal-learn-more_placeholder.webp",
+            "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-7278823_1.webp",
             "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_right_modal_title": "Learn more about this thing",
             "feature_image_right_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
@@ -88,7 +88,7 @@
         }
       },
       "block_order": [
-        "8a7936bc-573a-4fc4-a199-d4a4f27f202a"
+        "bbc23524-ad55-4973-a969-a60d54e0a5d8"
       ],
       "settings": {
         "scrollID": "feature-1",
@@ -103,8 +103,8 @@
     "feature_image_left_1": {
       "type": "feature-image-left",
       "blocks": {
-        "628dc419-87e8-4a12-9982-da9cf1fc29a0": {
-          "type": "feature_image_left_modal",
+        "b3b4f7b3-65ab-473f-87fb-a9e703731c45": {
+          "type": "html",
           "settings": {
             "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
             "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
@@ -115,7 +115,7 @@
         }
       },
       "block_order": [
-        "628dc419-87e8-4a12-9982-da9cf1fc29a0"
+        "b3b4f7b3-65ab-473f-87fb-a9e703731c45"
       ],
       "settings": {
         "scrollID": "feature-1",
@@ -130,8 +130,8 @@
     "feature_image_right_2": {
       "type": "feature-image-right",
       "blocks": {
-        "427411bf-2b83-4ebe-90d0-b1ee749c6263": {
-          "type": "feature_image_right_modal",
+        "c11e960c-02b5-4179-bdf6-20c2562b9e74": {
+          "type": "html",
           "settings": {
             "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-matilda-wormwood-4099095.webp",
             "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
@@ -142,7 +142,7 @@
         }
       },
       "block_order": [
-        "427411bf-2b83-4ebe-90d0-b1ee749c6263"
+        "c11e960c-02b5-4179-bdf6-20c2562b9e74"
       ],
       "settings": {
         "scrollID": "feature-1",
@@ -157,8 +157,8 @@
     "feature_image_left_2": {
       "type": "feature-image-left",
       "blocks": {
-        "2d3a6626-5d4e-474c-85d1-895a02a4ab41": {
-          "type": "feature_image_left_modal",
+        "1d948175-b3c1-4de8-afb0-6c342914320f": {
+          "type": "html",
           "settings": {
             "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-christina-morillo-1181511_1.webp",
             "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
@@ -169,7 +169,7 @@
         }
       },
       "block_order": [
-        "2d3a6626-5d4e-474c-85d1-895a02a4ab41"
+        "1d948175-b3c1-4de8-afb0-6c342914320f"
       ],
       "settings": {
         "scrollID": "feature-1",
