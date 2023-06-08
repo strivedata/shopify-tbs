@@ -75,7 +75,7 @@
               <button
                 type="button"
                 class="inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md bg-white/[.1] text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
-                data-hs-overlay="#feature-image-left-modal-{{ section.id }}"
+                onclick="window.HSOverlay.open(document.getElementById('feature-image-left-modal-{{ section.id }}'));"
               >
                 <span class="sr-only">Close</span>
                 <svg
