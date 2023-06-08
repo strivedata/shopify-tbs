@@ -1,12 +1,12 @@
 {
   "sections": {
-    "getyoursensor": {
-      "type": "getyoursensor",
+    "getyourproduct": {
+      "type": "getyourproduct",
       "settings": {
       }
     }
   },
   "order": [
-    "getyoursensor"
+    "getyourproduct"
   ]
 }
