@@ -45,14 +45,16 @@
               {{ section.settings.feature_image_left_description }}
             </p>
             <!-- CTA: OPEN MODAL -->
-            <button
-              id="cta_button__feature__open_modal__{{ section.id }}"
-              type="button"
-              class="{{ section.settings.feature_image_left_cta_modal_status }} inline-flex cursor-pointer justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 hover:scale-105 shadow-sm font-medium rounded-3xl focus:outline-none focus:ring-2 focus:ring-highlight focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
-              data-hs-overlay="#feature-image-left-modal-{{ section.id }}"
-            >
-              {{ section.settings.feature_image_left_cta_modal_label }}
-            </button>
+            <div class="pt-3">
+              <button
+                id="cta_button__feature__open_modal__{{ section.id }}"
+                type="button"
+                class="{{ section.settings.feature_image_left_cta_modal_status }} inline-flex cursor-pointer justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 hover:scale-105 shadow-sm font-medium rounded-3xl focus:outline-none focus:ring-2 focus:ring-highlight focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+                data-hs-overlay="#feature-image-left-modal-{{ section.id }}"
+              >
+                {{ section.settings.feature_image_left_cta_modal_label }}
+              </button>
+            </div>
           </div>
           <!-- End Title -->
         </div>
@@ -130,7 +132,7 @@
                   {{ block.settings.feature_image_left_modal_description }}
                 </p>
               </div>
-
+              <!-- CTA: CLOSE MODAL -->
               <div class="flex justify-center mt-6 gap-x-4">
                 <button
                   type="button"
@@ -216,7 +218,7 @@
   "max_blocks": 1,
   "blocks": [
     {
-      "type": "html",
+      "type": "feature_image_left_modal",
       "name": "Modal Dialog",
       "settings": [
         {
