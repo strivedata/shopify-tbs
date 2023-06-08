@@ -264,7 +264,7 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "How long can I use the sensor?",
-            "faq_accordion_answer": ""
+            "faq_accordion_answer": "<p>The sensor is designed to work for years. Each 2 years we recommend a maintainance service interval to recalibrate the sensor and clean the device.<\/p>"
           }
         },
         "4712f9ab-ad4f-47af-ab35-73f95d0c1ede": {
