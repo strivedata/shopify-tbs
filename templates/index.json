@@ -79,7 +79,6 @@
         "8a7936bc-573a-4fc4-a199-d4a4f27f202a": {
           "type": "feature_image_right_modal",
           "settings": {
-            "feature_image_right_modalID": "learn-more-modal",
             "feature_image_right_modal_image": "shopify:\/\/shop_images\/modal-learn-more_placeholder.webp",
             "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_right_modal_title": "Learn more about this thing",
@@ -107,7 +106,6 @@
         "628dc419-87e8-4a12-9982-da9cf1fc29a0": {
           "type": "feature_image_left_modal",
           "settings": {
-            "feature_image_left_modalID": "learn-more-modal",
             "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
             "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_left_modal_title": "Learn more about this thing",
@@ -131,6 +129,21 @@
     },
     "feature_image_right_2": {
       "type": "feature-image-right",
+      "blocks": {
+        "427411bf-2b83-4ebe-90d0-b1ee749c6263": {
+          "type": "feature_image_right_modal",
+          "settings": {
+            "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-matilda-wormwood-4099095.webp",
+            "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+            "feature_image_right_modal_title": "Learn more about this thing",
+            "feature_image_right_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
+            "feature_image_right_modal_close_button_label": "Got it"
+          }
+        }
+      },
+      "block_order": [
+        "427411bf-2b83-4ebe-90d0-b1ee749c6263"
+      ],
       "settings": {
         "scrollID": "feature-1",
         "feature_image_right_title": "Data logging",
@@ -143,6 +156,21 @@
     },
     "feature_image_left_2": {
       "type": "feature-image-left",
+      "blocks": {
+        "2d3a6626-5d4e-474c-85d1-895a02a4ab41": {
+          "type": "feature_image_left_modal",
+          "settings": {
+            "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-christina-morillo-1181511_1.webp",
+            "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
+            "feature_image_left_modal_title": "Learn more about this thing",
+            "feature_image_left_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
+            "feature_image_left_modal_close_button_label": "Got it"
+          }
+        }
+      },
+      "block_order": [
+        "2d3a6626-5d4e-474c-85d1-895a02a4ab41"
+      ],
       "settings": {
         "scrollID": "feature-1",
         "feature_image_left_title": "Smart notifications",
