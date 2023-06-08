@@ -1,0 +1,72 @@
+<div class="typeform-section" {{ block.shopify_attributes }}>
+  <div
+    id="typeform"
+    data-tf-widget="{{ section.settings.typeformID }}"
+    data-tf-opacity="100"
+    data-tf-iframe-props="{{ section.settings.typeform_iframe_props }}"
+    data-tf-transitive-search-params
+    data-tf-medium="snippet"
+    data-tf-hidden="utm_source=,utm_medium=,utm_campaign=,utm_term=,utm_content="
+    style="width:100%;height:500px;"
+  ></div>
+  <script src="//embed.typeform.com/next/embed.js" defer></script>
+</div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Get the UTM params from the URL
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    const utm_source = urlParams.get('utm_source');
+    const utm_medium = urlParams.get('utm_medium');
+    const utm_campaign = urlParams.get('utm_campaign');
+    const utm_term = urlParams.get('utm_term');
+    const utm_content = urlParams.get('utm_content');
+
+    // Get the typeform element
+    const typeform = document.getElementById('typeform');
+
+    // Construct typform hidden fields string
+    const hiddenFileds =
+      'utm_source=' +
+      utm_source +
+      ',utm_medium=' +
+      utm_medium +
+      ',utm_campaign=' +
+      utm_campaign +
+      ',utm_term=' +
+      utm_term +
+      ',utm_content=' +
+      utm_content;
+
+    // Set the hidden fields attribute for embedded typeform
+    typeform.setAttribute('data-tf-hidden', hiddenFileds);
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Typeform",
+  "settings": [
+    {
+      "id": "typeformID",
+      "type": "text",
+      "label": "Typeform ID",
+      "default": "kaVRtq6K"
+    },
+    {
+      "id": "typeform_iframe_props",
+      "type": "text",
+      "label": "Typeform ID",
+      "default": "title=SENSA Is it for you? (DEV)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "typeform",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

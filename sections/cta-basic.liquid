@@ -1,6 +1,12 @@
-<div id="{{ section.settings.scrollID }}" class="cta-basic tailwind">
+<div
+  id="{{ section.settings.scrollID }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="cta-basic"
+  class="cta-basic tailwind"
+  {{ block.shopify_attributes }}
+>
   <!-- CTA: Start the Test -->
-  <div class="bg-white lg:py-24">
+  <div class="bg-white lg:py-24" id="{{ section.settings.scrollID }}">
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="relative px-6 py-24 overflow-hidden text-center bg-blue-900 shadow-2xl isolate sm:rounded-3xl sm:px-16 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <h2 class="max-w-2xl mx-auto text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -11,8 +17,8 @@
         </p>
         <div class="flex items-center justify-center mt-10 gap-x-6">
           <a
-            href="{{ section.settings.cta_target | escape }}"
-            class="rounded-3xl bg-white hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            id="cta_button__{{ section.id }}"
+            class="cursor-pointer rounded-3xl bg-white hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {{ section.settings.cta_button -}}
           </a>
@@ -35,6 +41,45 @@
   </div>
   <!-- End CTA -->
 </div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // select dynamic section id
+    let section = document.querySelector('[data-section-type="cta-basic"]');
+    let sectionId = section.dataset.sectionId;
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    const utm_source = urlParams.get('utm_source') || 'none';
+    const utm_medium = urlParams.get('utm_medium') || 'none';
+    const utm_campaign = urlParams.get('utm_campaign') || 'none';
+    const utm_term = urlParams.get('utm_term') || 'none';
+    const utm_content = urlParams.get('utm_content') || 'none';
+
+    // get element by dynamic section id
+    const ctaLink = document.getElementById('cta_button__' + sectionId);
+
+    // append utm params to link
+    if (queryString != '') {
+      ctaLink.href =
+        'pages/sensa-check?' +
+        '&utm_source=' +
+        utm_source +
+        '&utm_medium=' +
+        utm_medium +
+        '&utm_campaign=' +
+        utm_campaign +
+        '&utm_term=' +
+        utm_term +
+        '&utm_content=' +
+        utm_content;
+    } else {
+      ctaLink.href = 'pages/sensa-check';
+    }
+  });
+{% endjavascript %}
+
 {% schema %}
 {
   "name": "Call To Action",
@@ -65,9 +110,8 @@
     },
     {
       "id": "cta_target",
-      "type": "text",
-      "label": "Link Target",
-      "default": "#typeform"
+      "type": "page",
+      "label": "Page Link"
     }
   ],
   "presets": [
@@ -78,3 +122,5 @@
   ]
 }
 {% endschema %}
+
+{%- assign cta_target_page = section.settings.cta_target -%}
