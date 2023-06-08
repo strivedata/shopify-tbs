@@ -1,5 +1,108 @@
 <div class="getyourproduct-section tailwind" {{ block.shopify_attributes }}>
-  <div>Get your sensor</div>
+
+    <!-- Buy Your Product -->
+    <div class="relative max-w-6xl mx-auto bg-gradient-to-r from-white via-white to-gray-100">
+        <!-- Form -->
+        <div class="max-w-[60rem] px-4 py-12 sm:px-6 md:px-8">
+            <div class="flex items-center justify-center px-4 md:pl-0 md:pr-6 2xl:px-0 2xl:mx-auto 2xl:container">
+                    <div class="flex flex-col items-start justify-start w-full space-y-9">
+                        <div class="flex flex-col items-start justify-start space-y-3">
+                            <!-- Back Button -->
+                            <button class="flex flex-row items-center space-x-1 text-gray-600 dark:text-white hover:text-gray-500">
+                                <svg class="fill-stroke" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.91681 7H11.0835" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M2.91681 7L5.25014 9.33333" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M2.91681 7.00002L5.25014 4.66669" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <p class="text-sm leading-none">Back</p>
+                            </button>
+                            <!-- Page Title -->
+                            <h1 class="block text-3xl text-copy sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
+                                Get <span class="text-primary">your</span> bladder sensor now.
+                            </h1>
+                            <p class="text-xl font-light text-primary lg:leading-tight"> Step 1 of 2</p>
+                        </div>
+
+                        <div class="flex flex-col justify-center w-full space-y-6 xl:flex-row xl:justify-between xl:space-y-0 xl:space-x-6">
+
+                           <!-- Card -->
+                            <div class="group flex flex-col h-full bg-gradient-to-r from-gray-100 via-white to-gray-100 mt-4 rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                                <div class="flex flex-col items-center justify-center h-32 rounded-t-xl">
+                                    <div class="flex justify-center mt-6 w-33 sm:mt-0 xl:my-10">
+                                        <img src="{{ 'getyourproduct.png' | asset_url }}" alt="Get your product" width="200" height="200" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="p-4 md:p-6">
+                                    <span class="block mb-1 text-xs font-semibold uppercase text-highlight dark:text-rose-500">
+                                    Your selected Plan
+                                    </span>
+                                    <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
+                                    Monthly - £39 per month
+                                    </h3>
+                                    <p class="mt-3 text-gray-500">
+                                    Rent your bladder sensor: Monthly Plan. £39 per month +£149 one time deposit
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+
+                            <!-- Form -->
+                            <div class="flex flex-col p-8 bg-gradient-to-r from-gray-100 via-white to-gray-50 lg:w-full xl:w-3/5 rounded-xl">
+
+
+                                <label class="mt-2 mb-2 text-base font-semibold leading-4 text-gray-800 dark:text-gray-50">Please enter your personal data</label>
+
+                                <!-- First Name -->
+                                <div class="flex-col mt-2">
+                                    <div>
+                                        <input class="w-full p-4 text-base leading-4 text-gray-600 placeholder-gray-600 border border-gray-300 rounded" type="email" name="" id="" placeholder="First Name" />
+                                    </div>
+                                </div>
+
+                                <!-- Last Name -->
+                                <div class="flex-col mt-2">
+                                    <div>
+                                        <input class="w-full p-4 text-base leading-4 text-gray-600 placeholder-gray-600 border border-gray-300 rounded" type="text" name="" id="" placeholder="Last Name" />
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mt-2 mb-2">
+                                    <input class="w-full p-4 text-base leading-4 text-gray-600 placeholder-gray-600 border border-gray-300 rounded" type="text" name="" id="" placeholder="Email" />
+                                </div>
+
+                                <!-- Newsletter Consent -->
+                                <div class="grid pt-3 ml-1 space-y-3">
+                                    <div class="relative flex items-start ">
+                                        <div class="flex flex-col items-center justify-center h-5">
+                                            <input id="hs-checkbox-archive" name="hs-checkbox-archive" type="checkbox" class="w-4 h-4 border-gray-200 rounded text-highlight focus:ring-highlight dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" aria-describedby="hs-checkbox-archive-description">
+                                        </div>
+                                        <label for="hs-checkbox-delete" class="ml-3">
+                                            <span id="hs-checkbox-delete-description" class="block text-sm text-gray-600 dark:text-gray-500">By checking this box, I agree I want to receive news and promotional material from Novioscan about Sensa. I consent to Novioscan processing my personal data for these purposes and as described in the Privacy Policy. I understand that i can withdraw my consent at any time.</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none">
+                                    <div>
+                                        <p class="text-base leading-4">Proceed to Checkout</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+
+        <!-- Image -->
+        <div class=" lg:block lg:absolute md:top-0 md:left-1/2 md:right-0 h-full bg-[url('https://images.pexels.com/photos/7679649/pexels-photo-7679649.jpeg')] bg-no-repeat bg-center bg-cover"></div>
+      <!-- End Col -->
+    </div>
+    <!-- End -->
+  </div>
 </div>
 
 {% javascript %}
