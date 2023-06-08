@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1686190663,
+  "tsPublished": 1686190697,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -313,7 +313,7 @@
       }
     },
     "content": {
-      "href": "https:\/\/1bca9d-2.myshopify.com\/policies\/privacy-policy",
+      "href": "https:\/\/sensa.novioscan.com\/policies\/privacy-policy",
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
