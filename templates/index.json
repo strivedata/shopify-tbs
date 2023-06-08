@@ -79,6 +79,7 @@
         "0d2fdfcf-8c44-4217-b130-75dee91ed1ed": {
           "type": "feature_image_right_modal",
           "settings": {
+            "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-7278823_1.webp",
             "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_right_modal_title": "Learn more about this thing",
             "feature_image_right_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
@@ -105,6 +106,7 @@
         "75c781f6-6709-4923-8b04-9ebba2bafeeb": {
           "type": "feature_image_left_modal",
           "settings": {
+            "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
             "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_left_modal_title": "Learn more about this thing",
             "feature_image_left_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
@@ -131,6 +133,7 @@
         "b1ee15e1-b6f7-4f3c-bcfb-23c5b55247f8": {
           "type": "feature_image_right_modal",
           "settings": {
+            "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-matilda-wormwood-4099095.webp",
             "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_right_modal_title": "Learn more about this thing",
             "feature_image_right_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
@@ -157,6 +160,7 @@
         "8efb193a-022f-423c-9887-795b3e991554": {
           "type": "feature_image_left_modal",
           "settings": {
+            "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-christina-morillo-1181511_1.webp",
             "feature_image_left_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
             "feature_image_left_modal_title": "Learn more about this thing",
             "feature_image_left_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
