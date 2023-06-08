@@ -271,7 +271,7 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Why a deposit? When do I get it back?",
-            "faq_accordion_answer": "<p>Lorem ipsum<\/p>"
+            "faq_accordion_answer": "<p>The sensor is an innovative piece of hardware that costs more than $500 when purchased. In order to be able to offer the service as a rental model, we need to charge a deposit that we reimburse as soon as we receive your sensor in good shape. Think of it like a car rental.<\/p>"
           }
         }
       },
