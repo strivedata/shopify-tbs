@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "getyoursensor": {
+      "type": "getyoursensor",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "getyoursensor"
+  ]
+}

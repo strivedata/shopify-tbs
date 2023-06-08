@@ -1,0 +1,57 @@
+<div class="getyourproduct-section tailwind" {{ block.shopify_attributes }}>
+  <div>Get your sensor</div>
+</div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Get the PRINCING params from the URL
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    const utm_source = urlParams.get('utm_source');
+    const utm_medium = urlParams.get('utm_medium');
+    const utm_campaign = urlParams.get('utm_campaign');
+    const utm_term = urlParams.get('utm_term');
+    const utm_content = urlParams.get('utm_content');
+
+    // Get the typeform element
+    const typeform = document.getElementById('typeform');
+
+    // Construct typform hidden fields string
+    const hiddenFileds =
+      'utm_source=' +
+      utm_source +
+      ',utm_medium=' +
+      utm_medium +
+      ',utm_campaign=' +
+      utm_campaign +
+      ',utm_term=' +
+      utm_term +
+      ',utm_content=' +
+      utm_content;
+
+    // Set the hidden fields attribute for embedded typeform
+    typeform.setAttribute('data-tf-hidden', hiddenFileds);
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Get Your Sensor",
+  "settings": [
+    {
+      "id": "getyourproduct_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Get your Sensa now"
+    }
+  ],
+  "presets": [
+    {
+      "name": "getyourproduct",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
