@@ -111,16 +111,16 @@
       "type": "feature-image-right",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_right_title": "Data logging",
+        "feature_image_right_title": "Automatic data logging",
         "feature_image_right_description": "The app allows you to keep track of your bathroom habits, including when you go to the toilet, how                     much you drink, and how much you void. This voiding data will be share via the sensor automatically.                     No manual logs needed. This information can be used to monitor your progress and identify patterns                     that may be contributing to your incontinence to develop effective treatment strategies.",
         "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
         "feature_image_right_image_alt": "Data History App Screen",
         "feature_image_right_cta_modal_status": "show_cta_to_modal",
         "feature_image_right_cta_modal_label": "Learn more",
-        "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-matilda-wormwood-4099095.webp",
+        "feature_image_right_modal_image": "shopify:\/\/shop_images\/History_details_ios_iPhone14Pro.png",
         "feature_image_right_modal_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non.",
-        "feature_image_right_modal_title": "Learn more about this thing",
-        "feature_image_right_modal_description": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol.",
+        "feature_image_right_modal_title": "How it works",
+        "feature_image_right_modal_description": "Tracking your bathroom habits can be a tough, especially when done with pen and paper as a lot of doctors are asking for initially when treating bladder related symptoms. Our app provides a convenient and effortless way to monitor and analyze this essential data, empowering you to gain valuable insights into your condition.  With our app, you can effortlessly keep track of your bathroom activities, such as when you visit the toilet, the amount you drink, and the volume you void. We have integrated a cutting-edge sensor technology that automatically captures and shares this voiding data, eliminating the need for manual logging. This seamless process ensures that you have accurate and reliable information at your fingertips.  The collected voiding data serves as a powerful tool to monitor your progress over time. By analyzing this information, you can identify patterns and trends that may be contributing to your incontinence or other bladder-related issues. Understanding these patterns is crucial in developing effective treatment strategies tailored to your specific needs.  Our app allows you to easily share this data with healthcare professionals or specialists who are part of your care team. This collaboration enables them to have a comprehensive view of your bladder health, facilitating more accurate diagnoses and targeted treatment plans.",
         "feature_image_right_modal_close_button_label": "Got it"
       }
     },
