@@ -39,7 +39,7 @@
         "benefit_2_title": "Better understanding through data",
         "benefit_2_description": "Create automatic statistics of your voidings to understand your personal patterns.",
         "benefit_3_title": "Peace of mind",
-        "benefit_3_description": "Sensa provides peace of mind and security, so you can go about your day with confidence.",
+        "benefit_3_description": "Our sensor provides peace of mind and security, so you can go about your day with confidence.",
         "benefit_4_title": "Discrete notifications",
         "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
         "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
@@ -153,8 +153,8 @@
             "monthly_plan_interval": "per month",
             "monthly_plan_deposit": "one time deposit",
             "monthly_plan_deposit_amount": "+£149",
-            "monthly_plan_feature_1": "Sensa Sensor",
-            "monthly_plan_feature_2": "Adhesive materials",
+            "monthly_plan_feature_1": "Bladder Sensor",
+            "monthly_plan_feature_2": "Adhesive materials, delivered monthly",
             "monthly_plan_feature_3": "All App features",
             "monthly_plan_cta": "Get my sensor now"
           }
@@ -169,8 +169,8 @@
             "quarterly_plan_interval": "per month",
             "quarterly_plan_deposit": "one time deposit",
             "quarterly_plan_deposit_amount": "+£149",
-            "quarterly_plan_feature_1": "Sensa Sensor",
-            "quarterly_plan_feature_2": "Adhesive materials",
+            "quarterly_plan_feature_1": "Bladder Sensor",
+            "quarterly_plan_feature_2": "Adhesive materials, delivered quarterly",
             "quarterly_plan_feature_3": "All App features",
             "quarterly_plan_cta": "Get my sensor now"
           }
@@ -179,10 +179,10 @@
           "type": "one_time_purchase",
           "settings": {
             "one_time_purchase_title": "One Time Purchase",
-            "one_time_purchase_description": "Buy your Sensa sensor",
+            "one_time_purchase_description": "Buy your bladder sensor",
             "one_time_purchase_price": "£499",
             "one_time_purchase_interval": "one time",
-            "one_time_purchase_explainer": "Please contact our sales team for more information.                         Necessary adhesive materials can be bought seperately at our Sensa Online Shop.",
+            "one_time_purchase_explainer": "Please contact our sales team for more information.         Adhesive materials can be bought seperately at our Sensa Online Shop.",
             "one_time_purchase_cta": "Buy now"
           }
         }
@@ -197,7 +197,7 @@
         "pricing_title": "Simple, transparent pricing",
         "pricing_description": "Usually people spent",
         "pricing_comparison_amount": "£15",
-        "pricing_description_append": "per month on incontinence pads and pants. We believe SENSA should be accessible to everybody with a simple pricing.",
+        "pricing_description_append": "per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.",
         "pricing_hint_terms_taxes": "Prices in GBP. Taxes may apply."
       }
     },
