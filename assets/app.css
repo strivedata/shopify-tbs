@@ -1671,6 +1671,18 @@ select {
   padding-top: 3.2rem;
 }
 
+.tailwind :is(.pt-4) {
+  padding-top: 1.6rem;
+}
+
+.tailwind :is(.pt-3) {
+  padding-top: 1.2rem;
+}
+
+.tailwind :is(.pt-3\.5) {
+  padding-top: 1.4rem;
+}
+
 .tailwind :is(.text-left) {
   text-align: left;
 }
