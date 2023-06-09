@@ -52,7 +52,7 @@
         "scrollID": "cta",
         "cta_title": "Wonder if our bladder sensor is for you?",
         "cta_description": "Start doing our 2 minute test to see how our bladder sensor can help you.",
-        "cta_button": "Start the test",
+        "cta_button": "Start the quiz",
         "cta_target": "#typeform"
       }
     },
