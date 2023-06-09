@@ -4,7 +4,7 @@
     <div class="relative flex flex-col justify-center max-w-6xl mx-auto lg:flex-row bg-gradient-to-r from-white via-white to-white">
 
         <div class="flex flex-col w-full lg:grid lg:grid-cols-12">
-            <div class="px-8 py-12 lg:col-span-8">
+            <div class="px-8 pt-12 pb-4 md:pb-16 lg:py-12 lg:col-span-8">
                 <!-- About the program -->
                 <div class="w-full flex flex-col items-start justify-start space-y-3 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                     <!-- Page Title -->
@@ -66,11 +66,11 @@
                 </div>
             </div>
             <div class="px-8 mb-24 lg:py-12 lg:mb-0 lg:col-span-4">
-                <div class="flex flex-col items-center justify-center lg:mt-16 h-52 rounded-t-xl">
+                <div class="flex flex-col items-center justify-center sm:mt-12 md:mt-32 lg:mt-16 h-52 rounded-t-xl">
                    <img
                     class="rounded-xl"
                     src="{{ 'earlyaccess.jpg' | asset_url }}"
-                    alt="Placeholder Image"
+                    alt="Get early access image"
                     loading="lazy"
                     width="auto"
                     height="auto"
@@ -108,7 +108,7 @@
                                 <input id="hs-checkbox-archive" name="hs-checkbox-archive" type="checkbox" class="w-4 h-4 border-gray-200 rounded text-highlight focus:ring-highlight dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-highlight dark:checked:border-highlight dark:focus:ring-offset-gray-800" aria-describedby="hs-checkbox-archive-description">
                             </div>
                             <label for="hs-checkbox-delete" class="ml-3">
-                                <span id="hs-checkbox-delete-description" class="block text-sm text-copy/80 dark:text-gray-500">By checking this box, I agree I want to receive news and promotional material from Novioscan about Sensa. I consent to Novioscan processing my personal data for these purposes and as described in the Privacy Policy. I understand that i can withdraw my consent at any time.</span>
+                                <span id="hs-checkbox-delete-description" class="block text-sm text-copy/80 dark:text-gray-500">By checking this box, I agree I want to receive news and promotional material from Novioscan about Sensa. I consent to Novioscan processing my personal data for these purposes and as described in the <a href="{{ shop.privacy_policy.url }}" class="font-semibold">{{- shop.privacy_policy.title -}}</a>. I understand that i can withdraw my consent at any time.</span>
                             </label>
                         </div>
                     </div>

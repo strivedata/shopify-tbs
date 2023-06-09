@@ -999,6 +999,14 @@ select {
   margin-bottom: 9.6rem;
 }
 
+.tailwind :is(.-mt-8) {
+  margin-top: -3.2rem;
+}
+
+.tailwind :is(.-mt-12) {
+  margin-top: -4.8rem;
+}
+
 .tailwind :is(.block) {
   display: block;
 }
@@ -2103,6 +2111,14 @@ select {
   padding-left: 4.8rem;
 }
 
+.tailwind :is(.pb-6) {
+  padding-bottom: 2.4rem;
+}
+
+.tailwind :is(.pb-4) {
+  padding-bottom: 1.6rem;
+}
+
 .tailwind :is(.text-left) {
   text-align: left;
 }
@@ -2802,6 +2818,18 @@ select {
     margin-top: 2.4rem;
   }
 
+  .tailwind :is(.sm\:mt-12) {
+    margin-top: 4.8rem;
+  }
+
+  .tailwind :is(.sm\:mt-16) {
+    margin-top: 6.4rem;
+  }
+
+  .tailwind :is(.sm\:mt-32) {
+    margin-top: 12.8rem;
+  }
+
   .tailwind :is(.sm\:block) {
     display: block;
   }
@@ -2893,6 +2921,10 @@ select {
 
   .tailwind :is(.sm\:pt-0) {
     padding-top: 0px;
+  }
+
+  .tailwind :is(.sm\:pb-12) {
+    padding-bottom: 4.8rem;
   }
 
   .tailwind :is(.sm\:text-3xl) {
@@ -2996,6 +3028,14 @@ select {
 
   .tailwind :is(.md\:mt-10) {
     margin-top: 4rem;
+  }
+
+  .tailwind :is(.md\:mt-24) {
+    margin-top: 9.6rem;
+  }
+
+  .tailwind :is(.md\:mt-32) {
+    margin-top: 12.8rem;
   }
 
   .tailwind :is(.md\:block) {
