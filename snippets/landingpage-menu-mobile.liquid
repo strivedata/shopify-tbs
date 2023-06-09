@@ -7,32 +7,34 @@
 {% endcomment %}
 
 <!-- Features -->
-<li>
-  <a
-    id="HeaderDrawer-features"
-    href="#app-details"
-    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
-  >
-    Features
-  </a>
-</li>
-<!-- Pricing -->
-<li>
-  <a
-    id="HeaderDrawer-pricing"
-    href="#pricing"
-    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
-  >
-    Pricing
-  </a>
-</li>
-<!-- FAQ -->
-<li>
-  <a
-    id="HeaderDrawer-faq"
-    href="#faq"
-    class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
-  >
-    Faq
-  </a>
-</li>
+{% if template.name == 'index' %}
+  <li>
+    <a
+      id="HeaderDrawer-features"
+      href="#app-details"
+      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    >
+      Features
+    </a>
+  </li>
+  <!-- Pricing -->
+  <li>
+    <a
+      id="HeaderDrawer-pricing"
+      href="#pricing"
+      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    >
+      Pricing
+    </a>
+  </li>
+  <!-- FAQ -->
+  <li>
+    <a
+      id="HeaderDrawer-faq"
+      href="#faq"
+      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+    >
+      Faq
+    </a>
+  </li>
+{%- endif -%}

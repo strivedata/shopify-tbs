@@ -8,10 +8,12 @@
 <span
   class="tailwind show-desktop"
 >
-  <a
-    href="#pricing"
-    class="inline-flex items-center rounded-xl bg-highlight px-3.5 py-2.5 text-sm font-medium text-white shadow-sm"
-  >
-    Rent now
-  </a>
+  {% if template.name == 'index' %}
+    <a
+      href="#pricing"
+      class="inline-flex items-center rounded-xl bg-highlight px-3.5 py-2.5 text-sm font-medium text-white shadow-sm"
+    >
+      Rent now
+    </a>
+  {% endif %}
 </span>

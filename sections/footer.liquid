@@ -76,24 +76,27 @@
                 {%- endfor -%}
               </ul>
             {%- endif -%}
-            <a
-              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
-              href="#features"
-              >Overview</a
-            ><a
-              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
-              href="#app-details"
-              >Features</a
-            ><a
-              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
-              href="#pricing"
-              >Pricing</a
-            >
-            <a
-              class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
-              href="#faq"
-              >FAQ</a
-            >
+
+            {% if template.name == 'index' %}
+              <a
+                class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+                href="#features"
+                >Overview</a
+              ><a
+                class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+                href="#app-details"
+                >Features</a
+              ><a
+                class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+                href="#pricing"
+                >Pricing</a
+              >
+              <a
+                class="inline-block px-2 py-1 text-sm rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-900"
+                href="#faq"
+                >FAQ</a
+              >
+            {% endif %}
           </div>
         </nav>
       </div>
@@ -115,8 +118,8 @@
             class="inline-block px-2 py-1 text-sm font-normal rounded-lg text-slate-500 hover:text-slate-300"
             href="#cookies"
             onclick="Pandectes.fn.revokeConsent()"
-            >Cookies</a
-          >
+            >Cookies
+          </a>
         </div>
         <p class="pt-8 mt-6 text-sm text-slate-500 sm:mt-0 lg:pt-0">Copyright &copy; {{ 'now' | date: '%Y' }}</p>
       </div>
