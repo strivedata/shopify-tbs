@@ -216,23 +216,6 @@
   </div>
 </div>
 
-{% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Get the PRICING params from the URL
-
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-
-    const pricing_plan = urlParams.get('plan');
-
-    // Get the pricing plan element
-    const pricingPlanCard = document.getElementById(pricing_plan);
-
-    // Remove hidden for actvive plan to dhow the selceted Pricing Plan
-    pricingPlanCard.classList.remove('hidden');
-  });
-{% endjavascript %}
-
 {% schema %}
 {
   "name": "Early Access",
