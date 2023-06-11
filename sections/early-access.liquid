@@ -196,14 +196,6 @@
                             document.addEventListener(
                                 'DOMContentLoaded',
                                 function () {
-                                    // Fire the event to GTM Datalayer
-                                   setTimeout(
-                                        window.dataLayer = window.dataLayer || [];
-                                        window.dataLayer.push({
-                                            'event': 'registrationComplete',
-                                        });
-                                        console.log('EVENT: registrationComplete');
-                                    , 500);
                                     console.log('EVENT: form.posted_successfully');
                                     window.location.replace("/pages/thank-you");
                                 },
@@ -212,8 +204,6 @@
                             </script>
                         {% endif %}
                     {% endform %}
-
-
                 </div>
             </div>
         </div>
@@ -240,9 +230,6 @@
 
     // Remove hidden for actvive plan to dhow the selceted Pricing Plan
     pricingPlanCard.classList.remove('hidden');
-
-    // Add query param to the link
-    document.getElementById('proceed-to-checkout').href = "/pages/check-early?plan=" + pricing_plan;
   });
 {% endjavascript %}
 
@@ -259,7 +246,7 @@
   ],
   "presets": [
     {
-      "name": "earlyadopter",
+      "name": "early_access",
       "category": "Custom"
     }
   ]

@@ -49,3 +49,33 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Fire the event to GTM Datalayer
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'registrationComplete',
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Result Section",
+  "settings": [
+    {
+      "id": "result_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Thank You!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "result",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
