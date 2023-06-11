@@ -354,14 +354,9 @@
         "cta_newsletter_privacy_link": "privacy policy",
         "cta_newsletter_privacy_link_target": "#privay-policy"
       }
-    },
-    "early_access": {
-      "type": "early-access",
-      "settings": {}
     }
   },
   "order": [
-    "early_access",
     "hero",
     "features_with_video",
     "benefits_with_image",

@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "early_access": {
+      "type": "early-access",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "early_access"
+  ]
+}
