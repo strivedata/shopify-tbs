@@ -1,7 +1,7 @@
 <div class="result-section tailwind" {{ block.shopify_attributes }}>
   <div class="flex flex-col flex-grow h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
     <div class="flex justify-center w-full">
-      <div class="pt-12 lg:-mt-32 w-[60rem]">
+      <div class="pt-12 lg:-mt-32 w-[60rem] {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="aspect-w-16 aspect-h-7">
           <img
             class="object-cover w-full rounded-xl"
@@ -12,14 +12,31 @@
         </div>
       </div>
     </div>
-    <h1 class="mx-auto mt-8 text-4xl tracking-tight text-center text-headlines sm:text-7xl lg:text-left">Thank You!</h1>
-    <h1 class="block text-2xl font-bold text-white"></h1>
-    <div class="flex justify-center w-full pt-4 pb-6">
+    <h1
+      class="mx-auto mt-8 text-4xl tracking-tight text-center text-headlines sm:text-7xl lg:text-left"
+      {% if settings.animations_reveal_on_scroll %}
+        scroll-trigger animate--slide-in
+      {% endif %}
+    >
+      Thank You!
+    </h1>
+    <h1
+      class="block text-2xl font-bold text-white"
+      {% if settings.animations_reveal_on_scroll %}
+        scroll-trigger animate--slide-in
+      {% endif %}
+    ></h1>
+    <div
+      class="flex justify-center w-full pt-4 pb-6"
+      {% if settings.animations_reveal_on_scroll %}
+        scroll-trigger animate--slide-in
+      {% endif %}
+    >
       <p class="max-w-md text-gray-600 dark:text-gray-400">
         Thanks for signing up for our Sensa Early Access Program. We will be sending more information soon.
       </p>
     </div>
-    <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3">
+    <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <a
         class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-semibold transition-all border border-transparent rounded-md text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
         href="/"
