@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result": {
+      "type": "result",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result"
+  ]
+}

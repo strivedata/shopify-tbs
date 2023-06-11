@@ -354,9 +354,14 @@
         "cta_newsletter_privacy_link": "privacy policy",
         "cta_newsletter_privacy_link_target": "#privay-policy"
       }
+    },
+    "result": {
+      "type": "result",
+      "settings": {}
     }
   },
   "order": [
+    "result",
     "hero",
     "features_with_video",
     "benefits_with_image",
