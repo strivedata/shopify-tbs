@@ -1,15 +1,18 @@
-<div class="typeform-section" {{ block.shopify_attributes }}>
-  <div
-    id="typeform"
-    data-tf-widget="{{ section.settings.typeformID }}"
-    data-tf-opacity="100"
-    data-tf-iframe-props="{{ section.settings.typeform_iframe_props }}"
-    data-tf-transitive-search-params
-    data-tf-medium="snippet"
-    data-tf-hidden="utm_source=,utm_medium=,utm_campaign=,utm_term=,utm_content="
-    style="width:100%;height:500px;"
-  ></div>
-  <script src="//embed.typeform.com/next/embed.js" defer></script>
+<div class="typeform-section tailwind" {{ block.shopify_attributes }}>
+  <div class="min-h-[80vh]">
+    <div
+      id="typeform"
+      data-tf-widget="{{ section.settings.typeformID }}"
+      data-tf-opacity="100"
+      data-tf-iframe-props="{{ section.settings.typeform_iframe_props }}"
+      data-tf-transitive-search-params
+      data-tf-medium="snippet"
+      data-tf-hidden="utm_source=,utm_medium=,utm_campaign=,utm_term=,utm_content="
+      style="width:100%;"
+      class="!h-[60vh] md:!h-[80vh]"
+    ></div>
+    <script src="//embed.typeform.com/next/embed.js" defer></script>
+  </div>
 </div>
 
 {% javascript %}

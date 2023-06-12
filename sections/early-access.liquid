@@ -79,59 +79,9 @@
                 <!-- Form -->
                 <div class="flex flex-col px-8 pt-4 pb-8 bg-gradient-to-r from-gray-100 via-gray-100 to-gray-100 lg:max-w-[90rem] xl:w-3/5 rounded-b-xl {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 
-                    <label class="py-2 mt-2 mb-2 text-base font-semibold leading-4 text-copy dark:text-gray-50">Please enter your contact information</label>
+                    <label class="py-2 mt-2 mb-2 text-base font-semibold leading-4 text-copy dark:text-gray-50">Please enter your email address</label>
 
                     {% form 'customer', id: 'LearnMoreModal', return_to: 'routes.root_url' %}
-
-                        <!-- First Name -->
-                        <div class="flex-col mt-2">
-                            <input
-                                class="block w-full px-4 py-3 text-sm border-gray-200 rounded-md focus:border-highlight focus:ring-highlight dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                                type="text"
-                                name="contact[firstName]"
-                                aria-required="true"
-                                autocorrect="off"
-                                autocapitalize="off"
-                                {% if form.errors %}
-                                autofocus
-                                aria-invalid="true"
-                                aria-describedby="EarlyAccess-error"
-                                {% endif %}
-                                placeholder="First Name"
-                                required
-                            >
-                            {%- if form.errors -%}
-                                <small>
-                                    {{- form.errors.translated_fields.firstName | capitalize }}
-                                    {{ form.errors.messages.firstName -}}
-                                </small>
-                            {%- endif -%}
-                        </div>
-
-                        <!-- Last Name -->
-                        <div class="flex-col mt-2">
-                            <input
-                                class="block w-full px-4 py-3 text-sm border-gray-200 rounded-md focus:border-highlight focus:ring-highlight dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                                type="text"
-                                name="contact[lastName]"
-                                aria-required="true"
-                                autocorrect="off"
-                                autocapitalize="off"
-                                {% if form.errors %}
-                                autofocus
-                                aria-invalid="true"
-                                aria-describedby="EarlyAccess-error"
-                                {% endif %}
-                                placeholder="Last Name"
-                                required
-                            >
-                            {%- if form.errors -%}
-                                <small>
-                                    {{- form.errors.translated_fields.lastName | capitalize }}
-                                    {{ form.errors.messages.lastName -}}
-                                </small>
-                            {%- endif -%}
-                        </div>
 
                         <!-- Email Name -->
                         <div class="flex-col mt-2">
@@ -166,7 +116,7 @@
                                     <input id="hs-checkbox-archive" name="hs-checkbox-archive" type="checkbox" checked=true class="w-4 h-4 border-gray-200 rounded text-highlight focus:ring-highlight dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-highlight dark:checked:border-highlight dark:focus:ring-offset-gray-800" aria-describedby="hs-checkbox-archive-description">
                                 </div>
                                 <label for="hs-checkbox-delete" class="ml-3">
-                                    <span id="hs-checkbox-delete-description" class="block text-sm text-copy/80 dark:text-gray-500">By submitting your email you agree to receive news and promotional material from Novioscan about Sensa and allow to Novioscan to process my personal data for these purposes and as described in the <a href="{{ shop.privacy_policy.url }}" class="font-semibold">{{- shop.privacy_policy.title -}}</a>.</span>
+                                    <span id="hs-checkbox-delete-description" class="block text-sm text-copy/80 dark:text-gray-500">By submitting your email you agree to receive news and promotional material from Novioscan about the Sensor and allow to Novioscan to process my personal data for these purposes and as described in the <a href="{{ shop.privacy_policy.url }}" class="font-semibold">{{- shop.privacy_policy.title -}}</a>.</span>
                                 </label>
                             </div>
                         </div>
