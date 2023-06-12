@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result_stress": {
+      "type": "result-stress",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result_stress"
+  ]
+}
