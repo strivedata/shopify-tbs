@@ -2098,6 +2098,20 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.tailwind :is(.text-green-400) {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+
+.tailwind :is(.\!text-green-400) {
+  --tw-text-opacity: 1 !important;
+  color: rgb(74 222 128 / var(--tw-text-opacity)) !important;
+}
+
+.tailwind :is(.text-inherit) {
+  color: inherit;
+}
+
 .tailwind :is(.\!no-underline) {
   text-decoration-line: none !important;
 }
