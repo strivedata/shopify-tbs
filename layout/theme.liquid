@@ -11,8 +11,6 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     {%- if settings.environment == 'production' -%}
-      <!-- TODO:Add Prod Google Tag Manager Script conf -->
-    {%- else -%}
       <!-- Google Tag Manager -->
       <script>
         (function (w, d, s, l, i) {
@@ -27,6 +25,8 @@
         })(window, document, 'script', 'dataLayer', 'GTM-TPDBVK9');
       </script>
       <!-- End Google Tag Manager -->
+    {%- else -%}
+      <!-- Add Dev Configuration -->
     {%- endif -%}
 
     {%- if settings.favicon != blank -%}
