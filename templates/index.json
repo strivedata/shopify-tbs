@@ -273,6 +273,27 @@
             "faq_accordion_question": "How does it work exactly?",
             "faq_accordion_answer": "<p>Think of the sensor as miniature version of the ultrasound scanners you know from a hospital of gynecologists. It uses the same methodology that doctors use for a long time, it is just so small you can actually wear it on your body and carry it with you.<\/p>"
           }
+        },
+        "f6479f0a-c21a-45de-966d-814142345808": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "How is the data collected in the voiding diary?",
+            "faq_accordion_answer": "<p>The sensor regularly scan the filling status of your bladder. This enables the app to calculate how the filling status is changing and logs the differences automatically in the app.<\/p>"
+          }
+        },
+        "74f36298-64ce-4705-9c05-ba971a32e1f7": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "How long can I use the sensor?",
+            "faq_accordion_answer": "<p>The sensor is designed to work for years. Each 2 years we recommend a maintainance service interval to recalibrate the sensor and clean the device.<\/p>"
+          }
+        },
+        "4f746ca2-f77a-4fce-b427-758d7268e438": {
+          "type": "faq_accordion_question",
+          "settings": {
+            "faq_accordion_question": "How long does the battery last? When do I need to recharge?",
+            "faq_accordion_answer": "<p>The battery lasts for ± 1.5-2 days, the charging time is ± 1.5-2 hours.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -285,7 +306,10 @@
         "93411a04-977d-406e-93db-46b9bf88c500",
         "7c3f0737-995c-434b-82c1-f4483806267c",
         "4712f9ab-ad4f-47af-ab35-73f95d0c1ede",
-        "c0f78e63-48a3-4e21-987b-2a8ac5cf5fd2"
+        "c0f78e63-48a3-4e21-987b-2a8ac5cf5fd2",
+        "f6479f0a-c21a-45de-966d-814142345808",
+        "74f36298-64ce-4705-9c05-ba971a32e1f7",
+        "4f746ca2-f77a-4fce-b427-758d7268e438"
       ],
       "settings": {
         "scrollID": "faq",
