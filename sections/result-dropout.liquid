@@ -2,7 +2,7 @@
   <div class="flex flex-col h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
     <div class="flex flex-col px-4 h-3/4">
       <h1
-        class="mx-auto mt-8 !text-5xl tracking-tight text-center text-accent sm:text-7xl lg:text-left"
+        class="mx-auto mt-8 !text-5xl tracking-tight text-center text-accent lg:text-left max-w-lg"
         {% if settings.animations_reveal_on_scroll %}
           scroll-trigger animate--slide-in
         {% endif %}
@@ -19,7 +19,93 @@
           {{ page.content }}
         </p>
 
-        <p class="max-w-md text-gray-600 dark:text-gray-400">Please notify me</p>
+        <div class="mt-12 lg:mb-0 ">
+          <!-- Form -->
+          <div class="flex flex-col bg-gradient-to-r rounded-xl from-gray-100 via-gray-100 to-gray-100 lg:max-w-[90rem] xl:w-3/5 rounded-b-xl {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <div class="px-8 pt-8 pb-8 ">
+              <label class="py-2 mt-2 mb-6 text-base font-semibold leading-4 text-copy dark:text-gray-50"
+                >Please enter your email address</label
+              >
+
+              {% form 'customer', id: 'PleaseNotifyMe' %}
+                <!-- Email Name -->
+                <div class="flex-col mt-4">
+                  <input
+                    class="block w-full px-4 py-3 text-sm border-gray-200 rounded-md focus:border-highlight focus:ring-highlight dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
+                    type="email"
+                    name="contact[email]"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="PleaseNotifyMe-error"
+                    {% endif %}
+                    placeholder="{{ 'newsletter.label' | t }}"
+                    required
+                  >
+                  {%- if form.errors -%}
+                    <small>
+                      {{- form.errors.translated_fields.email | capitalize }}
+                      {{ form.errors.messages.email -}}
+                    </small>
+                  {%- endif -%}
+                </div>
+
+                <!-- Newsletter Consent -->
+                <div class="grid pt-3 ml-1 space-y-3">
+                  <div class="relative flex items-start ">
+                    <div class="flex flex-col items-center justify-center hidden h-5">
+                      <input
+                        id="hs-checkbox-archive"
+                        name="hs-checkbox-archive"
+                        type="checkbox"
+                        checked="true"
+                        class="w-4 h-4 border-gray-200 rounded text-highlight focus:ring-highlight dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-highlight dark:checked:border-highlight dark:focus:ring-offset-gray-800"
+                        aria-describedby="hs-checkbox-archive-description"
+                      >
+                    </div>
+                    <label for="hs-checkbox-delete">
+                      <span id="hs-checkbox-delete-description" class="block text-sm text-copy/80 dark:text-gray-500"
+                        >By submitting your email you agree to receive news and promotional material from Novioscan
+                        about the Sensor and allow to Novioscan to process my personal data for these purposes and as
+                        described in the
+                        <a href="{{ shop.privacy_policy.url }}" class="font-semibold">
+                          {{- shop.privacy_policy.title -}}</a
+                        >.</span
+                      >
+                    </label>
+                  </div>
+                </div>
+
+                <div class="flex justify-center w-full mt-8">
+                  <button
+                    id="cta_button__dropout_bmi_please_notify_me"
+                    type="submit"
+                    value="Please notify me"
+                    class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+                  >
+                    <div>Yes! Please notify me</div>
+                  </button>
+                </div>
+
+                {% if form.posted_successfully? %}
+                  <script>
+                    document.addEventListener(
+                      'DOMContentLoaded',
+                      function () {
+                        // TODO: Trigger Modal thank we will inform you as soon as there are updates
+                      },
+                      false
+                    );
+                  </script>
+                {% endif %}
+              {% endform %}
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- TODO: Form please notify me -->
