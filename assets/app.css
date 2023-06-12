@@ -1155,6 +1155,10 @@ select {
   height: 75%;
 }
 
+.tailwind :is(.h-4\/5) {
+  height: 80%;
+}
+
 .tailwind :is(.min-h-\[60vh\]) {
   min-height: 60vh;
 }
