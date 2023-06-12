@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result_qualified": {
+      "type": "result-qualified",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result_qualified"
+  ]
+}
