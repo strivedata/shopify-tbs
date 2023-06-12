@@ -1007,6 +1007,22 @@ select {
   margin-right: 1.6rem;
 }
 
+.tailwind :is(.-mb-8) {
+  margin-bottom: -3.2rem;
+}
+
+.tailwind :is(.-mb-4) {
+  margin-bottom: -1.6rem;
+}
+
+.tailwind :is(.-mb-6) {
+  margin-bottom: -2.4rem;
+}
+
+.tailwind :is(.-mb-12) {
+  margin-bottom: -4.8rem;
+}
+
 .tailwind :is(.block) {
   display: block;
 }
@@ -1133,6 +1149,10 @@ select {
 
 .tailwind :is(.h-12) {
   height: 4.8rem;
+}
+
+.tailwind :is(.h-3\/4) {
+  height: 75%;
 }
 
 .tailwind :is(.min-h-\[60vh\]) {
@@ -1926,6 +1946,14 @@ select {
   padding-right: 0.8rem;
 }
 
+.tailwind :is(.pt-6) {
+  padding-top: 2.4rem;
+}
+
+.tailwind :is(.pb-12) {
+  padding-bottom: 4.8rem;
+}
+
 .tailwind :is(.text-left) {
   text-align: left;
 }
@@ -2554,6 +2582,10 @@ select {
 
   .tailwind :is(.sm\:mt-6) {
     margin-top: 2.4rem;
+  }
+
+  .tailwind :is(.sm\:-mb-0) {
+    margin-bottom: -0px;
   }
 
   .tailwind :is(.sm\:block) {
