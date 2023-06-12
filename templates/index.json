@@ -317,50 +317,6 @@
         "faq_description": "How to use it in your daily life."
       }
     },
-    "410cb7fa-19fb-4afc-abac-7dd860c60426": {
-      "type": "faq",
-      "blocks": {
-        "5bca26f6-4a84-4698-88c2-57139219fdfe": {
-          "type": "faq_accordion_question",
-          "settings": {
-            "faq_accordion_question": "How does it work exactly?",
-            "faq_accordion_answer": "<p>Think of the sensor as miniature version of the ultrasound scanners you know from a hospital of gynecologists. It uses the same methodology that doctors use for a long time, it is just so small you can actually wear it on your body and carry it with you.<\/p>"
-          }
-        },
-        "eab663c6-7406-4f46-b9de-b3996f4f17fa": {
-          "type": "faq_accordion_question",
-          "settings": {
-            "faq_accordion_question": "How is the data collected in the voiding diary?",
-            "faq_accordion_answer": "<p>The sensor regularly scan the filling status of your bladder. This enables the app to calculate how the filling status is changing and logs the differences automatically in the app.<\/p>"
-          }
-        },
-        "7012fee6-b0f6-4273-8553-e09609400bfb": {
-          "type": "faq_accordion_question",
-          "settings": {
-            "faq_accordion_question": "How long can I use the sensor?",
-            "faq_accordion_answer": "<p>The sensor is designed to work for years. Each 2 years we recommend a maintainance service interval to recalibrate the sensor and clean the device.<\/p>"
-          }
-        },
-        "31bc4d7f-d431-4a71-9e63-65fe3d6cd8d0": {
-          "type": "faq_accordion_question",
-          "settings": {
-            "faq_accordion_question": "How long does the battery last? When do I need to recharge?",
-            "faq_accordion_answer": "<p>The battery lasts for ± 1.5-2 days, the charging time is ± 1.5-2 hours.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "5bca26f6-4a84-4698-88c2-57139219fdfe",
-        "eab663c6-7406-4f46-b9de-b3996f4f17fa",
-        "7012fee6-b0f6-4273-8553-e09609400bfb",
-        "31bc4d7f-d431-4a71-9e63-65fe3d6cd8d0"
-      ],
-      "settings": {
-        "scrollID": "faq",
-        "faq_title": "Frequently asked questions",
-        "faq_description": "Technical questions"
-      }
-    },
     "cta_page_end": {
       "type": "cta-page-end",
       "settings": {
@@ -400,7 +356,6 @@
     "feature_image_left_2",
     "pricing",
     "faq",
-    "410cb7fa-19fb-4afc-abac-7dd860c60426",
     "cta_page_end",
     "cta_newsletter"
   ]
