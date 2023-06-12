@@ -1,8 +1,8 @@
-<div class="result-section tailwind" {{ block.shopify_attributes }}>
+<div class="result-signup-section tailwind" {{ block.shopify_attributes }}>
   <div class="flex flex-col h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
-    <div class="flex flex-col h-3/4">
+    <div class="flex flex-col px-4 h-3/4">
       <h1
-        class="mx-auto mt-8 text-4xl tracking-tight text-center text-accent sm:text-7xl lg:text-left"
+        class="mx-auto mt-8 !text-5xl tracking-tight text-center text-accent sm:text-7xl lg:text-left"
         {% if settings.animations_reveal_on_scroll %}
           scroll-trigger animate--slide-in
         {% endif %}
@@ -10,7 +10,7 @@
         {{ page.title }}
       </h1>
       <div
-        class="flex justify-center w-full pt-4 pb-6"
+        class="flex flex-col items-center justify-center w-full max-w-md pt-4 pb-6 mx-auto space-y-6 page_result-section__content"
         {% if settings.animations_reveal_on_scroll %}
           scroll-trigger animate--slide-in
         {% endif %}
@@ -43,3 +43,9 @@
     });
   });
 {% endjavascript %}
+
+{% stylesheet %}
+  .page_result-section__content img {
+    border-radius: 1.5rem;
+  }
+{% endstylesheet %}

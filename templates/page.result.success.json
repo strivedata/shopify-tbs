@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result_success": {
+      "type": "result-success",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result-success"
+  ]
+}

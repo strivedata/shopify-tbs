@@ -1,4 +1,4 @@
-<div class="result-section tailwind" {{ block.shopify_attributes }}>
+<div class="result-mixed-section tailwind" {{ block.shopify_attributes }}>
   <div class="flex flex-col h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
     <div class="flex flex-col px-4 h-3/4">
       <h1
@@ -18,7 +18,11 @@
         <p class="max-w-md text-gray-600 dark:text-gray-400">
           {{ page.content }}
         </p>
+        <p class="max-w-md text-gray-600 dark:text-gray-400">Test your Sensor</p>
       </div>
+
+      <!-- TODO: CTA: Test Your Sensor -->
+
       <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <a
           class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-semibold transition-all border border-transparent rounded-md text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
@@ -33,6 +37,16 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Fire the event to GTM Datalayer
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'typeformQualified',
+    });
+  });
+{% endjavascript %}
 
 {% stylesheet %}
   .page_result-section__content img {
