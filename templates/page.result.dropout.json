@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result_dropout": {
+      "type": "result-dropout",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result-dropout"
+  ]
+}

@@ -33,3 +33,13 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', () => {
+    // Fire the event to GTM Datalayer
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'registrationComplete',
+    });
+  });
+{% endjavascript %}

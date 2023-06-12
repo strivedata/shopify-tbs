@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "result_signup": {
+      "type": "result-signup",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "result-signup"
+  ]
+}
