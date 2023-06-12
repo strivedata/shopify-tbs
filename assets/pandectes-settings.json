@@ -1,11 +1,11 @@
 {
   "store": {
-    "plan": "plus",
+    "plan": "premium",
     "theme": "Sensa Theme",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1686311874,
+  "tsPublished": 1686563794,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -558,7 +558,7 @@
     ]
   },
   "blocker": {
-    "isActive": false,
+    "isActive": true,
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
@@ -593,7 +593,7 @@
 
         ],
         "2": [
-
+          "https:\/\/www.googletagmanager.com\/gtm.js?id=GTM"
         ],
         "4": [
 
