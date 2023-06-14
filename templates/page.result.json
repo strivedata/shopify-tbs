@@ -1,12 +1,12 @@
 {
   "sections": {
-    "result": {
-      "type": "result",
+    "thank_you_for_signing_up": {
+      "type": "confirm-early-access",
       "settings": {
       }
     }
   },
   "order": [
-    "result"
+    "thank_you_for_signing_up"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "confirm_newsletter_signup": {
+      "type": "confirm_newsletter_signup",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "confirm_newsletter_signup"
+  ]
+}

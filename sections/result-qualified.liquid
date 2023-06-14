@@ -1,55 +1,61 @@
 <div class="result-qualified-section tailwind" {{ block.shopify_attributes }}>
-  <div class="flex flex-col h-screen px-4 py-10 mb-24 lg:justify-center sm:px-6 lg:px-8">
+  <div class="flex flex-col px-4 py-10 mb-24 lg:justify-center sm:px-6 lg:px-8 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"">
     <div class="flex flex-col px-4 h-3/4">
-      <h1
-        class="mx-auto mt-8 !text-5xl tracking-tight !text-green-400"
-        {% if settings.animations_reveal_on_scroll %}
-          scroll-trigger animate--slide-in
-        {% endif %}
-      >
-        {{ page.title }}
-      </h1>
-      <div
-        class="flex flex-col items-center justify-center w-full max-w-md pt-4 pb-6 mx-auto space-y-6 page_result-section__content"
-        {% if settings.animations_reveal_on_scroll %}
-          scroll-trigger animate--slide-in
-        {% endif %}
-      >
-        <p class="max-w-md text-gray-600 dark:text-gray-400">
-          {{ page.content }}
-        </p>
-
-        <div class="max-w-6xl px-6 mx-auto sm:pt-0 lg:flex lg:px-8 lg:pt-16">
           <div
-            class="
-              flex flex-col items-center justify-center max-w-2xl mx-auto {% if settings.animations_reveal_on_scroll %}
-                scroll-trigger animate--slide-in
-              {% endif %}
-            "
-          >
-            <div class="flex flex-col items-center mt-10 lg:items-start gap-y-6 gap-x-6">
-              <a
-                id="cta_button__result_qualified__get_your_sensor_now"
-                href="/#pricing"
-                class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+        class="flex flex-col items-center justify-center w-full max-w-md pt-4 pb-2 mx-auto page_result-section__content"
+        {% if settings.animations_reveal_on_scroll %}
+          scroll-trigger animate--slide-in
+        {% endif %}
+      >
+        <!-- Card -->
+        <div class="flex flex-col max-w-md px-6 pb-8 space-y-6 text-gray-600 bg-gradient-to-r rounded-xl from-gray-50 via-gray-100 to-gray-100 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"" >
+          <!-- Icon -->
+          <div class="flex flex-col items-center justify-center w-full pt-6 bg-gradient-to-r from-gray-50 via-gray-100 to-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 !text-green-400">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <!-- Title -->
+          <div class="flex items-center justify-between space-y-6">
+             <div class="!text-center">
+              <h1
+                class="mx-auto !text-4xl tracking-tight max-w-md {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}""
+                {% if settings.animations_reveal_on_scroll %}
+                  scroll-trigger animate--slide-in
+                {% endif %}
               >
-                Get your Sensor now
-              </a>
-              <a
-                id="cta_button__result_qualified_get_free_medical_consultation"
-                class="text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
-              >
-                Get a free medical consultation
-                <span aria-hidden="true" class="ml-1">→</span></a
-              >
+               {{ page.title }}
+              </h1>
             </div>
           </div>
+          <!-- Content -->
+          {{ page.content }}
+         <div class="flex flex-col items-center">
+          <!-- CTA -->
+          <div class="flex justify-center w-full mt-8">
+            <a
+              href="/#pricing"
+              id="cta_button__result_qualified_get_free_medical_consultation"
+              value="Please notify me"
+              class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+            >
+              <div>Get your Sensor now</div>
+            </a>
+          </div>
+          <a
+              id="cta_button__result_qualified_get_free_medical_consultation_2"
+              class="mt-6 text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
+            >
+              Get a free medical consultation
+              <span aria-hidden="true" class="ml-1">→</span>
+            </a>
+         </div>
         </div>
       </div>
 
       <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <a
-          class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-semibold transition-all border border-transparent rounded-md text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
+          class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm transition-all border border-transparent cursor-pointer rounded-3xl hover:scale-105 text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
           href="/"
         >
           <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -63,20 +69,23 @@
 </div>
 
 {% javascript %}
+
   document.addEventListener('DOMContentLoaded', () => {
     // Let's do some paper stuff TODO: Update text
     let emailAddress = 'shop@' + 'thedarkhorse.de';
-    let moreInfo = document.getElementById('cta_button__result_qualified_get_free_medical_consultation');
-    moreInfo.href =
+
+    let freeMedical = document.getElementById('cta_button__result_qualified_get_free_medical_consultation_2');
+
+    freeMedical.href =
       'mailto:' +
       emailAddress +
       '?subject=Get a free medical consultation&body=Hi, I am interested into getting a free medical consultation regarding the bladder sensor. Please contact me. Best regards';
 
-    // Fire the event to GTM Datalayer
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'typeformQualified',
-    });
+      // Fire the event to GTM Datalayer
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'typeformQualified',
+      });
   });
 {% endjavascript %}
 

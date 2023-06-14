@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "confirm_notifyme_signup": {
+      "type": "confirm-notifyme-signup",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "confirm_notifyme_signup"
+  ]
+}

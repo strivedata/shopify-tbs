@@ -1,0 +1,41 @@
+<div class="confirm-earlyaccess-signup-section tailwind" {{ block.shopify_attributes }}>
+  <div class="flex flex-col h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
+    <div class="flex flex-col px-4 h-3/4">
+      <h1
+        class="mx-auto mt-8 !text-5xl tracking-tight text-center text-accent sm:text-7xl lg:text-left"
+        {% if settings.animations_reveal_on_scroll %}
+          scroll-trigger animate--slide-in
+        {% endif %}
+      >
+        {{ page.title }}
+      </h1>
+      <div
+        class="flex flex-col items-center justify-center w-full max-w-md pt-4 pb-6 mx-auto space-y-6 page_result-section__content"
+        {% if settings.animations_reveal_on_scroll %}
+          scroll-trigger animate--slide-in
+        {% endif %}
+      >
+        <p class="max-w-md text-gray-600 dark:text-gray-400">
+          {{ page.content }}
+        </p>
+      </div>
+      <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <a
+          class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm font-semibold transition-all border border-transparent rounded-md text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
+          href="/"
+        >
+          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M11.2792 1.64001L5.63273 7.28646C5.43747 7.48172 5.43747 7.79831 5.63273 7.99357L11.2792 13.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Back to home
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .page_result-section__content img {
+    border-radius: 1.5rem;
+  }
+{% endstylesheet %}

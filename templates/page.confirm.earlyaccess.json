@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "confirm_earlyaccess_signup": {
+      "type": "confirm-earlyaccess-signup",
+      "settings": {}
+    }
+  },
+  "order": ["confirm_earlyaccess_signup"]
+}

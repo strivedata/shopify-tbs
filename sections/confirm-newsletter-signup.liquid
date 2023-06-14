@@ -1,4 +1,4 @@
-<div class="result-signup-section tailwind" {{ block.shopify_attributes }}>
+<div class="confirm-newsletter-signup-section tailwind" {{ block.shopify_attributes }}>
   <div class="flex flex-col h-screen px-4 py-10 text-center lg:justify-center sm:px-6 lg:px-8">
     <div class="flex flex-col px-4 h-3/4">
       <h1
@@ -33,16 +33,6 @@
     </div>
   </div>
 </div>
-
-{% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Fire the event to GTM Datalayer
-    //window.dataLayer = window.dataLayer || [];
-    //window.dataLayer.push({
-    //  event: 'registrationComplete',
-    //});
-  });
-{% endjavascript %}
 
 {% stylesheet %}
   .page_result-section__content img {
