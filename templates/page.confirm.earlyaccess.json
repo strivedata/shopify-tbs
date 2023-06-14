@@ -2,8 +2,11 @@
   "sections": {
     "confirm_earlyaccess_signup": {
       "type": "confirm-earlyaccess-signup",
-      "settings": {}
+      "settings": {
+      }
     }
   },
-  "order": ["confirm_earlyaccess_signup"]
+  "order": [
+    "confirm_earlyaccess_signup"
+  ]
 }
