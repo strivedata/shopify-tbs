@@ -52,7 +52,7 @@
         "scrollID": "cta",
         "cta_title": "Wonder if our bladder sensor is for you?",
         "cta_description": "Start doing our 2 minute test to see how our bladder sensor can help you.",
-        "cta_button": "Start the quiz",
+        "cta_button": "Start the test",
         "cta_target": "#typeform"
       }
     },
@@ -148,7 +148,7 @@
           "type": "monthly_plan",
           "settings": {
             "monthly_plan_title": "Monthly Plan",
-            "monthly_plan_description": "Rent your bladder sensor: Monthly Plan",
+            "monthly_plan_description": "Rent your bladder sensor on a monthly basis",
             "monthly_plan_price": "£39",
             "monthly_plan_interval": "per month",
             "monthly_plan_deposit": "one time deposit",
@@ -163,8 +163,8 @@
           "type": "quarterly_plan",
           "settings": {
             "quarterly_plan_savings": "Safe £10 per month",
-            "quarterly_plan_title": "Quarterly Plan",
-            "quarterly_plan_description": "Rent your bladder sensor: Quarterly Plan",
+            "quarterly_plan_title": "3 Month Plan",
+            "quarterly_plan_description": "Rent your bladder sensor for 3 months",
             "quarterly_plan_price": "£29",
             "quarterly_plan_interval": "per month",
             "quarterly_plan_deposit": "one time deposit",
@@ -325,7 +325,7 @@
         "cta_page_end_description": "We offer to help you to check if the bladder sensor is for you.",
         "cta_page_end_cta_primary": "Get your sensor now",
         "cta_page_end_cta_primary_target": "#pricing",
-        "cta_page_end_cta_secondary": "Get a free medical consultation",
+        "cta_page_end_cta_secondary": "Get a free consultation",
         "cta_page_end_cta_secondary_target": "#medical",
         "cta_page_end_image": "shopify:\/\/shop_images\/cta-pagend.png",
         "cta_page_end_image_alt": ""
