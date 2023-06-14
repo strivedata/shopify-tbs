@@ -215,7 +215,7 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "Will it interfere with my belt?",
-            "faq_accordion_answer": "<p>The sensor is placed above the “belt” region so it should not interfere when you are wearing a belt.<\/p>"
+            "faq_accordion_answer": "<p>The sensor is placed below the “belt” region, just above the pubic bone, so it should not interfere when you are wearing a belt.<\/p>"
           }
         },
         "80e96fc7-b0b7-4d1f-aeab-4b6637e05b2d": {
@@ -271,7 +271,7 @@
           "type": "faq_accordion_question",
           "settings": {
             "faq_accordion_question": "How does it work exactly?",
-            "faq_accordion_answer": "<p>Think of the sensor as miniature version of the ultrasound scanners you know from a hospital of gynecologists. It uses the same methodology that doctors use for a long time, it is just so small you can actually wear it on your body and carry it with you.<\/p>"
+            "faq_accordion_answer": "<p>Think of the sensor as miniature version of the ultrasound scanners you know from a hospital of gynecologists. It uses the same methodology that doctors use for a long time, it is just so small you can actually wear it on your body and carry it with you. <\/p><p>The sensor detects the front and back-wall of the bladder and determine the volume in between. It provides a notification when the bladder is almost full, and it is time to go to the bathroom. <\/p><p>Notifications will be provided via a gentle vibration of the device and\/or smart notification via the app. Preferred notification settings can be adjusted in the app. <\/p>"
           }
         },
         "f6479f0a-c21a-45de-966d-814142345808": {
