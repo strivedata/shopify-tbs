@@ -335,8 +335,8 @@
       "type": "cta-newsletter",
       "settings": {
         "scrollID": "cta-newsletter",
-        "cta_newsletter_title": "Do you have any questions?",
-        "cta_newsletter_description": "Leave your email address and we will contact you as soon as possible.",
+        "cta_newsletter_title": "Stay in touch?",
+        "cta_newsletter_description": "Leave your email address and we will notify you about new releases and updates.",
         "cta_newsletter_placeholder": "Enter your email",
         "cta_newsletter_privacy_hint": "We care about your data. Read our",
         "cta_newsletter_privacy_link": "privacy policy",
