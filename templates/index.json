@@ -73,37 +73,20 @@
         "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
       }
     },
-    "feature_image_right_1": {
-      "type": "feature-image-right",
-      "settings": {
-        "scrollID": "feature-1",
-        "feature_image_right_title": "Bladder Training Course",
-        "feature_image_right_description": "The app includes a comprehensive bladder training course that is tailored to your individual needs.                     The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms. With regular practice, you can expect to see significant                     improvements in your bladder control over time.",
-        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
-        "feature_image_right_image_alt": "Training Course App Screen",
-        "feature_image_right_cta_modal_status": "show_cta_to_modal",
-        "feature_image_right_cta_modal_label": "Learn more",
-        "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-7278823_1.webp",
-        "feature_image_right_modal_image_alt": "",
-        "feature_image_right_modal_title": "How it works",
-        "feature_image_right_modal_description": "We are happy to introduce our comprehensive bladder training course, meticulously designed to address your unique symptoms.  Our program offers a step-by-step journey that will empower you to regain control over your bladder and overcome those troublesome symptoms that have been affecting your daily life. Through a series of carefully curated exercises and techniques, we aim to strengthen your bladder muscles and “re-calibrating” your feeling of whether your bladder is actually full or not. The bladder training will help to improve bladder control and a reduction in related symptoms.  We understand that every individual is different, which is why our training course is tailored to meet your specific requirements. Upon joining, you will undergo an initial assessment to determine the current state of your bladder health. Based on this assessment, we suggest a   training plan that fits to your individual situation.  Throughout the program, our medical experts are available in case you have any questions and support to help you reach your goals. They will explain each exercise in detail, ensuring you understand the purpose behind it and how it contributes to your progress.  Consistency is key, and with regular practice, you can experience improvements in your bladder control, a reduction in frequency and urgency, as well as an overall improvement in your quality of life.",
-        "feature_image_right_modal_close_button_label": "Close"
-      }
-    },
-    "feature_image_left_1": {
+    "feature_image_left_2": {
       "type": "feature-image-left",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_left_title": "Talk to an expert",
-        "feature_image_left_description": "If you need additional support, the app allows you to connect with a specialist who can provide you                     with personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
-        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
-        "feature_image_left_image_alt": "Online Meeting with Experts",
+        "feature_image_left_title": "Smart notifications",
+        "feature_image_left_description": "The app includes smart notifications that reminds you when it's time to go to the bathroom and gives                     proactive estimations.With these reminders, you can avoid accidents and maintain greater control                     over your bladder. Additionally, the app provides notifications when it's time to perform bladder                     training exercises, ensuring that you stay on track with your bladder training program.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
+        "feature_image_left_image_alt": "Notification Apple Watch Screen",
         "feature_image_left_cta_modal_status": "show_cta_to_modal",
         "feature_image_left_cta_modal_label": "Learn more",
-        "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
+        "feature_image_left_modal_image": "shopify:\/\/shop_images\/History_watch.png",
         "feature_image_left_modal_image_alt": "",
         "feature_image_left_modal_title": "How it works",
-        "feature_image_left_modal_description": "We understand that navigating through bladder-related challenges can be overwhelming at times. That's why our app goes beyond just providing a comprehensive training course. We offer additional support by connecting you with dedicated specialists who are ready to provide personalized advice and guidance, tailored to your specific needs.  Our team of experts consists of qualified professionals with knowledge and experience in bladder health. They are here to address any concerns or questions you may have about your condition, ensuring that you have the information you need to make informed decisions about your health.  If you find yourself needing assistance in managing your symptoms, our specialists are equipped to provide valuable insights and practical strategies. They will work closely with you, taking into account your unique circumstances and preferences.  Connecting with our specialists is easy through our app. You can schedule virtual consultations or engage in secure messaging, allowing you to communicate with confidence and convenience. Rest assured that your privacy and confidentiality are of utmost importance to us.  We believe that no one should face bladder health challenges alone. By offering the opportunity to connect with our knowledgeable specialists, we aim to empower you with the support you need to navigate your journey towards better bladder health.",
+        "feature_image_left_modal_description": "Our app features intelligent notifications that are designed to help you stay on top of your bathroom routines and bladder training program, ensuring greater control and minimizing accidents.  With our smart notifications, you hopefully worry less about missing crucial bathroom breaks. Our app will remind you when it's time to visit the restroom based on personalized estimations, taking into account factors such as your voiding patterns and fluid intake. These proactive reminders ensure that you maintain a consistent bathroom schedule, reducing the risk of accidents and promoting better bladder control.  In addition to reminders for bathroom visits, our app also provides notifications for your bladder training exercises. Consistency is key in strengthening your bladder muscles, and our app will ensure that you stay on track with your training program. These reminders will help you maintain a regular exercise routine, enabling you to maximize the effectiveness of your training and achieve optimal results.  By leveraging the power of smart notifications, our app can serve as a reliable and supportive companion in your bladder health journey. Take advantage of this feature and experience the peace of mind that comes with knowing you have personalized reminders and estimations at your fingertips. Let our app empower you to achieve a life with improved bladder control, greater confidence, and freedom from the worries of accidents.",
         "feature_image_left_modal_close_button_label": "Close"
       }
     },
@@ -124,21 +107,38 @@
         "feature_image_right_modal_close_button_label": "Got it"
       }
     },
-    "feature_image_left_2": {
+    "feature_image_left_1": {
       "type": "feature-image-left",
       "settings": {
         "scrollID": "feature-1",
-        "feature_image_left_title": "Smart notifications",
-        "feature_image_left_description": "The app includes smart notifications that reminds you when it's time to go to the bathroom and gives                     proactive estimations.With these reminders, you can avoid accidents and maintain greater control                     over your bladder. Additionally, the app provides notifications when it's time to perform bladder                     training exercises, ensuring that you stay on track with your bladder training program.",
-        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
-        "feature_image_left_image_alt": "Notification Apple Watch Screen",
+        "feature_image_left_title": "Talk to an expert",
+        "feature_image_left_description": "If you need additional support, the app allows you to connect with a specialist who can provide you                     with personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
+        "feature_image_left_image_alt": "Online Meeting with Experts",
         "feature_image_left_cta_modal_status": "show_cta_to_modal",
         "feature_image_left_cta_modal_label": "Learn more",
-        "feature_image_left_modal_image": "shopify:\/\/shop_images\/History_watch.png",
+        "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
         "feature_image_left_modal_image_alt": "",
         "feature_image_left_modal_title": "How it works",
-        "feature_image_left_modal_description": "Our app features intelligent notifications that are designed to help you stay on top of your bathroom routines and bladder training program, ensuring greater control and minimizing accidents.  With our smart notifications, you hopefully worry less about missing crucial bathroom breaks. Our app will remind you when it's time to visit the restroom based on personalized estimations, taking into account factors such as your voiding patterns and fluid intake. These proactive reminders ensure that you maintain a consistent bathroom schedule, reducing the risk of accidents and promoting better bladder control.  In addition to reminders for bathroom visits, our app also provides notifications for your bladder training exercises. Consistency is key in strengthening your bladder muscles, and our app will ensure that you stay on track with your training program. These reminders will help you maintain a regular exercise routine, enabling you to maximize the effectiveness of your training and achieve optimal results.  By leveraging the power of smart notifications, our app can serve as a reliable and supportive companion in your bladder health journey. Take advantage of this feature and experience the peace of mind that comes with knowing you have personalized reminders and estimations at your fingertips. Let our app empower you to achieve a life with improved bladder control, greater confidence, and freedom from the worries of accidents.",
+        "feature_image_left_modal_description": "We understand that navigating through bladder-related challenges can be overwhelming at times. That's why our app goes beyond just providing a comprehensive training course. We offer additional support by connecting you with dedicated specialists who are ready to provide personalized advice and guidance, tailored to your specific needs.  Our team of experts consists of qualified professionals with knowledge and experience in bladder health. They are here to address any concerns or questions you may have about your condition, ensuring that you have the information you need to make informed decisions about your health.  If you find yourself needing assistance in managing your symptoms, our specialists are equipped to provide valuable insights and practical strategies. They will work closely with you, taking into account your unique circumstances and preferences.  Connecting with our specialists is easy through our app. You can schedule virtual consultations or engage in secure messaging, allowing you to communicate with confidence and convenience. Rest assured that your privacy and confidentiality are of utmost importance to us.  We believe that no one should face bladder health challenges alone. By offering the opportunity to connect with our knowledgeable specialists, we aim to empower you with the support you need to navigate your journey towards better bladder health.",
         "feature_image_left_modal_close_button_label": "Close"
+      }
+    },
+    "feature_image_right_1": {
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Bladder Training Course (coming soon)",
+        "feature_image_right_description": "A comprehensive bladder training course that is tailored to your individual needs. The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
+        "feature_image_right_image_alt": "Training Course App Screen",
+        "feature_image_right_cta_modal_status": "show_cta_to_modal",
+        "feature_image_right_cta_modal_label": "Learn more",
+        "feature_image_right_modal_image": "shopify:\/\/shop_images\/pexels-anastasia-shuraeva-7278823_1.webp",
+        "feature_image_right_modal_image_alt": "",
+        "feature_image_right_modal_title": "How it works",
+        "feature_image_right_modal_description": "Additional upcoming features of the app may include a comprehensive bladder training course, meticulously designed to address your unique symptoms. Our program offers a step-by-step journey that will empower you to regain control over your bladder and overcome those troublesome symptoms that have been affecting your daily life. Through a series of carefully curated exercises and techniques, we aim to strengthen your bladder muscles and “re-calibrating” your feeling of whether your bladder is actually full or not. The bladder training will help to improve bladder control and a reduction in related symptoms.  Upon joining, you will undergo an initial assessment to determine the current state of your bladder health. Based on this assessment, we suggest a training plan that fits to your individual situation.  Throughout the program, our medical experts are available in case you have any questions and support to help you reach your goals. Consistency is key, and with regular practice, you can experience improvements in your bladder control, a reduction in frequency and urgency, as well as an overall improvement in your quality of life.",
+        "feature_image_right_modal_close_button_label": "Close"
       }
     },
     "pricing": {
@@ -350,10 +350,10 @@
     "benefits_with_image",
     "cta_basic",
     "app_details",
-    "feature_image_right_1",
-    "feature_image_left_1",
-    "feature_image_right_2",
     "feature_image_left_2",
+    "feature_image_right_2",
+    "feature_image_left_1",
+    "feature_image_right_1",
     "pricing",
     "faq",
     "cta_page_end",
