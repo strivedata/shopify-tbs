@@ -103,12 +103,12 @@
 
                 {% if form.posted_successfully? %}
                   <script>
-                    document.addEventListener(
-                      'DOMContentLoaded',
-                      function () {
-                        // TODO: Trigger Modal thank we will inform you as soon as there are updates
-                      },
-                      false
+                     document.addEventListener(
+                        'DOMContentLoaded',
+                        function () {
+                            window.location.replace("/pages/confirm-notifyme-signup");
+                        },
+                        false
                     );
                   </script>
                 {% endif %}
