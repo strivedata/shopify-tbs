@@ -1,7 +1,7 @@
 {
   "sections": {
     "confirm_newsletter_signup": {
-      "type": "confirm_newsletter_signup",
+      "type": "confirm-newsletter-signup",
       "settings": {
       }
     }
