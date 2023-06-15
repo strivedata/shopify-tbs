@@ -17,7 +17,7 @@
         </p>
         <div class="flex items-center justify-center mt-10 gap-x-6">
           <a
-            id="cta_button__start_the_test__meta__conversion_event_1"
+            id="cta_button__start_the_test__meta__conversion_event_1__{{ section.id }}"
             class="cursor-pointer rounded-3xl bg-white hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {{ section.settings.cta_button }}
@@ -43,25 +43,25 @@
 </div>
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
+  var passUTMtoTypeFormURL = function getParams() {
     // select dynamic section id
-    let section = document.querySelector('[data-section-type="cta-basic"]');
-    let sectionId = section.dataset.sectionId;
+    var section = document.querySelector('[data-section-type="cta-basic"]');
+    var sectionId = section.dataset.sectionId;
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
 
-    const utm_source = urlParams.get('utm_source') || 'none';
-    const utm_medium = urlParams.get('utm_medium') || 'none';
-    const utm_campaign = urlParams.get('utm_campaign') || 'none';
-    const utm_term = urlParams.get('utm_term') || 'none';
-    const utm_content = urlParams.get('utm_content') || 'none';
+    var utm_source = urlParams.get('utm_source') || 'none';
+    var utm_medium = urlParams.get('utm_medium') || 'none';
+    var utm_campaign = urlParams.get('utm_campaign') || 'none';
+    var utm_term = urlParams.get('utm_term') || 'none';
+    var utm_content = urlParams.get('utm_content') || 'none';
 
     // get element by dynamic section id
-    const ctaLink = document.getElementById('cta_button__start_the_test__meta__conversion_event_1');
+    var ctaLink = document.getElementById('cta_button__start_the_test__meta__conversion_event_1__' + sectionId);
 
     // append utm params to link
-    if (queryString != '' && ctaLink) {
+    if (queryString != '') {
       ctaLink.href =
         'pages/sensa-check?' +
         '&utm_source=' +
@@ -77,7 +77,13 @@
     } else {
       ctaLink.href = 'pages/sensa-check';
     }
-  });
+  };
+
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    passUTMtoTypeFormURL();
+  } else {
+    passUTMtoTypeFormURL();
+  }
 {% endjavascript %}
 
 {% schema %}
@@ -122,3 +128,5 @@
   ]
 }
 {% endschema %}
+
+{%- assign cta_target_page = section.settings.cta_target -%}
