@@ -121,10 +121,12 @@
           {%- endif -%}
         </div>
 
-        <div class="p-4 overflow-y-auto text-center sm:p-10">
-          <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-gray-200">
-            {{ section.settings.feature_image_left_modal_title }}
-          </h3>
+        <div class="p-4 overflow-y-auto sm:p-10">
+          <div class="w-full text-center">
+            <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-gray-200">
+              {{ section.settings.feature_image_left_modal_title }}
+            </h3>
+          </div>
           <div class="flex flex-col space-y-4 text-gray-500">
             <p>
               {{ section.settings.feature_image_left_modal_description }}
@@ -222,9 +224,9 @@
     },
     {
       "id": "feature_image_left_modal_description",
-      "type": "text",
+      "type": "richtext",
       "label": "Modal Dialog Description",
-      "default": "Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol."
+      "default": "<p>Lorem ipsum dolor sit amet, etetur ipsum dolor sit amet, conset ips consetetur ipsum dolor sit amet, conset ipsum dolor sit amet, conset sadipscing elitr, sed diam non. olor sit amet, conset sadipscing elitr, sed diam non olor sit amet, etetur ipsum dol. </p>"
     },
     {
       "id": "feature_image_left_modal_close_button_label",
