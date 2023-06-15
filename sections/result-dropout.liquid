@@ -137,13 +137,20 @@
 </div>
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Fire the event to GTM Datalayer
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'typeformDropout',
+  var fireAnalyticsEvents = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
+       // Fire the event to GTM Datalayer - Tracking Plan - Conversion Event #3
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'typeformDropout',
+      });
     });
-  });
+  };
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    fireAnalyticsEvents();
+  } else {
+    fireAnalyticsEvents();
+  }
 {% endjavascript %}
 
 {% stylesheet %}

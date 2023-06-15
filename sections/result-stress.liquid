@@ -60,13 +60,21 @@
 </div>
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Fire the event to GTM Datalayer
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'typeformQualified',
+  var fireAnalyticsEvents = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
+      // Fire the event to GTM Datalayer
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'typeformQualified',
+      });
     });
-  });
+  };
+
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    fireAnalyticsEvents();
+  } else {
+    fireAnalyticsEvents();
+  }
 {% endjavascript %}
 
 {% stylesheet %}

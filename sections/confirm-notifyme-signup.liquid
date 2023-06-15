@@ -48,13 +48,20 @@
 </div>
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Fire the event to GTM Datalayer
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'confirmNotifymeSignup',
+  var fireAnalyticsEvents = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
+      // Fire the event to GTM Datalayer // Tracking Plan - Comversion Event #5 (Lead)
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'confirmNotifymeSignup',
+      });
     });
-  });
+  };
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    fireAnalyticsEvents();
+  } else {
+    fireAnalyticsEvents();
+  }
 {% endjavascript %}
 
 {% stylesheet %}

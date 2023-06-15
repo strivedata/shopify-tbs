@@ -69,24 +69,21 @@
 </div>
 
 {% javascript %}
-
-  document.addEventListener('DOMContentLoaded', () => {
-    // Let's do some paper stuff
-    let emailAddress = 'info@' + 'novioscan.com';
-
-    let freeMedical = document.getElementById('cta_button__result_qualified_get_free_medical_consultation_2');
-
-    freeMedical.href =
-      'mailto:' +
-      emailAddress +
-      '?subject=Get a free consultation&body=Hi, I am interested into getting a free consultation regarding the bladder sensor. Please contact me. Best regards';
-
+  var fireAnalyticsEvents = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
       // Fire the event to GTM Datalayer
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
         event: 'typeformQualified',
       });
-  });
+    });
+  };
+
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    fireAnalyticsEvents();
+  } else {
+    fireAnalyticsEvents();
+  }
 {% endjavascript %}
 
 {% stylesheet %}
