@@ -61,7 +61,7 @@
     const ctaLink = document.getElementById('cta_button__start_the_test__meta__conversion_event_1');
 
     // append utm params to link
-    if (queryString != '') {
+    if (queryString != '' && ctaLink) {
       ctaLink.href =
         'pages/sensa-check?' +
         '&utm_source=' +
