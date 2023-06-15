@@ -95,11 +95,9 @@
                   <a
                     id="cta_button__proceed_to_checkout"
                     href="/pages/early-access-program"
-                    class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+                    class="leading-4 cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
                   >
-                    <div>
-                      <p class="text-base leading-4">Proceed to Checkout</p>
-                    </div>
+                    Proceed to Checkout
                   </a>
                 </div>
               </div>
@@ -168,11 +166,9 @@
                   <a
                     id="cta_button__proceed_to_checkout"
                     href="/pages/early-access-program"
-                    class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+                    class="cursor-pointer inline-flex leading-4 items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
                   >
-                    <div>
-                      <p class="text-base leading-4">Proceed to Checkout</p>
-                    </div>
+                    Proceed to Checkout
                   </a>
                 </div>
               </div>
@@ -229,11 +225,9 @@
                   <a
                     id="cta_button__proceed_to_checkout"
                     href="/pages/early-access-program"
-                    class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+                    class="leading-4 cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
                   >
-                    <div>
-                      <p class="text-base leading-4">Proceed to Checkout</p>
-                    </div>
+                    Proceed to Checkout
                   </a>
                 </div>
               </div>
@@ -254,24 +248,32 @@
 </div>
 
 {% javascript %}
-  document.addEventListener('DOMContentLoaded', () => {
-    // Get the PRICING params from the URL
+  var handlePricingPlans = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get the PRICING params from the URL
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
 
-    const pricing_plan = urlParams.get('plan');
+      const pricing_plan = urlParams.get('plan');
 
-    // Get the pricing plan element
-    const pricingPlanCard = document.getElementById(pricing_plan);
+      // Get the pricing plan element
+      const pricingPlanCard = document.getElementById(pricing_plan);
 
-    // Remove hidden for actvive plan to dhow the selceted Pricing Plan
-    pricingPlanCard.classList.remove('hidden');
+      // Remove hidden for actvive plan to dhow the selceted Pricing Plan
+      pricingPlanCard.classList.remove('hidden');
 
-    // Add query param to the link
-    document.getElementById('cta_button__proceed_to_checkout').href =
-      '/pages/early-access-program?plan=' + pricing_plan;
-  });
+      // Add query param to the link
+      document.getElementById('cta_button__proceed_to_checkout').href =
+        '/pages/early-access-program?plan=' + pricing_plan;
+    });
+  };
+
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    handlePricingPlans();
+  } else {
+    handlePricingPlans();
+  }
 {% endjavascript %}
 
 {% schema %}
