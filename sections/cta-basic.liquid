@@ -42,7 +42,7 @@
   <!-- End CTA -->
 </div>
 
-{% javascript %}
+<script type="text/javascript" defer>
   var passUTMtoTypeFormURL = function getParams() {
     // select dynamic section id
     var section = document.querySelector('[data-section-type="cta-basic"]');
@@ -84,7 +84,7 @@
   } else {
     passUTMtoTypeFormURL();
   }
-{% endjavascript %}
+</script>
 
 {% schema %}
 {
