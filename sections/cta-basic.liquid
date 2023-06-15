@@ -43,22 +43,22 @@
 </div>
 
 {% javascript %}
-  var passUTMtoTypeFormURL = function getParams() {
+  document.addEventListener('DOMContentLoaded', () => {
     // select dynamic section id
-    var section = document.querySelector('[data-section-type="cta-basic"]');
-    var sectionId = section.dataset.sectionId;
+    let section = document.querySelector('[data-section-type="cta-basic"]');
+    let sectionId = section.dataset.sectionId;
 
-    var queryString = window.location.search;
-    var urlParams = new URLSearchParams(queryString);
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
 
-    var utm_source = urlParams.get('utm_source') || 'none';
-    var utm_medium = urlParams.get('utm_medium') || 'none';
-    var utm_campaign = urlParams.get('utm_campaign') || 'none';
-    var utm_term = urlParams.get('utm_term') || 'none';
-    var utm_content = urlParams.get('utm_content') || 'none';
+    const utm_source = urlParams.get('utm_source') || 'none';
+    const utm_medium = urlParams.get('utm_medium') || 'none';
+    const utm_campaign = urlParams.get('utm_campaign') || 'none';
+    const utm_term = urlParams.get('utm_term') || 'none';
+    const utm_content = urlParams.get('utm_content') || 'none';
 
     // get element by dynamic section id
-    var ctaLink = document.getElementById('cta_button__start_the_test__meta__conversion_event_1__' + sectionId);
+    const ctaLink = document.getElementById('cta_button__' + sectionId);
 
     // append utm params to link
     if (queryString != '') {
@@ -77,13 +77,7 @@
     } else {
       ctaLink.href = 'pages/sensa-check';
     }
-  };
-
-  if (document.readyState == 'interactive' || document.readyState == 'complete') {
-    passUTMtoTypeFormURL();
-  } else {
-    passUTMtoTypeFormURL();
-  }
+  });
 {% endjavascript %}
 
 {% schema %}
