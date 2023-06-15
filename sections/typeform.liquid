@@ -2,7 +2,8 @@
   <div class="min-h-[80vh]">
     <div
       id="typeform"
-      data-tf-widget="{{ settings.activeTypeformID }}"
+
+      data-tf-widget="{% if settings.environment == 'production' %}mp6cJSGY{%- else -%}{{ section.settings.typeformID }}{% endif %}"
       data-tf-opacity="100"
       data-tf-iframe-props="{{ section.settings.typeform_iframe_props }}"
       data-tf-transitive-search-params

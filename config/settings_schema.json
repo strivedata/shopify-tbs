@@ -1470,16 +1470,5 @@
         "default": "production"
       }
     ]
-  },
-  {
-    "name": "Active Typeform ID",
-    "settings": [
-      {
-        "label": "Typeform ID  (Start The Test)",
-        "id": "activeTypeform",
-        "type": "text",
-        "default": "mp6cJSGY"
-      }
-    ]
   }
 ]
