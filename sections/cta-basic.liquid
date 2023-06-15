@@ -17,7 +17,7 @@
         </p>
         <div class="flex items-center justify-center mt-10 gap-x-6">
           <a
-            id="cta_button__start_the_test__meta__conversion_event_1__{{ section.id }}"
+            id="cta_button__start_the_test__meta__conversion_event_1"
             class="cursor-pointer rounded-3xl bg-white hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {{ section.settings.cta_button }}
@@ -58,7 +58,7 @@
     const utm_content = urlParams.get('utm_content') || 'none';
 
     // get element by dynamic section id
-    const ctaLink = document.getElementById('cta_button__' + sectionId);
+    const ctaLink = document.getElementById('cta_button__start_the_test__meta__conversion_event_1');
 
     // append utm params to link
     if (queryString != '') {
@@ -122,5 +122,3 @@
   ]
 }
 {% endschema %}
-
-{%- assign cta_target_page = section.settings.cta_target -%}
