@@ -4,7 +4,7 @@
     <!-- Grid -->
     <div class="flex flex-col-reverse items-center justify-center space-x-4 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-32">
       <div class="px-4 pt-12 animate-fade-right animate-ease-out animate-delay-100 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <div class="aspect-w-16 aspect-h-9 vimeo_video_wrapper">
+        <div class="aspect-w-16 aspect-h-9 vimeo_video_wrapper min-w-[320px] min-[200px]:w-[320px]  min-[400px]:w-[320px] min-[500px]:w-full">
           {% if section.settings.vimeoID != blank %}
             <iframe
               src="{{ 'https://player.vimeo.com/video/' | append: section.settings.vimeoID | escape | append: '?color=0c88dd&title=0&byline=0&portrait=0&badge=0' }}"
