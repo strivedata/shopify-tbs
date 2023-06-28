@@ -75,18 +75,18 @@
     <!-- End Grid -->
   </div>
   <!-- End FAQ -->
-
-  {% javascript %}
-    // Initialize accordion
-    document.addEventListener('DOMContentLoaded', () => {
-      const accordionItems = document.querySelectorAll('.hs-accordion-group .faq-accordion ');
-      accordionItems.forEach((accordionItem) => {
-        // hide accordion item
-        window.HSAccordion.hide(accordionItem);
-      });
-    });
-  {% endjavascript %}
 </div>
+
+<script defer>
+  // Initialize accordion
+  document.addEventListener('DOMContentLoaded', () => {
+    const accordionItems = document.querySelectorAll('.hs-accordion-group .faq-accordion ');
+    accordionItems.forEach((accordionItem) => {
+      // hide accordion item
+      window.HSAccordion.hide(accordionItem);
+    });
+  });
+</script>
 
 {% schema %}
 {
