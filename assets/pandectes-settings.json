@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1686563794,
+  "tsPublished": 1687972158,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -562,7 +562,7 @@
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
-      "isActive": false,
+      "isActive": true,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
       "personalizationStorageCategory": 1,
@@ -570,7 +570,7 @@
       "customEvent": true,
       "securityStorageCategory": 0,
       "redactData": true,
-      "urlPassthrough": false
+      "urlPassthrough": true
     },
     "facebookPixel": {
       "id": "",
@@ -593,7 +593,7 @@
 
         ],
         "2": [
-          "https:\/\/www.googletagmanager.com\/gtm.js?id=GTM"
+
         ],
         "4": [
 
