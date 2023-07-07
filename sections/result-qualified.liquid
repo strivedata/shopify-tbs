@@ -69,7 +69,9 @@
   </div>
 </div>
 
-{% javascript %}
+
+<script defer>
+console.log('Typeform Qualified');
   var fireAnalyticsEvents = function getParams() {
     document.addEventListener('DOMContentLoaded', () => {
       // Fire the event to GTM Datalayer
@@ -77,14 +79,15 @@
       window.dataLayer.push({
         event: 'typeformQualified',
       });
-  };
+  });
 
   if (document.readyState == 'interactive' || document.readyState == 'complete') {
     fireAnalyticsEvents();
   } else {
     fireAnalyticsEvents();
-  });
-{% endjavascript %}
+  };
+</script>
+
 
 {% stylesheet %}
   .page_result-section__content img {
