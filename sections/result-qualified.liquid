@@ -2,13 +2,13 @@
   <div class="flex flex-col px-4 py-10 mb-24 lg:justify-center sm:px-6 lg:px-8 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"">
     <div class="flex flex-col px-4 h-3/4">
           <div
-        class="flex flex-col items-center justify-center w-full max-w-md pt-4 pb-2 mx-auto page_result-section__content"
+        class="flex flex-col items-center justify-center w-full pt-4 pb-2 mx-auto page_result-section__content"
         {% if settings.animations_reveal_on_scroll %}
           scroll-trigger animate--slide-in
         {% endif %}
       >
         <!-- Card -->
-        <div class="flex flex-col max-w-md px-6 pb-8 space-y-6 text-gray-600 bg-gradient-to-r rounded-xl from-gray-50 via-gray-100 to-gray-100 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"" >
+        <div class="flex flex-col px-6 pb-8 space-y-6 text-gray-600 bg-gradient-to-r rounded-xl from-gray-50 via-gray-100 to-gray-100 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"" >
           <!-- Icon -->
           <div class="flex flex-col items-center justify-center w-full pt-6 bg-gradient-to-r from-gray-50 via-gray-100 to-gray-100 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 !text-green-400">
@@ -29,49 +29,904 @@
             </div>
           </div>
           <!-- Content -->
-          {{ page.content }}
-         <div class="flex flex-col items-center">
-          <!-- CTA -->
-          <div class="flex justify-center w-full mt-8">
-            <a
-              href="/#pricing"
-              id="cta_button__result_qualified_get_free_medical_consultation"
-              value="Please notify me"
-              class="cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
-            >
-              Get your Sensor now
-            </a>
+          <div class="max-w-md pb-2">
+              <div class="aspect-w-16 aspect-h-9 vimeo_video_wrapper min-w-[320px] min-[200px]:w-[320px]  min-[400px]:w-[320px] min-[500px]:w-full">
+                <iframe
+                  src="{{ 'https://player.vimeo.com/video/' | append: '830096329' | escape | append: '?&color=0c88dd&title=0&byline=0&portrait=0&badge=0' }}"
+                  width="640"
+                  height="360"
+                  frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  class="border-xl"
+                ></iframe>
+            </div>
+            <div class="pt-8">
+             {{ page.content }}
+            </div>
           </div>
-          <a
-              id="cta_button__result_qualified_get_free_medical_consultation_2"
-              class="mt-6 text-sm font-semibold leading-6 text-gray-900 transition-all hover:text-highlight hover:scale-105 duration-400"
-              href="mailto:info@novioscan.com?subject=Get a free consultation&body=Hi, I am interested into getting free consultation regarding the bladder sensor. Please contact me. Best regards"
-            >
-              Get a free consultation
-              <span aria-hidden="true" class="ml-1">→</span>
-            </a>
-         </div>
         </div>
       </div>
 
-      <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <a
-          class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm transition-all border border-transparent cursor-pointer rounded-3xl hover:scale-105 text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
-          href="/"
-        >
-          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M11.2792 1.64001L5.63273 7.28646C5.43747 7.48172 5.43747 7.79831 5.63273 7.99357L11.2792 13.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-          Back to home
-        </a>
-      </div>
+        <!-- Pricing -->
+        <div class="max-w-6xl mt-8 px-4 py-10 mx-auto sm:px-6 lg:px-8 lg:py-14 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <!-- Title -->
+          <div class="max-w-2xl mx-auto mb-8 text-center lg:mb-14">
+            <h2 class="text-3xl font-bold text-gray-800 lg:text-4xl">Pick your preferred plan</h2>
+            <p class="mt-3 text-gray-800">
+              Usually people spent
+              <span class="text-2xl font-bold text-headlines">£15</span>
+              per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.
+            </p>
+          </div>
+          <!-- End Title -->
+          <div class="relative xl:w-10/12 xl:mx-auto">
+              <!-- Grid -->
+              <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+
+
+                      <div>
+                        <!-- Card: Monthly -->
+                        <div class="relative z-10 p-4 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700">
+                          <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">
+                           Monthly Plan
+                          </h3>
+                          <div class="text-sm text-gray-500">Rent your bladder sensor on a monthly basis</div>
+
+                          <div class="mt-5">
+                            <span class="text-6xl font-bold text-headlines dark:text-gray-200">
+                              £39
+                            </span>
+
+                            <span class="ml-2 text-gray-500"> per month</span>
+                          </div>
+
+                          <div class="mt-1">
+                            <span class="text-base font-semibold text-gray-500 dark:text-gray-200">
+                               +£149
+                            </span>
+                            <span class="text-gray-500 ml-31">one time deposit</span>
+                          </div>
+
+                          <div class="grid py-4 mt-5 sm:grid-cols-1 gap-y-2 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+                            <!-- List -->
+                            <ul role="list" class="space-y-2 text-sm sm:text-base">
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                   Bladder Sensor
+                                </span>
+                              </li>
+
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                  Adhesive materials, delivered monthly
+                                </span>
+                              </li>
+
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                  All App features
+                                </span>
+                              </li>
+                            </ul>
+                            <!-- End List -->
+
+                            <!-- List -->
+
+                            <!-- End List -->
+                          </div>
+
+                          <div class="flex flex-col py-4 mt-5 gap-x-4 first:pt-0 last:pb-0">
+                            <div class="flex justify-center">
+                              <div class="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-medium text-gray-700 align-middle transition-all bg-white border shadow-sm hover:scale-105 hover:bg-gradient-to-l duration-400 rounded-3xl hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-highlight dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">
+                                <a
+                                  id="cta_button__pricing__monthly__meta__conversion_event_2"
+                                  href="/pages/get-your-sensor?plan=monthly"
+                                >
+                                  Get my sensor now
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End Card -->
+                      </div>
+
+
+                      <div>
+                        <!-- Card: Quarterly -->
+                        <div class="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+                          <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">
+                            3 Month Plan
+                          </h3>
+                          <div class="text-sm text-gray-500">Rent your bladder sensor for 3 months</div>
+                          <span class="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-highlight text-white py-1.5 px-3 dark:bg-gray-900">
+                            Safe £10 per month
+                          </span>
+
+                          <div class="mt-5">
+                            <span class="text-6xl font-bold text-headlines dark:text-gray-200">
+                              £29
+                            </span>
+
+                            <span class="ml-2 text-gray-500"> per month</span>
+                          </div>
+
+                          <div class="mt-1">
+                            <span class="text-base font-semibold text-gray-500 dark:text-gray-200">
+                               +£149
+                            </span>
+                            <span class="text-gray-500 ml-31">one time deposit</span>
+                          </div>
+
+                          <div class="grid py-4 mt-5 sm:grid-cols-1 gap-y-2 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+                            <!-- List -->
+                            <ul role="list" class="space-y-2 text-sm sm:text-base">
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                    Bladder Sensor
+                                </span>
+                              </li>
+
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                  Adhesive materials, delivered quarterly
+                                </span>
+                              </li>
+
+                              <li class="flex space-x-3">
+                                <svg
+                                  class="flex-shrink-0 w-5 h-5 text-highlight"
+                                  width="18"
+                                  height="18"
+                                  viewBox="0 0 18 18"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"></rect>
+                                  <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"></path>
+                                </svg>
+                                <span class="text-gray-800 dark:text-gray-200">
+                                  All App features
+                                </span>
+                              </li>
+                            </ul>
+                            <!-- End List -->
+
+                            <!-- List -->
+
+                            <!-- End List -->
+                          </div>
+
+                          <div class="flex justify-center py-4 mt-5 flerx-col gap-x-4 first:pt-0 last:pb-0">
+                            <div class="flex justify-center">
+                              <div class="inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:scale-105 hover:bg-gradient-to-l transition-all duration-400 px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none">
+                                <a
+                                  id="cta_button__pricing__quarterly__meta__conversion_event_2"
+                                  href="/pages/get-your-sensor?plan=quarterly"
+                                >
+                                  Get my sensor now
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End Card -->
+                      </div>
+
+                      <div >
+                        <!-- Card:Purchase -->
+                        <div class="relative z-10 p-4 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700">
+                          <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">
+                            One Time Purchase
+                          </h3>
+                          <div class="text-sm text-gray-500">Buy your bladder sensor</div>
+
+                          <div class="mt-5">
+                            <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">
+                              £499
+                            </span>
+                            <span class="ml-3 text-gray-500">one time payment</span>
+                          </div>
+
+                          <div class="grid py-4 mt-5 sm:grid-cols-1 gap-y-2 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+                            <!-- List -->
+                            <ul role="list" class="space-y-2 text-sm sm:text-base">
+                              <li class="flex space-x-3">
+                                <span class="text-gray-800 dark:text-gray-200">
+                                  Adhesive materials can be bought seperately at our Sensa Online Shop.
+                                </span>
+                              </li>
+                            </ul>
+                            <!-- End List -->
+                          </div>
+
+                          <div class="justify-center py-4 mt-5 gap-x-4 first:pt-0 last:pb-0">
+                            <div class="flex justify-center">
+                              <div class="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-medium text-gray-700 align-middle transition-all bg-white border shadow-sm hover:scale-105 hover:bg-gradient-to-l duration-400 rounded-3xl hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-highlight dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">
+                                <a
+                                  id="cta_button__pricing__purchase__meta__conversion_event_2"
+                                  href="/pages/get-your-sensor?plan=purchase"
+                                >
+                                  Buy now
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End Card -->
+                      </div>
+
+              </div>
+              <!-- End Grid -->
+
+              <!-- SVG Element -->
+              <div class="absolute top-0 right-0 hidden translate-x-16 translate-y-16 md:block">
+                <svg
+                  class="w-16 h-auto text-orange-500"
+                  width="121"
+                  height="135"
+                  viewBox="0 0 121 135"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+                  <path d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+                  <path d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+                </svg>
+              </div>
+              <!-- End SVG Element -->
+
+              <!-- SVG Element -->
+              <div class="absolute bottom-0 left-0 hidden -translate-x-16 translate-y-16 md:block">
+                <svg
+                  class="w-56 h-auto text-cyan-500"
+                  width="347"
+                  height="188"
+                  viewBox="0 0 347 188"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M4 82.4591C54.7956 92.8751 30.9771 162.782 68.2065 181.385C112.642 203.59 127.943 78.57 122.161 25.5053C120.504 2.2376 93.4028 -8.11128 89.7468 25.5053C85.8633 61.2125 130.186 199.678 180.982 146.248L214.898 107.02C224.322 95.4118 242.9 79.2851 258.6 107.02C274.299 134.754 299.315 125.589 309.861 117.539L343 93.4426" stroke="currentColor" stroke-width="7" stroke-linecap="round"></path>
+                </svg>
+              </div>
+              <!-- End SVG Element -->
+
+              <!-- Hint -->
+              <div class="text-center mt-7">
+                <p class="text-xs text-gray-400">{{ section.settings.pricing_hint_terms_taxes }}</p>
+              </div>
+
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="max-w-6xl px-4 pt-10 mx-auto mb-12 rounded-lg bg-gradient-to-r from-gray-50 to-gray-100 sm:px-6 lg:px-8 lg:py-14">
+          <!-- Grid -->
+          <div class="grid gap-10 md:grid-cols-5">
+            <div class="md:col-span-2">
+              <div class="max-w-xs">
+                <h2 class="text-2xl font-bold md:text-4xl md:leading-tight">
+                  Frequently asked questions
+                </h2>
+                <p class="mt-1 text-gray-600">
+                  How to use it in your daily life.
+                </p>
+              </div>
+            </div>
+            <!-- End Col -->
+
+            <div class="md:col-span-3">
+              <!-- Accordion -->
+              <div class="hs-accordion-group qualified">
+
+                  <!-- Accordion Item #1 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-1"
+                      id="cta_button__result_qualified__faq__dropdown__1"
+                    >
+                      Is the sensor visible under my (tight) clothes, e.g. sport apparel?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-1"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-1"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        We know discreteness is key so we designed the sensor to be as thin as possible. If you wear normal fitting apparel, the sensor will not be visible. If you are wearing very tight sport apparel, the sensor might be visible.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #2 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-2"
+                      id="cta_button__result_qualified__faq__dropdown__2"
+                    >
+                    Will it interfere with my belt?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-2"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-2"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The sensor is placed below the “belt” region, just above the pubic bone, so it should not interfere when you are wearing a belt.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #3 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-3"
+                      id="cta_button__result_qualified__faq__dropdown__3"
+                    >
+                    Does it work with body hair?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-3"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-3"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        In general, our silicone adhesives are designed to work with body hair. However, too much body hair might impact the strength of the adhesive so we would recommend to shave off body hair when you experience problems attaching the sensor to your belly.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #4 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-4"
+                      id="cta_button__result_qualified__faq__dropdown__4"
+                    >
+                    Will the vibration stimulate my bladder?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-4"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-4"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                       The vibration strength can be adapted to the level you feel comfortable with.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #5 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-5"
+                      id="cta_button__result_qualified__faq__dropdown__5"
+                    >
+                    Do notifications work as pre-warning? How much time do I get?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-5"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-5"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        That depends on your condition and symptoms. You can specify in the app, at what filling status you would like to get a notification, thereby you are able to personalize the notifications to your voiding patterns.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #6 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-7"
+                      id="cta_button__result_qualified__faq__dropdown__6"
+                    >
+                    Can it fall of while running, doing sports activities?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-6"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-6"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The adhesives are designed to work for sports activities.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #7 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-8"
+                      id="cta_button__result_qualified__faq__dropdown__7"
+                    >
+                    Can I wear it at night?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-7"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-7"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        Yes you can. If you sleep a lot on your belly, this might feel uncomfortable over time though.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #8 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-9"
+                      id="cta_button__result_qualified__faq__dropdown__8"
+                    >
+                    Will the sensor prevent me from using absorptive products?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-8"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-8"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        From our users we know that at first you will still use absorptive products as a safety net. Over time the usage of absorptive products might decrease over time as the sensor gets adapted to your situation and you understand your bladder and symptoms better.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #9 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-9"
+                      id="cta_button__result_qualified__faq__dropdown__9"
+                    >
+                    Why a deposit? When do I get it back?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-9"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-9"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The sensor is an innovative piece of hardware that costs more than $500 when purchased. In order to be able to offer the service as a rental model, we need to charge a deposit that we reimburse as soon as we receive your sensor in good shape. Think of it like a car rental.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #10 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-"
+                      id="cta_button__result_qualified__faq__dropdown__10"
+                    >
+                    How does it work exactly?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-10"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-10"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        Think of the sensor as miniature version of the ultrasound scanners you know from a hospital of gynecologists. It uses the same methodology that doctors use for a long time, it is just so small you can actually wear it on your body and carry it with you.
+                      </p>
+                       <p class="text-gray-800 dark:text-gray-200">
+                        The sensor detects the front and back-wall of the bladder and determine the volume in between. It provides a notification when the bladder is almost full, and it is time to go to the bathroom. Notifications will be provided via a gentle vibration of the device and/or smart notification via the app. Preferred notification settings can be adjusted in the app.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #11 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-11"
+                      id="cta_button__result_qualified__faq__dropdown__11"
+                    >
+                    How is the data collected in the voiding diary?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-11"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-11"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The sensor regularly scan the filling status of your bladder. This enables the app to calculate how the filling status is changing and logs the differences automatically in the app.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #12 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-12"
+                      id="cta_button__result_qualified__faq__dropdown__12"
+                    >
+                    How long can I use the sensor?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-12"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-12"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The sensor is designed to work for years. Each 2 years we recommend a maintainance service interval to recalibrate the sensor and clean the device.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Accordion Item #13 -->
+                  <div class="p-6 faq-accordion hs-accordion hs-accordion-active:bg-white rounded-xl">
+                    <button
+                      class="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-highlight dark:text-gray-200 dark:hover:text-gray-400"
+                      aria-controls="hs-basic-with-title-and-arrow-stretched-13"
+                      id="cta_button__result_qualified__faq__dropdown__13"
+                    >
+                    How long does the battery last? When do I need to recharge?
+                      <svg
+                        class="block w-3 h-3 text-gray-600 hs-accordion-active:rotate-180 group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                      <svg
+                        class="hidden w-3 h-3 text-gray-600 hs-accordion-active:block group-hover:text-gray-500 dark:text-gray-400"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
+                    <div
+                      id="hs-basic-with-title-and-arrow-stretched-collapse-1"
+                      class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                      aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-13"
+                    >
+                      <p class="text-gray-800 dark:text-gray-200">
+                        The battery lasts for ± 1.5-2 days, the charging time is ± 1.5-2 hours.
+                      </p>
+                    </div>
+                  </div>
+
+
+              </div>
+              <!-- End Accordion -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Grid -->
+        </div>
+        <!-- End FAQ -->
+
+        <!-- Back Home -->
+        <div class="flex flex-col items-center justify-center gap-2 mt-5 sm:flex-row sm:gap-3  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <a
+            class="inline-flex items-center justify-center w-full gap-2 px-4 py-3 text-sm transition-all border border-transparent cursor-pointer rounded-3xl hover:scale-105 text-highlight sm:w-auto hover:text-highlight focus:outline-none focus:ring-2 ring-offset-white focus:ring-highlight focus:ring-offset-2 dark:ring-offset-slate-900"
+            href="/"
+          >
+            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M11.2792 1.64001L5.63273 7.28646C5.43747 7.48172 5.43747 7.79831 5.63273 7.99357L11.2792 13.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Back to home
+          </a>
+        </div>
+
     </div>
   </div>
 </div>
 
 
 <script defer>
-console.log('Typeform Qualified');
+  console.log('Typeform Qualified');
   var fireAnalyticsEvents = function getParams() {
     document.addEventListener('DOMContentLoaded', () => {
       // Fire the event to GTM Datalayer
@@ -79,7 +934,21 @@ console.log('Typeform Qualified');
       window.dataLayer.push({
         event: 'typeformQualified',
       });
-  });
+    });
+  }
+
+  var collapseFAQ = function collapseFAQ() {
+    document.addEventListener('DOMContentLoaded', () => {
+        // Collapse Accordion
+        const accordionItems = document.querySelectorAll('.hs-accordion-group.qualified .faq-accordion ');
+        accordionItems.forEach((accordionItem) => {
+          // hide accordion item
+          window.HSAccordion.hide(accordionItem);
+        });
+    });
+  }
+
+  collapseFAQ();
 
   if (document.readyState == 'interactive' || document.readyState == 'complete') {
     fireAnalyticsEvents();
@@ -89,8 +958,243 @@ console.log('Typeform Qualified');
 </script>
 
 
+
 {% stylesheet %}
   .page_result-section__content img {
     border-radius: 1.5rem;
   }
 {% endstylesheet %}
+
+
+{% schema %}
+{
+  "name": "Qualified",
+  "settings": [
+    {
+      "id": "scrollID",
+      "type": "text",
+      "label": "Smooth Scroll Link ID",
+      "default": "qualified"
+    },
+    {
+      "id": "pricing_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Pricing"
+    },
+    {
+      "id": "pricing_description",
+      "type": "text",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet  sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+      "id": "pricing_comparison_amount",
+      "type": "text",
+      "label": "Description",
+      "default": "£15"
+    },
+    {
+      "id": "pricing_description_append",
+      "type": "text",
+      "label": "Description",
+      "default": "ipsum dolor sit amet, consetetur sadipscing elitr non."
+    },
+    {
+      "id": "pricing_hint_terms_taxes",
+      "type": "text",
+      "label": "Hint",
+      "default": "Prices in GBP. Taxes may apply."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing",
+      "category": "Custom"
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "monthly_plan",
+      "name": "Monthly Plan",
+      "settings": [
+        {
+          "id": "monthly_plan_title",
+          "type": "text",
+          "label": "Title",
+          "default": "Monthly Plan"
+        },
+        {
+          "id": "monthly_plan_description",
+          "type": "text",
+          "label": "Description",
+          "default": "Rent your Product: Monthly Plan"
+        },
+        {
+          "id": "monthly_plan_price",
+          "type": "text",
+          "label": "Price",
+          "default": "£39"
+        },
+        {
+          "id": "monthly_plan_interval",
+          "type": "text",
+          "label": "Interval",
+          "default": "per month"
+        },
+        {
+          "id": "monthly_plan_deposit",
+          "type": "text",
+          "label": "Initial Deposit",
+          "default": "one time deposit"
+        },
+        {
+          "id": "monthly_plan_deposit_amount",
+          "type": "text",
+          "label": "Deposit",
+          "default": "+£149"
+        },
+        {
+          "id": "monthly_plan_feature_1",
+          "type": "text",
+          "label": "Feature 1",
+          "default": "Custom Sensor"
+        },
+        {
+          "id": "monthly_plan_feature_2",
+          "type": "text",
+          "label": "Feature 2",
+          "default": "Adhesive materials"
+        },
+        {
+          "id": "monthly_plan_feature_3",
+          "type": "text",
+          "label": "Feature 3",
+          "default": "All App features"
+        },
+        {
+          "id": "monthly_plan_cta",
+          "type": "text",
+          "label": "CTA Button",
+          "default": "Buy now"
+        }
+      ]
+    },
+    {
+      "type": "quarterly_plan",
+      "name": "Quarterly Plan",
+      "settings": [
+        {
+          "id": "quarterly_plan_savings",
+          "type": "text",
+          "label": "Savings",
+          "default": "Safe £10 per month"
+        },
+        {
+          "id": "quarterly_plan_title",
+          "type": "text",
+          "label": "Title",
+          "default": "Quarterly Plan"
+        },
+        {
+          "id": "quarterly_plan_description",
+          "type": "text",
+          "label": "Description",
+          "default": "Rent your Product: Quarterly Plan"
+        },
+        {
+          "id": "quarterly_plan_price",
+          "type": "text",
+          "label": "Price",
+          "default": "£39"
+        },
+        {
+          "id": "quarterly_plan_interval",
+          "type": "text",
+          "label": "Interval",
+          "default": "per quarter"
+        },
+        {
+          "id": "quarterly_plan_deposit",
+          "type": "text",
+          "label": "Initial Deposit",
+          "default": "one time deposit"
+        },
+        {
+          "id": "quarterly_plan_deposit_amount",
+          "type": "text",
+          "label": "Deposit",
+          "default": "+£149"
+        },
+        {
+          "id": "quarterly_plan_feature_1",
+          "type": "text",
+          "label": "Feature 1",
+          "default": "Custom Sensor"
+        },
+        {
+          "id": "quarterly_plan_feature_2",
+          "type": "text",
+          "label": "Feature 2",
+          "default": "Adhesive materials"
+        },
+        {
+          "id": "quarterly_plan_feature_3",
+          "type": "text",
+          "label": "Feature 3",
+          "default": "All App features"
+        },
+        {
+          "id": "quarterly_plan_cta",
+          "type": "text",
+          "label": "CTA Button",
+          "default": "Buy now"
+        }
+      ]
+    },
+    {
+      "type": "one_time_purchase",
+      "name": "One Time Purchase",
+      "settings": [
+        {
+          "id": "one_time_purchase_title",
+          "type": "text",
+          "label": "Title",
+          "default": "One Time Purchase"
+        },
+        {
+          "id": "one_time_purchase_description",
+          "type": "text",
+          "label": "Description",
+          "default": "Buy the product"
+        },
+        {
+          "id": "one_time_purchase_price",
+          "type": "text",
+          "label": "Price",
+          "default": "£499"
+        },
+        {
+          "id": "one_time_purchase_interval",
+          "type": "text",
+          "label": "Interval",
+          "default": "one time"
+        },
+        {
+          "id": "one_time_purchase_explainer",
+          "type": "text",
+          "label": "Explainer",
+          "default": "Lorem ipsum dolor sit amet, consetetur iam dolor sit a sadipscing elitr, sed diam non."
+        },
+        {
+          "id": "one_time_purchase_cta",
+          "type": "text",
+          "label": "CTA Button",
+          "default": "Contact Sales"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
