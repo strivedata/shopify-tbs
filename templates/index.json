@@ -19,31 +19,12 @@
       "settings": {
         "scrollID": "features",
         "vimeoID": "830096329",
-        "feature_category": "The Device",
-        "feature_title": "Comfortable ultrasound sensor",
+        "feature_category": "Our ultrasound sensor to go",
+        "feature_title": "How it works",
         "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
         "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
         "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
         "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
-      }
-    },
-    "benefits_with_image": {
-      "type": "benefits-with-image",
-      "settings": {
-        "scrollID": "benefits",
-        "vimeoID": "830096329",
-        "benefits_category": "Benefits",
-        "benefits_title": "Understand and take control of your bladder",
-        "benefit_1_title": "Actively control and improve",
-        "benefit_1_description": "With our sensor, you can get to know your bladder better, and actively control to improve it",
-        "benefit_2_title": "Better understanding through data",
-        "benefit_2_description": "Create automatic statistics of your voidings to understand your personal patterns.",
-        "benefit_3_title": "Peace of mind",
-        "benefit_3_description": "Our sensor provides peace of mind and security, so you can go about your day with confidence.",
-        "benefit_4_title": "Discrete notifications",
-        "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
-        "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
-        "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
     "cta_basic": {
@@ -56,86 +37,23 @@
         "cta_target": "#typeform"
       }
     },
-    "app_details": {
-      "type": "app-details",
+    "benefits_with_image": {
+      "type": "benefits-with-image",
       "settings": {
-        "scrollID": "app-details",
+        "scrollID": "benefits",
         "vimeoID": "830096329",
-        "app_details_category": "Section",
-        "app_details_title": "Smart sensor,",
-        "app_details_title_after_break": "smart app",
-        "app_details_description": "Set up your digital voiding diary and get smart push notifications on your phone and your wrist.",
-        "app_details_icon_description_1": "Iphone Ready",
-        "app_details_icon_description_2": "Smart Notifications",
-        "app_details_icon_description_3": "Expert Support",
-        "app_details_image_1": "shopify:\/\/shop_images\/app_showcase_1.png",
-        "app_details_image_2": "shopify:\/\/shop_images\/app_showcase_2.png",
-        "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
-      }
-    },
-    "feature_image_left_2": {
-      "type": "feature-image-left",
-      "settings": {
-        "scrollID": "feature-1",
-        "feature_image_left_title": "Smart notifications",
-        "feature_image_left_description": "Receive notifications that remind you when it’s time to go to the bathroom. With these reminders, you can avoid accidents and maintain greater control over your bladder.",
-        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
-        "feature_image_left_image_alt": "Notification Apple Watch Screen",
-        "feature_image_left_cta_modal_status": "show_cta_to_modal",
-        "feature_image_left_cta_modal_label": "Learn more",
-        "feature_image_left_modal_image_alt": "",
-        "feature_image_left_modal_title": "How it works",
-        "feature_image_left_modal_description": "<p>Our app features intelligent notifications that are designed to help you stay on top of your bathroom routines, ensuring greater control and minimizing accidents.<\/p><p>With our smart notifications, you hopefully worry less about missing crucial bathroom breaks. The sensor and\/or the app will remind you when it's time to visit the restroom based on personalized estimations. When the bladder is almost full, the sensor will provide a gentle vibration. <\/p><p>In addition, the connected smart device will give a notification via the app. These proactive reminders ensure that you maintain a consistent bathroom schedule, reducing the risk of accidents and promoting better bladder control. <\/p><p>Additional features of the app may include reminders for your bladder training exercises. Consistency is key in strengthening your bladder muscles, and our app will ensure that you stay on track with your training program. <\/p><p>By leveraging the power of these personalized notifications, the sensor and correlating app can serve as a reliable and supportive companion in your bladder health journey. <\/p><p>Let our sensor empower you to achieve a life with improved bladder control, greater confidence, and freedom from the worries of accidents.<\/p>",
-        "feature_image_left_modal_close_button_label": "Close"
-      }
-    },
-    "feature_image_right_2": {
-      "type": "feature-image-right",
-      "settings": {
-        "scrollID": "feature-1",
-        "feature_image_right_title": "Automatic data logging",
-        "feature_image_right_description": "The app allows for automatic logging of voiding behavior over time. No manual (paper) logs needed. This information can be shared with your doctor and used to identify patterns and to develop effective treatment strategies.",
-        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
-        "feature_image_right_image_alt": "Data History App Screen",
-        "feature_image_right_cta_modal_status": "show_cta_to_modal",
-        "feature_image_right_cta_modal_label": "Learn more",
-        "feature_image_right_modal_image_alt": "",
-        "feature_image_right_modal_title": "How it works",
-        "feature_image_right_modal_description": "<p>Tracking your bathroom habits can be tough, especially when done with pen and paper as a lot of doctors are asking for initially when treating bladder related symptoms. <\/p><p>The sensor automatically tracks your voiding patterns, therefore serving as a powerful tool to monitor your voiding behavior over time. <\/p><p>By analysing this information, you can identify patterns and trends that may be contributing to your incontinence or other bladder-related issues. <\/p><p>Additional features of the app may include manual tracking of the amount you drink or if\/when an unwanted urinary leakage occurred. Our app allows you to easily share this data with healthcare professionals or specialists who are part of your care team. <\/p><p>This collaboration enables them to have a comprehensive view of your bladder health, facilitating more accurate diagnoses and targeted treatment plans.<\/p>",
-        "feature_image_right_modal_close_button_label": "Got it"
-      }
-    },
-    "feature_image_left_1": {
-      "type": "feature-image-left",
-      "settings": {
-        "scrollID": "feature-1",
-        "feature_image_left_title": "Talk to an expert",
-        "feature_image_left_description": "Need additional support? Connect with a specialist who can provide personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
-        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
-        "feature_image_left_image_alt": "Online Meeting with Experts",
-        "feature_image_left_cta_modal_status": "show_cta_to_modal",
-        "feature_image_left_cta_modal_label": "Learn more",
-        "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
-        "feature_image_left_modal_image_alt": "",
-        "feature_image_left_modal_title": "How it works",
-        "feature_image_left_modal_description": "<p>Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help. <\/p><p>We understand that navigating through bladder-related challenges can be overwhelming at times. That's why our app goes beyond just providing a comprehensive training course. <\/p><p>We offer additional support by connecting you with dedicated specialists who are ready to provide personalized advice and guidance, tailored to your specific needs.  <\/p><p>If you find yourself needing assistance in managing your symptoms, our specialists are equipped to provide valuable insights and practical strategies. They will work closely with you, taking into account your unique circumstances and preferences.  <\/p><p>Connecting with our specialists is easy through our app. You can schedule virtual consultations or engage in secure messaging, allowing you to communicate with confidence and convenience. <\/p><p>Rest assured that your privacy and confidentiality are of utmost importance to us.  We believe that no one should face bladder health challenges alone.<\/p>",
-        "feature_image_left_modal_close_button_label": "Close"
-      }
-    },
-    "feature_image_right_1": {
-      "type": "feature-image-right",
-      "settings": {
-        "scrollID": "feature-1",
-        "feature_image_right_title": "Bladder Training Course (coming soon)",
-        "feature_image_right_description": "A comprehensive bladder training course that is tailored to your individual needs. The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms.",
-        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
-        "feature_image_right_image_alt": "Training Course App Screen",
-        "feature_image_right_cta_modal_status": "show_cta_to_modal",
-        "feature_image_right_cta_modal_label": "Learn more",
-        "feature_image_right_modal_image_alt": "",
-        "feature_image_right_modal_title": "How it works",
-        "feature_image_right_modal_description": "<p>Additional upcoming features of the app may include a comprehensive bladder training course, meticulously designed to address your unique symptoms. <\/p><p>Our program offers a step-by-step journey that will empower you to regain control over your bladder and overcome those troublesome symptoms that have been affecting your daily life. <\/p><p>Through a series of carefully curated exercises and techniques, we aim to strengthen your bladder muscles and “re-calibrating” your feeling of whether your bladder is actually full or not. <\/p><p>The bladder training will help to improve bladder control and a reduction in related symptoms.  Upon joining, you will undergo an initial assessment to determine the current state of your bladder health. <\/p><p>Based on this assessment, we suggest a training plan that fits to your individual situation.  Throughout the program, our medical experts are available in case you have any questions and support to help you reach your goals. <\/p><p>Consistency is key, and with regular practice, you can experience improvements in your bladder control, a reduction in frequency and urgency, as well as an overall improvement in your quality of life.<\/p>",
-        "feature_image_right_modal_close_button_label": "Close"
+        "benefits_category": "Benefits",
+        "benefits_title": "Understand and take control of your bladder",
+        "benefit_1_title": "Actively control and improve",
+        "benefit_1_description": "With our sensor, you can get to know your bladder better, and actively control to improve it",
+        "benefit_2_title": "Better understanding through data",
+        "benefit_2_description": "Create automatic statistics of your bladder filling status to understand your personal patterns.",
+        "benefit_3_title": "Peace of mind",
+        "benefit_3_description": "Our sensor provides peace of mind and security, so you can go about your day with confidence.",
+        "benefit_4_title": "Discrete notifications",
+        "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
+        "benefits_image": "shopify:\/\/shop_images\/hero_woman.png",
+        "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
     "pricing": {
@@ -314,6 +232,88 @@
         "faq_description": "How to use it in your daily life."
       }
     },
+    "app_details": {
+      "type": "app-details",
+      "settings": {
+        "scrollID": "app-details",
+        "vimeoID": "830096329",
+        "app_details_category": "Section",
+        "app_details_title": "Smart sensor,",
+        "app_details_title_after_break": "smart app",
+        "app_details_description": "Set up your digital voiding diary and get smart push notifications on your phone and your wrist.",
+        "app_details_icon_description_1": "Iphone Ready",
+        "app_details_icon_description_2": "Smart Notifications",
+        "app_details_icon_description_3": "Expert Support",
+        "app_details_image_1": "shopify:\/\/shop_images\/app_showcase_1.png",
+        "app_details_image_2": "shopify:\/\/shop_images\/app_showcase_2.png",
+        "app_details_image_3": "shopify:\/\/shop_images\/app_showcase_3.png"
+      }
+    },
+    "feature_image_left_2": {
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Smart notifications",
+        "feature_image_left_description": "Receive notifications that remind you when it’s time to go to the bathroom. With these reminders, you can avoid accidents and maintain greater control over your bladder.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
+        "feature_image_left_image_alt": "Notification Apple Watch Screen",
+        "feature_image_left_cta_modal_status": "show_cta_to_modal",
+        "feature_image_left_cta_modal_label": "Learn more",
+        "feature_image_left_modal_image_alt": "",
+        "feature_image_left_modal_title": "How it works",
+        "feature_image_left_modal_description": "<p>Our app features intelligent notifications that are designed to help you stay on top of your bathroom routines, ensuring greater control and minimizing accidents.<\/p><p>With our smart notifications, you hopefully worry less about missing crucial bathroom breaks. The sensor and\/or the app will remind you when it's time to visit the restroom based on personalized estimations. When the bladder is almost full, the sensor will provide a gentle vibration. <\/p><p>In addition, the connected smart device will give a notification via the app. These proactive reminders ensure that you maintain a consistent bathroom schedule, reducing the risk of accidents and promoting better bladder control. <\/p><p>Additional features of the app may include reminders for your bladder training exercises. Consistency is key in strengthening your bladder muscles, and our app will ensure that you stay on track with your training program. <\/p><p>By leveraging the power of these personalized notifications, the sensor and correlating app can serve as a reliable and supportive companion in your bladder health journey. <\/p><p>Let our sensor empower you to achieve a life with improved bladder control, greater confidence, and freedom from the worries of accidents.<\/p>",
+        "feature_image_left_modal_close_button_label": "Close"
+      }
+    },
+    "feature_image_right_2": {
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Automatic data logging",
+        "feature_image_right_description": "The app allows for automatic logging of voiding behavior over time. No manual (paper) logs needed. This information can be shared with your doctor and used to identify patterns and to develop effective treatment strategies.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
+        "feature_image_right_image_alt": "Data History App Screen",
+        "feature_image_right_cta_modal_status": "show_cta_to_modal",
+        "feature_image_right_cta_modal_label": "Learn more",
+        "feature_image_right_modal_image_alt": "",
+        "feature_image_right_modal_title": "How it works",
+        "feature_image_right_modal_description": "<p>Tracking your bathroom habits can be tough, especially when done with pen and paper as a lot of doctors are asking for initially when treating bladder related symptoms. <\/p><p>The sensor automatically tracks your voiding patterns, therefore serving as a powerful tool to monitor your voiding behavior over time. <\/p><p>By analysing this information, you can identify patterns and trends that may be contributing to your incontinence or other bladder-related issues. <\/p><p>Additional features of the app may include manual tracking of the amount you drink or if\/when an unwanted urinary leakage occurred. Our app allows you to easily share this data with healthcare professionals or specialists who are part of your care team. <\/p><p>This collaboration enables them to have a comprehensive view of your bladder health, facilitating more accurate diagnoses and targeted treatment plans.<\/p>",
+        "feature_image_right_modal_close_button_label": "Got it"
+      }
+    },
+    "feature_image_left_1": {
+      "type": "feature-image-left",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_left_title": "Talk to an expert",
+        "feature_image_left_description": "Need additional support? Connect with a specialist who can provide personalized advice and guidance. Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help.",
+        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_2.png",
+        "feature_image_left_image_alt": "Online Meeting with Experts",
+        "feature_image_left_cta_modal_status": "show_cta_to_modal",
+        "feature_image_left_cta_modal_label": "Learn more",
+        "feature_image_left_modal_image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226261.webp",
+        "feature_image_left_modal_image_alt": "",
+        "feature_image_left_modal_title": "How it works",
+        "feature_image_left_modal_description": "<p>Whether you have questions about your condition or need help                     managing symptoms, our experts are here to help. <\/p><p>We understand that navigating through bladder-related challenges can be overwhelming at times. That's why our app goes beyond just providing a comprehensive training course. <\/p><p>We offer additional support by connecting you with dedicated specialists who are ready to provide personalized advice and guidance, tailored to your specific needs.  <\/p><p>If you find yourself needing assistance in managing your symptoms, our specialists are equipped to provide valuable insights and practical strategies. They will work closely with you, taking into account your unique circumstances and preferences.  <\/p><p>Connecting with our specialists is easy through our app. You can schedule virtual consultations or engage in secure messaging, allowing you to communicate with confidence and convenience. <\/p><p>Rest assured that your privacy and confidentiality are of utmost importance to us.  We believe that no one should face bladder health challenges alone.<\/p>",
+        "feature_image_left_modal_close_button_label": "Close"
+      }
+    },
+    "feature_image_right_1": {
+      "type": "feature-image-right",
+      "settings": {
+        "scrollID": "feature-1",
+        "feature_image_right_title": "Bladder Training Course (coming soon)",
+        "feature_image_right_description": "A comprehensive bladder training course that is tailored to your individual needs. The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms.",
+        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
+        "feature_image_right_image_alt": "Training Course App Screen",
+        "feature_image_right_cta_modal_status": "show_cta_to_modal",
+        "feature_image_right_cta_modal_label": "Learn more",
+        "feature_image_right_modal_image_alt": "",
+        "feature_image_right_modal_title": "How it works",
+        "feature_image_right_modal_description": "<p>Additional upcoming features of the app may include a comprehensive bladder training course, meticulously designed to address your unique symptoms. <\/p><p>Our program offers a step-by-step journey that will empower you to regain control over your bladder and overcome those troublesome symptoms that have been affecting your daily life. <\/p><p>Through a series of carefully curated exercises and techniques, we aim to strengthen your bladder muscles and “re-calibrating” your feeling of whether your bladder is actually full or not. <\/p><p>The bladder training will help to improve bladder control and a reduction in related symptoms.  Upon joining, you will undergo an initial assessment to determine the current state of your bladder health. <\/p><p>Based on this assessment, we suggest a training plan that fits to your individual situation.  Throughout the program, our medical experts are available in case you have any questions and support to help you reach your goals. <\/p><p>Consistency is key, and with regular practice, you can experience improvements in your bladder control, a reduction in frequency and urgency, as well as an overall improvement in your quality of life.<\/p>",
+        "feature_image_right_modal_close_button_label": "Close"
+      }
+    },
     "cta_page_end": {
       "type": "cta-page-end",
       "settings": {
@@ -344,15 +344,15 @@
   "order": [
     "hero",
     "features_with_video",
-    "benefits_with_image",
     "cta_basic",
+    "benefits_with_image",
+    "pricing",
+    "faq",
     "app_details",
     "feature_image_left_2",
     "feature_image_right_2",
     "feature_image_left_1",
     "feature_image_right_1",
-    "pricing",
-    "faq",
     "cta_page_end",
     "cta_newsletter"
   ]
