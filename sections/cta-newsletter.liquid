@@ -31,6 +31,7 @@
                     placeholder="{{ section.settings.cta_newsletter_placeholder }}"
                     required
                   >
+                  <input type="hidden" name="contact[tags]" value="NewsletterFormFooter">
                 <button button type="submit" id="Subscribe_to_NL" class="flex-none rounded-xl bg-highlight px-3.5 py-2.5 text-sm font-medium text-white shadow-sm">Subscribe</button>
                 {%- if form.posted_successfully? -%}
                 <script>

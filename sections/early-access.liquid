@@ -106,6 +106,8 @@
                                         {{ form.errors.messages.email -}}
                                     </small>
                                 {%- endif -%}
+                                 <!-- Customer Tags -->
+                                <input id="EarlyAccess_Form_Tags" type="hidden" name="contact[tags]" value="EarlyAccess">
                             </div>
 
                             <!-- Newsletter Consent -->
@@ -157,6 +159,26 @@
     <!-- End -->
   </div>
 </div>
+
+<script>
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    // pass current plan to form contact tags
+    document.getElementById('EarlyAccess_Form_Tags').value = 'EarlyAccess, ' + getCookie('pricing_plan');
+</script>
 
 {% schema %}
 {
