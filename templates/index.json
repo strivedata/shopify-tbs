@@ -6,10 +6,10 @@
         "hero_title": "Get to know your bladder",
         "hero_title_extra": "better.",
         "hero_description": "Understand your bladder filling status with our bladder sensor and app.",
-        "hero_cta_primary": "Learn more",
-        "hero_cta_primary_target": "#features",
-        "hero_cta_secondary": "Start your free trial",
-        "hero_cta_secondary_target": "#pricing",
+        "hero_cta_primary": "Start free trial",
+        "hero_cta_primary_target": "#pricing",
+        "hero_cta_secondary": "Find your fit",
+        "hero_cta_secondary_target": "#start-the-test",
         "hero_image": "shopify:\/\/shop_images\/hero.png",
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
