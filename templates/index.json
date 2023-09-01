@@ -8,7 +8,7 @@
         "hero_description": "Understand your bladder filling status with our bladder sensor and app.",
         "hero_cta_primary": "Learn more",
         "hero_cta_primary_target": "#features",
-        "hero_cta_secondary": "Get your sensor",
+        "hero_cta_secondary": "Start your free trial",
         "hero_cta_secondary_target": "#pricing",
         "hero_image": "shopify:\/\/shop_images\/hero.png",
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
@@ -109,7 +109,7 @@
       ],
       "settings": {
         "scrollID": "pricing",
-        "pricing_title": "Simple, transparent pricing",
+        "pricing_title": "Get your sensor",
         "pricing_description": "Usually people spent",
         "pricing_comparison_amount": "£15",
         "pricing_description_append": "per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.",
