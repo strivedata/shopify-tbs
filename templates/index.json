@@ -109,11 +109,11 @@
       ],
       "settings": {
         "scrollID": "pricing",
-        "pricing_title": "Get your sensor",
+        "pricing_title": "Get your sensor with a 30-day free trial",
         "pricing_description": "Usually people spent",
         "pricing_comparison_amount": "£15",
         "pricing_description_append": "per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.",
-        "pricing_hint_terms_taxes": "Prices in GBP. Taxes may apply."
+        "pricing_hint_terms_taxes": "Prices in GBP and apply after free trial. Taxes may apply."
       }
     },
     "faq": {
