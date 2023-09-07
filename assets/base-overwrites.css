@@ -9,3 +9,9 @@ html {
 .header__search {
     display: none !important;
 }
+
+.product-form__submit {
+  background-image: linear-gradient(to right, rgb(252, 110, 60), rgb(249, 94, 26), rgb(234, 88, 12)) !important;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px !important;
+  --border-offset: 0;
+}
