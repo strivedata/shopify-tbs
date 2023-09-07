@@ -1,0 +1,202 @@
+<div class="getyourproduct-subscription-1-section tailwind" {{ block.shopify_attributes }}>
+  <!-- Buy Your Product -->
+  <div class="flex justify-center max-w-6xl mx-auto lg:block">
+    <!-- Form -->
+    <div class="max-w-[60rem] px-4 py-12 sm:px-6 md:px-8">
+      <div class="flex items-center justify-center px-4 md:pl-0 md:pr-6 2xl:px-0 2xl:mx-auto 2xl:container">
+        <div class="flex flex-col items-start justify-start w-full space-y-9">
+          <div class="flex flex-col items-start justify-start space-y-3 mb-8 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <!-- Back Button -->
+            <button
+              onclick="history.go(-1)"
+              class="flex flex-row items-center space-x-1 text-gray-600 dark:text-white hover:text-gray-500"
+            >
+              <svg
+                class="fill-stroke"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M2.91681 7H11.0835" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.91681 7L5.25014 9.33333" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.91681 7.00002L5.25014 4.66669" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p class="text-sm leading-none">Back</p>
+            </button>
+            <!-- Page Title -->
+            <h1 class="block max-w-sm text-3xl text-copy sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
+              Get <span class="text-primary">your</span> bladder sensor now.
+            </h1>
+          </div>
+
+          <div class="flex flex-col justify-center w-full space-y-6 xl:flex-row xl:justify-between xl:space-y-0 xl:space-x-6">
+            <!-- Card: Monthly -->
+            <div
+              id="monthly"
+              class="group flex flex-col h-full bg-gradient-to-r from-gray-100 via-white to-gray-100 mt-4 rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7] {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            >
+              <div class="flex flex-col items-center justify-center h-28 rounded-t-xl">
+                <div class="flex justify-center mt-6 w-33 sm:mt-0 xl:my-10">
+                  <img
+                    src="{{ 'getyourproduct.png' | asset_url }}"
+                    alt="Get your product"
+                    width="200"
+                    height="200"
+                    loading="lazy"
+                  >
+                </div>
+              </div>
+              <div class="p-4 md:p-6">
+                <div class="block mb-1 text-base font-semibold uppercase text-highlight dark:text-rose-500">
+                  {{ product.title }}
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white"></h3>
+
+                <!-- Product Subscription Summary -->
+                <div class="px-1 lg:px-2">
+                  <div class="px-2 py-2 space-y-3 rounded-lglg:border sm:px-2 lg:px-2">
+                    <div class="flex flex-col justify-center border-b sm:flex-row sm:items-center">
+                      <img
+                        class="object-cover object-center w-12 h-12 m-2 lg:w-16 lg:h-16"
+                        src="{{ 'novioscan.png' | asset_url }}"
+                        loading="lazy"
+                        width="auto"
+                        height="auto"
+                      >
+                      <div class="flex flex-col w-full px-6 py-2">
+                        <span class="text-base lg:text-lg">1-Month Plan </span>
+                        <span class="float-right text-sm text-gray-400 lg:text-base"
+                          >Sensor and sensor app features</span
+                        >
+                      </div>
+                      <p class="hidden mr-4 text-xl">£39</p>
+                    </div>
+                    <div class="flex flex-col justify-center border-b sm:flex-row sm:items-center">
+                      <img
+                        class="object-cover object-center w-12 h-12 m-2 lg:w-16 lg:h-16"
+                        src="{{ 'sensor.png' | asset_url }}"
+                        loading="lazy"
+                        width="auto"
+                        height="auto"
+                      >
+                      <div class="flex flex-col w-full px-6 py-2">
+                        <span class="text-base lg:text-lg">Deposit</span>
+                        <span class="float-right text-sm text-gray-400 lg:text-base">One-Time deposit</span>
+                      </div>
+                      <p class="hidden mr-4 text-xl">£149</p>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between w-full px-4 opacity-0">
+                    <span class="text-xl">30-day free trial</span>
+                    <p class="text-3xl">£0</p>
+                  </div>
+
+                  <p class="hidden mt-3 text-gray-500">Billed after 30-day free trial</p>
+                  s
+
+                  <!-- Form -->
+                  <div class="px-1 mt-4 lg:px-4">
+                    <form action="/cart/add" method="post" enctype="multipart/form-data">
+                      <div class="mb-4 flex flex-col p-8 lg:w-full xl:w-3/5 rounded-xl {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                        {% comment %}
+                          <a
+                            id="cta_button__proceed_to_checkout__meta__conversion_event_4"
+                            href="/pages/early-access-program"
+                            class=""
+                          >
+                            Proceed with a 30-day free trial
+                          </a>
+                        {% endcomment %}
+
+                        {% render 'loop-subscriptions', type: 'product-widget', product: product %}
+                        <input
+                          class="leading-4 cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+                          type="submit"
+                          name="add"
+                          id="add"
+                          value="Proceed with a 30-day free trial"
+                          class="button"
+                        >
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- Product Subscription Summary -->
+
+                <!-- Product Form -->
+                {% comment %}
+                  <div>
+                    <form action="/cart/add" method="post" enctype="multipart/form-data">
+                      <input type="submit" name="add" id="add" value="Add to Cart" class="button">
+                    </form>
+                  </div>
+                {% endcomment %}
+                <!-- Product Form -->
+              </div>
+            </div>
+            <!-- End Card -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div
+        class="lg:block lg:absolute md:top-0 md:left-1/2 md:right-0 h-3/4 rounded-lg bg-[url('https://images.pexels.com/photos/7679649/pexels-photo-7679649.jpeg')] bg-no-repeat bg-center bg-cover "
+      ></div>
+      <!-- End Col -->
+    </div>
+    <!-- End -->
+  </div>
+</div>
+
+<script type="text/javascript" defer>
+  var handlePricingPlans = function getParams() {
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get the PRICING params from the URL
+
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+
+      const pricing_plan = urlParams.get('plan');
+
+      // Get the pricing plan element
+      // const pricingPlanCard = document.getElementById(pricing_plan);
+
+      // Remove hidden for actvive plan to dhow the selceted Pricing Plan
+      // pricingPlanCard.classList.remove('hidden');
+
+      // Add query param to the link
+      document.getElementById('cta_button__proceed_to_checkout__meta__conversion_event_4').href =
+        '/pages/early-access-program?plan=' + pricing_plan;
+    });
+  };
+
+  if (document.readyState == 'interactive' || document.readyState == 'complete') {
+    handlePricingPlans();
+  } else {
+    handlePricingPlans();
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Get Your Sensor",
+  "settings": [
+    {
+      "id": "getyourproduct_title",
+      "type": "text",
+      "label": "Title",
+      "default": "Get your sensor now"
+    }
+  ],
+  "presets": [
+    {
+      "name": "getyourproduct",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

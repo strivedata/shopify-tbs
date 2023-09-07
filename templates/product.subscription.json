@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "getyourproduct-subscription-1": {
+      "type": "getyourproduct-subscription-1",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "getyourproduct-subscription-1"
+  ]
+}

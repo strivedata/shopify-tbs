@@ -1099,6 +1099,10 @@ select {
   height: 100%;
 }
 
+.tailwind :is(.h-0) {
+  height: 0px;
+}
+
 .tailwind :is(.min-h-\[60vh\]) {
   min-height: 60vh;
 }
@@ -1171,29 +1175,12 @@ select {
   width: 100%;
 }
 
-.tailwind :is(.w-3\/5) {
-  width: 60%;
-}
-
-.tailwind :is(.w-auto) {
-  width: auto;
-}
-
-.tailwind :is(.w-1\/2) {
-  width: 50%;
-}
-
 .tailwind :is(.min-w-0) {
   min-width: 0px;
 }
 
 .tailwind :is(.min-w-\[320px\]) {
   min-width: 320px;
-}
-
-.tailwind :is(.min-w-fit) {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
 }
 
 .tailwind :is(.max-w-2xl) {
@@ -1749,14 +1736,6 @@ select {
   padding: 3.2rem;
 }
 
-.tailwind :is(.p-11) {
-  padding: 4.4rem;
-}
-
-.tailwind :is(.p-12) {
-  padding: 4.8rem;
-}
-
 .tailwind :is(.px-1) {
   padding-left: 0.4rem;
   padding-right: 0.4rem;
@@ -1847,11 +1826,6 @@ select {
   padding-bottom: 1.6rem;
 }
 
-.tailwind :is(.px-12) {
-  padding-left: 4.8rem;
-  padding-right: 4.8rem;
-}
-
 .tailwind :is(.pb-2) {
   padding-bottom: 0.8rem;
 }
@@ -1906,10 +1880,6 @@ select {
 
 .tailwind :is(.pt-8) {
   padding-top: 3.2rem;
-}
-
-.tailwind :is(.pb-6) {
-  padding-bottom: 2.4rem;
 }
 
 .tailwind :is(.text-left) {
