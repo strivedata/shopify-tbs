@@ -1003,6 +1003,10 @@ select {
   margin-top: 3.2rem;
 }
 
+.tailwind :is(.ml-24) {
+  margin-left: 9.6rem;
+}
+
 .tailwind :is(.block) {
   display: block;
 }
@@ -1101,6 +1105,18 @@ select {
 
 .tailwind :is(.h-0) {
   height: 0px;
+}
+
+.tailwind :is(.max-h-\[400px\]) {
+  max-height: 400px;
+}
+
+.tailwind :is(.max-h-\[750px\]) {
+  max-height: 750px;
+}
+
+.tailwind :is(.max-h-\[950px\]) {
+  max-height: 950px;
 }
 
 .tailwind :is(.min-h-\[60vh\]) {
@@ -1237,6 +1253,10 @@ select {
 
 .tailwind :is(.max-w-xs) {
   max-width: 32rem;
+}
+
+.tailwind :is(.max-w-\[500px\]) {
+  max-width: 500px;
 }
 
 .tailwind :is(.flex-auto) {
@@ -1880,6 +1900,10 @@ select {
 
 .tailwind :is(.pt-8) {
   padding-top: 3.2rem;
+}
+
+.tailwind :is(.pl-4) {
+  padding-left: 1.6rem;
 }
 
 .tailwind :is(.text-left) {
@@ -2951,6 +2975,10 @@ select {
     height: 6.4rem;
   }
 
+  .tailwind :is(.lg\:max-h-\[950px\]) {
+    max-height: 950px;
+  }
+
   .tailwind :is(.lg\:w-16) {
     width: 6.4rem;
   }
@@ -3090,6 +3118,11 @@ select {
   .tailwind :is(.lg\:py-32) {
     padding-top: 12.8rem;
     padding-bottom: 12.8rem;
+  }
+
+  .tailwind :is(.lg\:px-6) {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
   }
 
   .tailwind :is(.lg\:pt-0) {
