@@ -25,7 +25,8 @@
         "subtotal",
         "buttons"
       ]
-    },
+    }
+  },
   "order": [
     "cart-items",
     "cart-footer"

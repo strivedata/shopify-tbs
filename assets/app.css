@@ -1007,6 +1007,10 @@ select {
   margin-left: 9.6rem;
 }
 
+.tailwind :is(.mr-2) {
+  margin-right: 0.8rem;
+}
+
 .tailwind :is(.block) {
   display: block;
 }
@@ -1125,6 +1129,10 @@ select {
 
 .tailwind :is(.min-h-\[80vh\]) {
   min-height: 80vh;
+}
+
+.tailwind :is(.min-h-\[65vh\]) {
+  min-height: 65vh;
 }
 
 .tailwind :is(.w-12) {

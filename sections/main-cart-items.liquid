@@ -26,12 +26,15 @@
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="title-wrapper-with-link">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
-    <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+    <a href="{{ routes.root_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
   </div>
 
-  <div class="cart__warnings">
+  <div class="cart__warnings tailwind">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
-    <a href="{{ routes.all_products_collection_url }}" class="button">
+    <a
+      href="{{ routes.root_url }}"
+      class=" leading-4 cursor-pointer inline-flex items-center justify-center gap-x-2 rounded-3xl bg-gradient-to-r from-primary via-accent to-orange-600 hover:bg-gradient-to-l hover:scale-105 transition-all px-6 py-3.5 text-base font-medium  text-white shadow-lg focus:outline-none"
+    >
       {{ 'general.continue_shopping' | t }}
     </a>
 
@@ -75,7 +78,7 @@
                     {% if item.image %}
                       {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
                       <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a>
-                      <div class="cart-item__image-container gradient global-media-settings">
+                      <div class="cart-item__image-container gradient global-media-settings" style="border: none;">
                         <img
                           src="{{ item.image | image_url: width: 300 }}"
                           class="cart-item__image"
@@ -93,7 +96,11 @@
                       <p class="caption-with-letter-spacing">{{ item.product.vendor }}</p>
                     {%- endif -%}
 
-                    <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
+                    <div class="tailwind">
+                      <a href="{{ item.url }}" class="font-medium cart-item__name h4 break text-highlight">
+                        {{- item.product.title | escape -}}
+                      </a>
+                    </div>
 
                     {%- if item.original_price != item.final_price -%}
                       <div class="cart-item__discounted-prices">
@@ -163,7 +170,7 @@
                   </td>
 
                   <td class="cart-item__totals right medium-hide large-up-hide">
-                    <div class="loading-overlay hidden">
+                    <div class="hidden loading-overlay">
                       <div class="loading-overlay__spinner">
                         <svg
                           aria-hidden="true"
@@ -285,7 +292,7 @@
                   </td>
 
                   <td class="cart-item__totals right small-hide">
-                    <div class="loading-overlay hidden">
+                    <div class="hidden loading-overlay">
                       <div class="loading-overlay__spinner">
                         <svg
                           aria-hidden="true"

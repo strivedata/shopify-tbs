@@ -343,16 +343,11 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset tailwind" id="cart-icon-bubble">
         {%- liquid
-          comment
-            We hide the drawer if the landinpage menu is enabled - @AK
-          endcomment
-          if section.settings.landingpage_menu != 'true'
-              if cart == empty
-                render 'icon-cart-empty'
-              else
-                render 'icon-cart'
-              endif
-          endif
+           if cart == empty
+                  render 'icon-cart-empty'
+                else
+                  render 'icon-cart'
+                endif
         -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
