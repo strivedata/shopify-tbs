@@ -26,3 +26,8 @@ html {
     color: #08b8e0;
     font-weight: 500;
 }
+
+.quantity:after {
+    box-shadow: rgb(203 202 202 / 55%) 0px 0px 0px 1px;
+    border-radius: 47px;
+}
