@@ -31,3 +31,7 @@ html {
     box-shadow: rgb(203 202 202 / 55%) 0px 0px 0px 1px;
     border-radius: 47px;
 }
+
+#express-checkout-wallets-wrapper, #shop-pay-button, #google-pay-button-container {
+  display: none !important;
+}
