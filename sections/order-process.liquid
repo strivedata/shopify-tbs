@@ -1,0 +1,44 @@
+<div
+  class="order process tailwind"
+  {{ block.shopify_attributes }}
+>
+  <!-- Order Process Image -->
+  <div class="justify-center invisible h-0 px-4 pt-4 -mb-4 md:flex md:visible md:h-auto">
+    <div class="max-w-[1150px]">
+      <!-- Image Desktop -->
+      <img
+        class="object-cover w-full overflow-hidden rounded-t-xl"
+        src="{{ 'order-process.webp' | asset_url }}"
+        alt="Checkout Sensa Bladder Sensor"
+        loading="lazy"
+        width="auto"
+        height="auto"
+      >
+    </div>
+  </div>
+  <div class="mt-12 md:invisible md:h-0">
+    <!-- Image Mobile -->
+    <img
+      class="object-cover w-full overflow-hidden rounded-t-xl"
+      src="{{ 'order-process-mobile.webp' | asset_url }}"
+      alt="Checkout Sensa Bladder Sensor"
+      loading="lazy"
+      width="auto"
+      height="auto"
+    >
+  </div>
+  <!-- End Order Process Image -->
+</div>
+
+{% schema %}
+{
+  "name": "Order Process",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Order Process Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
