@@ -1,6 +1,6 @@
 <div class="hero-section tailwind" {{ block.shopify_attributes }}>
   <!-- Hero -->
-  <div class="pt-20 bg-gradient-to-r from-white via-white to-gray-100">
+  <div class="py-24 bg-gradient-to-r from-white via-white to-gray-50">
     <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
       <!-- Grid -->
       <div class="flex flex-col items-center gap-4 lg:grid md:grid-cols-2 md:gap-8 xl:gap-20 md:items-center">
@@ -60,7 +60,7 @@
         </div>
         <!-- End Col -->
         <div class="relative ml-4 animate-fade-left animate-duration-[1500ms]">
-          <div class="w-full rounded-md max-w-[42rem]">
+          <div class="w-full rounded-md ">
             {%- if section.settings.hero_image != blank -%}
               {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
               {%- capture sizes -%}
@@ -69,13 +69,13 @@
               {%- endcapture -%}
               {{
                 section.settings.hero_image
-                | image_url: width: 956
+                | image_url: width: 720
                 | image_tag: loading: 'lazy', sizes: sizes, widths: widths, alt: section.settings.hero_image_alt
                 | escape
               }}
             {%- else -%}
               <img
-                class="w-full rounded-md max-w-[42rem]"
+                class="w-full rounded-md"
                 src="{{ 'hero_placeholder.png' | asset_url}}"
                 alt="Placeholder Image"
                 loading="lazy"

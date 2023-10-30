@@ -1722,6 +1722,10 @@ select {
   --tw-gradient-to: #214588 var(--tw-gradient-to-position);
 }
 
+.tailwind :is(.to-gray-50) {
+  --tw-gradient-to: #f9fafb var(--tw-gradient-to-position);
+}
+
 .tailwind :is(.bg-cover) {
   background-size: cover;
 }
@@ -1848,6 +1852,11 @@ select {
 .tailwind :is(.py-4) {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
+}
+
+.tailwind :is(.py-20) {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .tailwind :is(.pb-2) {
