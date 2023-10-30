@@ -1,11 +1,11 @@
 {
   "store": {
-    "plan": "premium",
-    "theme": "Sensa Theme",
+    "plan": "basic",
+    "theme": "shopify-tbs\/main",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1687972158,
+  "tsPublished": 1698672544,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -32,7 +32,7 @@
         "en": "Ok"
       },
       "linkText": {
-        "en": "Privacy Policy"
+        "en": "Learn more"
       },
       "imprintText": {
         "en": "Imprint"
@@ -285,14 +285,14 @@
     "dismissOnTimeout": false,
     "palette": {
       "popup": {
-        "background": "#252E39",
+        "background": "#FFFFFF",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 57,
-          "g": 46,
-          "r": 37
+          "b": 255,
+          "g": 255,
+          "r": 255
         },
-        "text": "#FFFFFF"
+        "text": "#000000"
       },
       "button": {
         "background": "transparent",
@@ -302,37 +302,37 @@
           "g": 255,
           "r": 255
         },
-        "text": "#14A7D0",
+        "text": "#000000",
         "textForCalculation": {
           "a": 1,
-          "b": 208,
-          "g": 167,
-          "r": 20
+          "b": 0,
+          "g": 0,
+          "r": 0
         },
-        "border": "#14A7D0"
+        "border": "#000000"
       }
     },
     "content": {
-      "href": "https:\/\/sensa.novioscan.com\/policies\/privacy-policy",
+      "href": "https:\/\/exploration-alpha.myshopify.com\/policies\/privacy-policy",
       "imprintHref": "\/",
       "close": "&#10005;",
-      "target": "",
-      "logo": ""
+      "target": "_blank",
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0761\/8081\/6163\/t\/7\/assets\/pandectes-logo.png?v=1698672541\" alt=\"exploration-alpha\" \/>"
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
-      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
+      "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
     },
-    "type": "custom",
+    "type": "opt-both",
     "layouts": {
-      "basic": "{{messagelink}}{{compliance}}{{close}}"
+      "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
     },
-    "position": "bottom",
+    "position": "top",
     "theme": "wired",
     "revokable": false,
     "animateRevokable": false,
     "revokableReset": false,
-    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/7091\/3366\/t\/2\/assets\/pandectes-reopen-logo.png?v=1686190799",
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0761\/8081\/6163\/t\/7\/assets\/pandectes-reopen-logo.png?v=1698672311",
     "revokablePlacement": "bottom-left",
     "revokableMarginHorizontal": 15,
     "revokableMarginVertical": 15,
@@ -357,16 +357,17 @@
     "accessSectionDownloadReportAuto": false
   },
   "banner": {
-    "resetTs": 1686154078,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #252E39;color:#FFFFFF;}    .pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 255, 255, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 255, 255, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 1)}    .pd-cp-ui-close{color:#FFFFFF;}    .pd-cp-preferences-slider:before{background-color: #252E39}    .pd-cp-title:before {border-color: #FFFFFF!important}    .pd-cp-preferences-slider{background-color:#FFFFFF}    .pd-cp-toggle{color:#FFFFFF!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFFFFF}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFFFFF!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "resetTs": 1685963071,
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
+    "hybridStrict": false,
+    "cookiesBlockedByDefault": "7",
     "isActive": true,
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
     "showCookiesDetails": true,
-    "cookiesBlockedByDefault": "7",
     "hasTransition": true,
     "blockingPage": false,
     "showOnlyLandingPage": false,
@@ -377,7 +378,7 @@
     "0": [
       {
         "name": "secure_customer_sig",
-        "domain": "sensa.novioscan.com",
+        "domain": "exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -390,7 +391,7 @@
       },
       {
         "name": "localization",
-        "domain": "sensa.novioscan.com",
+        "domain": "exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -402,21 +403,8 @@
         }
       },
       {
-        "name": "cart_currency",
-        "domain": "sensa.novioscan.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "14 day(s)",
-        "expires": 14,
-        "unit": "declSession",
-        "purpose": {
-          "en": "Used in connection with shopping cart."
-        }
-      },
-      {
         "name": "_cmp_a",
-        "domain": ".novioscan.com",
+        "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -428,8 +416,21 @@
         }
       },
       {
+        "name": "_secure_session_id",
+        "domain": "exploration-alpha.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
+        "purpose": {
+          "en": "Used in connection with navigation through a storefront."
+        }
+      },
+      {
         "name": "keep_alive",
-        "domain": "sensa.novioscan.com",
+        "domain": "exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -446,8 +447,34 @@
     ],
     "2": [
       {
+        "name": "_y",
+        "domain": ".exploration-alpha.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_s",
+        "domain": ".exploration-alpha.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
         "name": "_shopify_y",
-        "domain": ".novioscan.com",
+        "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -460,7 +487,7 @@
       },
       {
         "name": "_shopify_s",
-        "domain": ".novioscan.com",
+        "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -473,7 +500,7 @@
       },
       {
         "name": "_orig_referrer",
-        "domain": ".novioscan.com",
+        "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -486,7 +513,7 @@
       },
       {
         "name": "_landing_page",
-        "domain": ".novioscan.com",
+        "domain": ".exploration-alpha.myshopify.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -495,58 +522,6 @@
         "unit": "declSession",
         "purpose": {
           "en": "Tracks landing pages."
-        }
-      },
-      {
-        "name": "_shopify_sa_p",
-        "domain": ".novioscan.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "30 minute(s)",
-        "expires": 30,
-        "unit": "declMinutes",
-        "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
-        }
-      },
-      {
-        "name": "_shopify_sa_t",
-        "domain": ".novioscan.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "30 minute(s)",
-        "expires": 30,
-        "unit": "declMinutes",
-        "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
-        }
-      },
-      {
-        "name": "_s",
-        "domain": ".novioscan.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "30 minute(s)",
-        "expires": 30,
-        "unit": "declMinutes",
-        "purpose": {
-          "en": "Shopify analytics."
-        }
-      },
-      {
-        "name": "_y",
-        "domain": ".novioscan.com",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "1 year(s)",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "en": "Shopify analytics."
         }
       }
     ],
@@ -558,11 +533,11 @@
     ]
   },
   "blocker": {
-    "isActive": true,
+    "isActive": false,
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
-      "isActive": true,
+      "isActive": false,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
       "personalizationStorageCategory": 1,
@@ -570,7 +545,7 @@
       "customEvent": true,
       "securityStorageCategory": 0,
       "redactData": true,
-      "urlPassthrough": true
+      "urlPassthrough": false
     },
     "facebookPixel": {
       "id": "",
