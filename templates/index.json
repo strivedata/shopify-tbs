@@ -27,6 +27,20 @@
         "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
       }
     },
+    "dfaf0206-3794-414d-90d3-a2a1ee855c67": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/player.vimeo.com\/video\/830096329?autoplay=1&loop=1&muted=1&color=0c88dd&title=0&byline=0&portrait=0&badge=0",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cta_basic": {
       "type": "cta-basic",
       "settings": {
@@ -344,6 +358,7 @@
   "order": [
     "hero",
     "features_with_video",
+    "dfaf0206-3794-414d-90d3-a2a1ee855c67",
     "cta_basic",
     "benefits_with_image",
     "pricing",
