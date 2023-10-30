@@ -1,7 +1,7 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo_novioscan_sensa_bladder.png",
-    "logo_width": 240,
+    "logo": "shopify:\/\/shop_images\/tena-logo_1_08304777-0934-49d0-992f-66585ecbcdf1.png",
+    "logo_width": 170,
     "favicon": "shopify:\/\/shop_images\/favicon_novioscan_Tekengebied-1-100x100.png",
     "type_header_font": "roboto_n1",
     "heading_scale": 100,
@@ -132,32 +132,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "10436698916776057164": {
-        "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "13392549970259155148": {
-        "type": "shopify:\/\/apps\/xo-insert-code\/blocks\/insert-code-header\/72017b12-3679-442e-b23c-5c62460717f5",
-        "disabled": false,
-        "settings": {
-          "custom_liquid": "",
-          "custom_css": "",
-          "custom_js": ""
-        }
-      },
-      "10148494829067693542": {
-        "type": "shopify:\/\/apps\/xo-insert-code\/blocks\/insert-code-body\/72017b12-3679-442e-b23c-5c62460717f5",
-        "disabled": false,
-        "settings": {
-          "custom_liquid": "",
-          "custom_css": "",
-          "custom_js": ""
-        }
-      }
-    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -205,11 +179,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#214588",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#214588",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
