@@ -33,6 +33,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/player.vimeo.com\/video\/830096329?autoplay=1&loop=1&muted=1&color=0c88dd&title=0&byline=0&portrait=0&badge=0",
+        "cover_image": "shopify:\/\/shop_images\/Video_player.png",
         "description": "",
         "full_width": false,
         "color_scheme": "",
