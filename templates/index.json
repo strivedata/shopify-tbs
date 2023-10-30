@@ -18,12 +18,15 @@
       "type": "features-with-image",
       "settings": {
         "scrollID": "features",
+        "vimeoID": "830096329",
         "feature_category": "Our ultrasound sensor to go",
         "feature_title": "How it works",
         "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
         "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
         "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
-        "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
+        "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>",
+        "feature_image": "shopify:\/\/shop_images\/hero.png",
+        "feature_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
     "dfaf0206-3794-414d-90d3-a2a1ee855c67": {
