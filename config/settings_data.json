@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo_novioscan_sensa_bladder.png",
+    "logo": "shopify:\/\/shop_images\/tena-logo_1_08304777-0934-49d0-992f-66585ecbcdf1.png",
     "logo_width": 240,
     "favicon": "shopify:\/\/shop_images\/favicon_novioscan_Tekengebied-1-100x100.png",
     "type_header_font": "roboto_n1",
@@ -179,11 +179,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#214588",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#214588",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
