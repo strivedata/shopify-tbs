@@ -14,16 +14,32 @@
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
-    "features_with_image": {
-      "type": "features-with-image",
+    "features_with_video": {
+      "type": "features-with-video",
+      "disabled": true,
       "settings": {
         "scrollID": "features",
+        "vimeoID": "830096329",
         "feature_category": "Our ultrasound sensor to go",
         "feature_title": "How it works",
         "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
         "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
         "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>plasters<\/p>",
         "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>"
+      }
+    },
+    "dfaf0206-3794-414d-90d3-a2a1ee855c67": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/player.vimeo.com\/video\/830096329?autoplay=1&loop=1&muted=1&color=0c88dd&title=0&byline=0&portrait=0&badge=0",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cta_basic": {
@@ -342,7 +358,8 @@
   },
   "order": [
     "hero",
-    "features_with_image",
+    "features_with_video",
+    "dfaf0206-3794-414d-90d3-a2a1ee855c67",
     "cta_basic",
     "benefits_with_image",
     "pricing",
