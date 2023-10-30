@@ -4,25 +4,24 @@
   Usage:
   {% render 'landingpage-menu' %}
 {% endcomment %}
-
-<li>
-  {% if template.name == 'index' %}
+{% if template.name == 'index' %}
+  <li>
     <!-- Features -->
     <a
       id="HeaderMenu-Features"
       href="#app-details"
-      class="header__menu-item list-menu__item link link--text focus-inset"
+      class="header__menu-item list-menu__item link link--text !text-white focus-inset"
       {% if link.current %}
         aria-current="page"
       {% endif %}
     >
       <span
         {%- if link.current %}
-          class="header__active-menu-item !no-underline hover:no-underline "
+          class="header__active-menu-item !no-underline hover:no-underline !text-white"
         {% endif %}
       >
-        <span class="!no-underline !hover:no-underline !text-base font-semibold text-white hover:text-highlight">
-          Features
+        <span class="!no-underline !hover:no-underline !text-base !text-white hover:text-highlight">
+          Success Stories
         </span>
       </span>
     </a>
@@ -32,7 +31,7 @@
     <a
       id="HeaderMenu-Pricing"
       href="#pricing"
-      class="header__menu-item list-menu__item link link--text focus-inset"
+      class="header__menu-item list-menu__item link link--text focus-inset !text-white"
       {% if link.current %}
         aria-current="page"
       {% endif %}
@@ -42,9 +41,7 @@
           class="header__active-menu-item !no-underline hover:no-underline "
         {% endif %}
       >
-        <span class="!no-underline !hover:no-underline !text-base font-semibold text-white hover:text-highlight">
-          Pricing
-        </span>
+        <span class="!no-underline !hover:no-underline !text-base !text-white hover:text-highlight"> Evidence </span>
       </span>
     </a>
   </li>
@@ -53,20 +50,18 @@
     <a
       id="HeaderMenu-FAQ"
       href="#faq"
-      class="header__menu-item list-menu__item link link--text focus-inset"
+      class="header__menu-item list-menu__item link link--text focus-inset !text-white"
       {% if link.current %}
         aria-current="page"
       {% endif %}
     >
       <span
         {%- if link.current %}
-          class="header__active-menu-item !no-underline hover:no-underline "
+          class="header__active-menu-item !no-underline hover:no-underline !text-white"
         {% endif %}
       >
-        <span class="!no-underline !hover:no-underline !text-base font-semibold text-white hover:text-highlight">
-          FAQ
-        </span>
+        <span class="!no-underline !hover:no-underline !text-base !text-white hover:text-highlight"> About Us </span>
       </span>
     </a>
-   {%- endif -%}
-</li>
+  </li>
+{%- endif -%}

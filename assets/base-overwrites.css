@@ -2,8 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.header__menu-item span {
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
 .header__menu-item:hover span {
   text-decoration: none !important;
+  color: #fff !important;
 }
 
 .header__search {

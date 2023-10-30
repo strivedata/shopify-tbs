@@ -27,12 +27,12 @@ module.exports = {
       colors: {
         black: '#000000',
         primary: '#214588',
-        accent: '#1c4591',
+        accent: '#90ba21',
         secondary: '#CACACA',
         headlines: '#19191b',
         copy: '#19191b',
         neutral: '#777777',
-        highlight: '#00b9e3',
+        highlight: '#90ba21',
         links: '#54595f',
       },
       fontFamily: {

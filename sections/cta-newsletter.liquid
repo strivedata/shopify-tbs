@@ -1,6 +1,6 @@
-<div id="{{ section.settings.scrollID }}" class="cta-newsletter-section tailwind" {{ block.shopify_attributes }}>
+<div id="{{ section.settings.scrollID }}" class=" cta-newsletter-section tailwind" {{ block.shopify_attributes }}>
     <!-- CTA:Newsletter -->
-    <div class="py-16 bg-gray-900 sm:py-24 lg:py-32">
+    <div class="py-16 bg-primary sm:py-24 lg:py-32">
         <div class="grid max-w-6xl grid-cols-1 gap-10 px-6 mx-auto lg:grid-cols-12 lg:gap-8 lg:px-8">
         <div class="max-w-xl text-3xl font-bold tracking-tight text-white sm:text-4xl lg:col-span-7">
             <p class="inline sm:block lg:inline xl:block"> {{ section.settings.cta_newsletter_title }}</p></br>
@@ -15,7 +15,7 @@
                     id="CTA_NewsletterForm--{{ section.id }}"
                     type="email"
                     name="contact[email]"
-                    class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-highlight sm:text-sm sm:leading-6"
+                    class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-accent sm:text-sm sm:leading-6"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
@@ -32,7 +32,7 @@
                     required
                   >
                   <input type="hidden" name="contact[tags]" value="NewsletterFormFooter">
-                <button button type="submit" id="Subscribe_to_NL" class="flex-none rounded-xl bg-highlight px-3.5 py-2.5 text-sm font-medium text-white shadow-sm">Subscribe</button>
+                <button button type="submit" id="Subscribe_to_NL" class="flex-none rounded-lg bg-accent px-3.5 py-2.5 text-sm font-medium text-white shadow-sm">Subscribe</button>
                 {%- if form.posted_successfully? -%}
                 <script>
                     document.addEventListener(
