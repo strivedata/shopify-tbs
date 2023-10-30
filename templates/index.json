@@ -14,12 +14,10 @@
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
-    "features_with_video": {
-      "type": "features-with-video",
-      "disabled": true,
+    "features_with_image": {
+      "type": "features-with-image",
       "settings": {
         "scrollID": "features",
-        "vimeoID": "830096329",
         "feature_category": "Our ultrasound sensor to go",
         "feature_title": "How it works",
         "feature_description": "With its comfortable and discreet design, you can wear our bladder sensor without any inconvenience, and get on                     with your day-to-day activities without any interruptions.",
@@ -358,7 +356,7 @@
   },
   "order": [
     "hero",
-    "features_with_video",
+    "features_with_image",
     "dfaf0206-3794-414d-90d3-a2a1ee855c67",
     "cta_basic",
     "benefits_with_image",
