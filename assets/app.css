@@ -1915,6 +1915,10 @@ select {
   padding-top: 3.2rem;
 }
 
+.tailwind :is(.pb-12) {
+  padding-bottom: 4.8rem;
+}
+
 .tailwind :is(.text-left) {
   text-align: left;
 }
