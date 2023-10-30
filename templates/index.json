@@ -16,6 +16,7 @@
     },
     "features_with_video": {
       "type": "features-with-video",
+      "disabled": true,
       "settings": {
         "scrollID": "features",
         "vimeoID": "830096329",
