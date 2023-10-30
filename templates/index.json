@@ -73,6 +73,12 @@
         "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
+    "casestudies": {
+      "type": "casestudies",
+      "settings": {
+        "scrollID": "casestudies"
+      }
+    },
     "pricing": {
       "type": "pricing",
       "blocks": {
@@ -364,6 +370,7 @@
     "dfaf0206-3794-414d-90d3-a2a1ee855c67",
     "cta_basic",
     "benefits_with_image",
+    "casestudies",
     "pricing",
     "faq",
     "app_details",
