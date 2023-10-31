@@ -76,67 +76,7 @@
     "casestudies": {
       "type": "casestudies",
       "settings": {
-        "scrollID": "casestudies"
-      }
-    },
-    "pricing": {
-      "type": "pricing",
-      "blocks": {
-        "03edfd10-9c15-47d5-a953-09bc44098bec": {
-          "type": "monthly_plan",
-          "settings": {
-            "monthly_plan_title": "Monthly Plan",
-            "monthly_plan_description": "Rent your bladder sensor on a monthly basis",
-            "monthly_plan_price": "£39",
-            "monthly_plan_interval": "per month",
-            "monthly_plan_deposit": "one time deposit",
-            "monthly_plan_deposit_amount": "+£149",
-            "monthly_plan_feature_1": "Bladder Sensor",
-            "monthly_plan_feature_2": "Adhesive materials, delivered monthly",
-            "monthly_plan_feature_3": "All App features",
-            "monthly_plan_cta": "Start your free trial"
-          }
-        },
-        "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
-          "type": "quarterly_plan",
-          "settings": {
-            "quarterly_plan_savings": "Safe £10 per month",
-            "quarterly_plan_title": "3 Month Plan",
-            "quarterly_plan_description": "Rent your bladder sensor for 3 months",
-            "quarterly_plan_price": "£29",
-            "quarterly_plan_interval": "per month",
-            "quarterly_plan_deposit": "one time deposit",
-            "quarterly_plan_deposit_amount": "+£149",
-            "quarterly_plan_feature_1": "Bladder Sensor",
-            "quarterly_plan_feature_2": "Adhesive materials, delivered quarterly",
-            "quarterly_plan_feature_3": "All App features",
-            "quarterly_plan_cta": "Start your free trial"
-          }
-        },
-        "b638b320-1e0e-4eed-8079-12184533b7d3": {
-          "type": "one_time_purchase",
-          "settings": {
-            "one_time_purchase_title": "One Time Purchase",
-            "one_time_purchase_description": "Buy your bladder sensor",
-            "one_time_purchase_price": "£499",
-            "one_time_purchase_interval": "one time payment",
-            "one_time_purchase_explainer": "Adhesive materials can be bought seperately at our Sensa Online Shop.",
-            "one_time_purchase_cta": "Start your free trial"
-          }
-        }
-      },
-      "block_order": [
-        "03edfd10-9c15-47d5-a953-09bc44098bec",
-        "865e72c8-973d-4bba-b834-e1fa83bc94fe",
-        "b638b320-1e0e-4eed-8079-12184533b7d3"
-      ],
-      "settings": {
-        "scrollID": "pricing",
-        "pricing_title": "Get your sensor with a 30-day free trial",
-        "pricing_description": "Usually people spent",
-        "pricing_comparison_amount": "£15",
-        "pricing_description_append": "per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.",
-        "pricing_hint_terms_taxes": "Prices in GBP and apply after free trial. Taxes may apply."
+        "casestudies": "ID"
       }
     },
     "faq": {
@@ -337,6 +277,66 @@
         "feature_image_right_modal_close_button_label": "Close"
       }
     },
+    "pricing": {
+      "type": "pricing",
+      "blocks": {
+        "03edfd10-9c15-47d5-a953-09bc44098bec": {
+          "type": "monthly_plan",
+          "settings": {
+            "monthly_plan_title": "Monthly Plan",
+            "monthly_plan_description": "Rent your bladder sensor on a monthly basis",
+            "monthly_plan_price": "£39",
+            "monthly_plan_interval": "per month",
+            "monthly_plan_deposit": "one time deposit",
+            "monthly_plan_deposit_amount": "+£149",
+            "monthly_plan_feature_1": "Bladder Sensor",
+            "monthly_plan_feature_2": "Adhesive materials, delivered monthly",
+            "monthly_plan_feature_3": "All App features",
+            "monthly_plan_cta": "Start your free trial"
+          }
+        },
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe": {
+          "type": "quarterly_plan",
+          "settings": {
+            "quarterly_plan_savings": "Safe £10 per month",
+            "quarterly_plan_title": "3 Month Plan",
+            "quarterly_plan_description": "Rent your bladder sensor for 3 months",
+            "quarterly_plan_price": "£29",
+            "quarterly_plan_interval": "per month",
+            "quarterly_plan_deposit": "one time deposit",
+            "quarterly_plan_deposit_amount": "+£149",
+            "quarterly_plan_feature_1": "Bladder Sensor",
+            "quarterly_plan_feature_2": "Adhesive materials, delivered quarterly",
+            "quarterly_plan_feature_3": "All App features",
+            "quarterly_plan_cta": "Start your free trial"
+          }
+        },
+        "b638b320-1e0e-4eed-8079-12184533b7d3": {
+          "type": "one_time_purchase",
+          "settings": {
+            "one_time_purchase_title": "One Time Purchase",
+            "one_time_purchase_description": "Buy your bladder sensor",
+            "one_time_purchase_price": "£499",
+            "one_time_purchase_interval": "one time payment",
+            "one_time_purchase_explainer": "Adhesive materials can be bought seperately at our Sensa Online Shop.",
+            "one_time_purchase_cta": "Start your free trial"
+          }
+        }
+      },
+      "block_order": [
+        "03edfd10-9c15-47d5-a953-09bc44098bec",
+        "865e72c8-973d-4bba-b834-e1fa83bc94fe",
+        "b638b320-1e0e-4eed-8079-12184533b7d3"
+      ],
+      "settings": {
+        "scrollID": "pricing",
+        "pricing_title": "Get your sensor with a 30-day free trial",
+        "pricing_description": "Usually people spent",
+        "pricing_comparison_amount": "£15",
+        "pricing_description_append": "per month on incontinence pads and pants. We believe our bladder sensor should be accessible to everybody with a simple rental modell.",
+        "pricing_hint_terms_taxes": "Prices in GBP and apply after free trial. Taxes may apply."
+      }
+    },
     "cta_page_end": {
       "type": "cta-page-end",
       "settings": {
@@ -371,13 +371,13 @@
     "cta_basic",
     "benefits_with_image",
     "casestudies",
-    "pricing",
     "faq",
     "app_details",
     "feature_image_left_2",
     "feature_image_right_2",
     "feature_image_left_1",
     "feature_image_right_1",
+    "pricing",
     "cta_page_end",
     "cta_newsletter"
   ]
