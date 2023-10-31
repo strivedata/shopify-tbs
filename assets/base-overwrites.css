@@ -41,3 +41,9 @@ html {
 #express-checkout-wallets-wrapper, #shop-pay-button, #google-pay-button-container {
   display: none !important;
 }
+
+@media screen and (min-width: 990px)
+.header:not(.drawer-menu).page-width {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
