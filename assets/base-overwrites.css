@@ -42,8 +42,9 @@ html {
   display: none !important;
 }
 
-@media screen and (min-width: 990px)
-.header:not(.drawer-menu).page-width {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+@media screen and (min-width: 1300px) {
+  .header {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+  }
 }
