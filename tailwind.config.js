@@ -33,6 +33,7 @@ module.exports = {
         copy: '#19191b',
         neutral: '#777777',
         highlight: '#90ba21',
+        highlight2: '#35b0e4',
         links: '#54595f',
       },
       fontFamily: {

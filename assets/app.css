@@ -840,18 +840,6 @@ select {
   z-index: 60;
 }
 
-.tailwind :is(.col-span-4) {
-  grid-column: span 4 / span 4;
-}
-
-.tailwind :is(.col-span-6) {
-  grid-column: span 6 / span 6;
-}
-
-.tailwind :is(.col-start-4) {
-  grid-column-start: 4;
-}
-
 .tailwind :is(.float-right) {
   float: right;
 }
@@ -879,12 +867,12 @@ select {
   margin-bottom: 2.4rem;
 }
 
-.tailwind :is(.-mb-4) {
-  margin-bottom: -1.6rem;
+.tailwind :is(.-mb-24) {
+  margin-bottom: -9.6rem;
 }
 
-.tailwind :is(.-ml-12) {
-  margin-left: -4.8rem;
+.tailwind :is(.-mb-4) {
+  margin-bottom: -1.6rem;
 }
 
 .tailwind :is(.-ml-20) {
@@ -1009,22 +997,6 @@ select {
 
 .tailwind :is(.mt-8) {
   margin-top: 3.2rem;
-}
-
-.tailwind :is(.-mt-8) {
-  margin-top: -3.2rem;
-}
-
-.tailwind :is(.-mt-12) {
-  margin-top: -4.8rem;
-}
-
-.tailwind :is(.-mb-12) {
-  margin-bottom: -4.8rem;
-}
-
-.tailwind :is(.-mb-24) {
-  margin-bottom: -9.6rem;
 }
 
 .tailwind :is(.block) {
@@ -1219,10 +1191,6 @@ select {
   max-width: 67.2rem;
 }
 
-.tailwind :is(.max-w-3xl) {
-  max-width: 76.8rem;
-}
-
 .tailwind :is(.max-w-4xl) {
   max-width: 89.6rem;
 }
@@ -1397,10 +1365,6 @@ select {
 
 .tailwind :is(.grid-cols-1) {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.tailwind :is(.grid-cols-12) {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .tailwind :is(.flex-row) {
@@ -1689,6 +1653,11 @@ select {
   background-color: rgb(255 255 255 / .1);
 }
 
+.tailwind :is(.bg-highlight2) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 176 228 / var(--tw-bg-opacity));
+}
+
 .tailwind :is(.bg-opacity-50) {
   --tw-bg-opacity: 0.5;
 }
@@ -1908,10 +1877,6 @@ select {
   padding-bottom: 3.2rem;
 }
 
-.tailwind :is(.pr-8) {
-  padding-right: 3.2rem;
-}
-
 .tailwind :is(.pt-10) {
   padding-top: 4rem;
 }
@@ -1938,14 +1903,6 @@ select {
 
 .tailwind :is(.pt-8) {
   padding-top: 3.2rem;
-}
-
-.tailwind :is(.pt-32) {
-  padding-top: 12.8rem;
-}
-
-.tailwind :is(.pt-36) {
-  padding-top: 14.4rem;
 }
 
 .tailwind :is(.text-left) {
@@ -2210,6 +2167,11 @@ select {
 .tailwind :is(.text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.tailwind :is(.text-highlight2) {
+  --tw-text-opacity: 1;
+  color: rgb(53 176 228 / var(--tw-text-opacity));
 }
 
 .tailwind :is(.\!no-underline) {
@@ -2607,10 +2569,6 @@ select {
 }
 
 @media (min-width: 320px) {
-  .tailwind :is(.sm\:col-span-4) {
-    grid-column: span 4 / span 4;
-  }
-
   .tailwind :is(.sm\:mx-auto) {
     margin-left: auto;
     margin-right: auto;
@@ -2626,10 +2584,6 @@ select {
 
   .tailwind :is(.sm\:mt-24) {
     margin-top: 9.6rem;
-  }
-
-  .tailwind :is(.sm\:mt-6) {
-    margin-top: 2.4rem;
   }
 
   .tailwind :is(.sm\:block) {
@@ -2806,10 +2760,6 @@ select {
     grid-column: span 3 / span 3;
   }
 
-  .tailwind :is(.md\:col-start-3) {
-    grid-column-start: 3;
-  }
-
   .tailwind :is(.md\:-ml-20) {
     margin-left: -8rem;
   }
@@ -2864,10 +2814,6 @@ select {
 
   .tailwind :is(.md\:w-8) {
     width: 3.2rem;
-  }
-
-  .tailwind :is(.md\:w-9) {
-    width: 3.6rem;
   }
 
   .tailwind :is(.md\:w-\[44rem\]) {
@@ -3026,20 +2972,12 @@ select {
     margin-top: 6.4rem;
   }
 
-  .tailwind :is(.lg\:mt-20) {
-    margin-top: 8rem;
-  }
-
   .tailwind :is(.lg\:mt-64) {
     margin-top: 25.6rem;
   }
 
   .tailwind :is(.lg\:mt-8) {
     margin-top: 3.2rem;
-  }
-
-  .tailwind :is(.lg\:\!block) {
-    display: block !important;
   }
 
   .tailwind :is(.lg\:block) {
@@ -3056,10 +2994,6 @@ select {
 
   .tailwind :is(.lg\:\!inline-flex) {
     display: inline-flex !important;
-  }
-
-  .tailwind :is(.lg\:\!grid) {
-    display: grid !important;
   }
 
   .tailwind :is(.lg\:grid) {
@@ -3172,15 +3106,6 @@ select {
 
   .tailwind :is(.lg\:gap-8) {
     gap: 3.2rem;
-  }
-
-  .tailwind :is(.lg\:gap-x-8) {
-    -moz-column-gap: 3.2rem;
-         column-gap: 3.2rem;
-  }
-
-  .tailwind :is(.lg\:p-8) {
-    padding: 3.2rem;
   }
 
   .tailwind :is(.lg\:px-2) {
