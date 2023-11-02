@@ -5,51 +5,13 @@
   {% render 'landingpage-menu' %}
 {% endcomment %}
 {% if template.name == 'index' %}
-  <li>
-    <!-- Features -->
-    <a
-      id="HeaderMenu-Features"
-      href="#app-details"
-      class="header__menu-item list-menu__item link link--text !text-white focus-inset"
-      {% if link.current %}
-        aria-current="page"
-      {% endif %}
-    >
-      <span
-        {%- if link.current %}
-          class="header__active-menu-item !no-underline hover:no-underline !text-white"
-        {% endif %}
-      >
-        <span class="!no-underline !hover:no-underline !text-base !text-white hover:text-highlight">
-          Success Stories
-        </span>
-      </span>
-    </a>
-  </li>
-  <!-- Pricing -->
-  <li>
-    <a
-      id="HeaderMenu-Pricing"
-      href="#pricing"
-      class="header__menu-item list-menu__item link link--text focus-inset !text-white"
-      {% if link.current %}
-        aria-current="page"
-      {% endif %}
-    >
-      <span
-        {%- if link.current %}
-          class="header__active-menu-item !no-underline hover:no-underline "
-        {% endif %}
-      >
-        <span class="!no-underline !hover:no-underline !text-base !text-white hover:text-highlight"> Evidence </span>
-      </span>
-    </a>
-  </li>
-  <!-- FAQ -->
+  <!-- About us -->
   <li>
     <a
       id="HeaderMenu-FAQ"
-      href="#faq"
+      href="https://www.tena.co.uk/about-tena"
+      target="_blank"
+      rel="noreferrer noopener"
       class="header__menu-item list-menu__item link link--text focus-inset !text-white"
       {% if link.current %}
         aria-current="page"
