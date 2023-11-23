@@ -10,7 +10,7 @@
         "hero_cta_primary_target": "#pricing",
         "hero_cta_secondary": "Check if it fits to you",
         "hero_cta_secondary_target": "#benefits",
-        "hero_image": "shopify:\/\/shop_images\/tena-new-hero.png",
+        "hero_image": "shopify:\/\/shop_images\/hero_24d5a772-7954-465c-9637-9879987de00e.png",
         "hero_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
@@ -25,18 +25,17 @@
         "feature_item_1": "<p><strong>Small and thin design<\/strong> - like a pack of playing cards (±75x61x14mm)<\/p>",
         "feature_item_2": "<p>Attached with <strong>double-sided silicone <\/strong>adhesives<\/p>",
         "feature_item_3": "<p><strong>Skin friendly <\/strong>materials<\/p>",
-        "feature_image": "shopify:\/\/shop_images\/hero.png",
+        "feature_image": "shopify:\/\/shop_images\/benefits.png",
         "feature_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
     "dfaf0206-3794-414d-90d3-a2a1ee855c67": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/player.vimeo.com\/video\/830096329?autoplay=1&loop=1&muted=1&color=0c88dd&title=0&byline=0&portrait=0&badge=0",
+        "video_url": "https:\/\/player.vimeo.com\/video\/887169725?autoplay=1&loop=1&muted=1&color=0c88dd&title=0&byline=0&portrait=0&badge=0",
         "cover_image": "shopify:\/\/shop_images\/video-vimeo.png",
         "description": "",
         "full_width": false,
@@ -70,7 +69,7 @@
         "benefit_3_description": "Our sensor provides peace of mind and security, so you can go about your day with confidence.",
         "benefit_4_title": "Discrete notifications",
         "benefit_4_description": "Get discreet vibrations when it's time to go to the bathroom, to ensure your privacy.",
-        "benefits_image": "shopify:\/\/shop_images\/hero_dudes_b209a26f-9345-4824-ae73-90fab9f155f9.webp",
+        "benefits_image": "shopify:\/\/shop_images\/only_women.png",
         "benefits_image_alt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non."
       }
     },
@@ -268,7 +267,7 @@
         "scrollID": "feature-1",
         "feature_image_right_title": "Bladder Training Course (coming soon)",
         "feature_image_right_description": "A comprehensive bladder training course that is tailored to your individual needs. The program will guide you through a series of exercises and techniques to help you strengthen your                     bladder muscles and reduce symptoms.",
-        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_1.png",
+        "feature_image_right_image": "shopify:\/\/shop_images\/training.png",
         "feature_image_right_image_alt": "Training Course App Screen",
         "feature_image_right_cta_modal_status": "show_cta_to_modal",
         "feature_image_right_cta_modal_label": "Learn more",
