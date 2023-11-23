@@ -218,7 +218,7 @@
         "scrollID": "feature-1",
         "feature_image_left_title": "Smart notifications",
         "feature_image_left_description": "Receive notifications that remind you when it’s time to go to the bathroom. With these reminders, you can avoid accidents and maintain greater control over your bladder.",
-        "feature_image_left_image": "shopify:\/\/shop_images\/app_feature_4.png",
+        "feature_image_left_image": "shopify:\/\/shop_images\/notifications.png",
         "feature_image_left_image_alt": "Notification Apple Watch Screen",
         "feature_image_left_cta_modal_status": "show_cta_to_modal",
         "feature_image_left_cta_modal_label": "Learn more",
@@ -234,7 +234,7 @@
         "scrollID": "feature-1",
         "feature_image_right_title": "Automatic data logging",
         "feature_image_right_description": "The app allows for automatic logging of voiding behavior over time. No manual (paper) logs needed. This information can be shared with your doctor and used to identify patterns and to develop effective treatment strategies.",
-        "feature_image_right_image": "shopify:\/\/shop_images\/app_feature_3.png",
+        "feature_image_right_image": "shopify:\/\/shop_images\/data_logging.png",
         "feature_image_right_image_alt": "Data History App Screen",
         "feature_image_right_cta_modal_status": "show_cta_to_modal",
         "feature_image_right_cta_modal_label": "Learn more",
@@ -347,7 +347,7 @@
         "cta_page_end_cta_primary_target": "#pricing",
         "cta_page_end_cta_secondary": "Get a free consultation",
         "cta_page_end_cta_secondary_target": "#medical",
-        "cta_page_end_image": "shopify:\/\/shop_images\/footer_image.png",
+        "cta_page_end_image": "shopify:\/\/shop_images\/footer.png",
         "cta_page_end_image_alt": ""
       }
     },
